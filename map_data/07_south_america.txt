@@ -100,6 +100,10 @@ STATE_MIRANDA = {
         type = "bg_rubber"
         undiscovered_amount = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 120
+    }
     naval_exit_id = 3025
 }
 
@@ -800,7 +804,7 @@ STATE_AMAZONAS = {
     }
     resource = {
         type = "bg_rubber"
-        discovered_amount = 18
+        discovered_amount = 36
     }
 }
 
@@ -820,7 +824,7 @@ STATE_ACRE = {
     }
     resource = {
         type = "bg_rubber"
-        discovered_amount = 8
+        discovered_amount = 16
     }
 }
 

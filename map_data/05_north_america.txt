@@ -1134,7 +1134,7 @@ STATE_TEXAS = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 50
+        undiscovered_amount = 100
     }
     naval_exit_id = 3060
 }
