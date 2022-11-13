@@ -1,3 +1,14 @@
-﻿#Pefermance Improvements
-MIN_ASSIMILATION = 1000						# If there is any assmiliation at least this many people will assimilate
-MIN_CONVERSION = 1000							# If there is any conversion at least this many people will convert
+﻿#Peformance Improvements
+	MIN_ASSIMILATION = 1000
+	MIN_CONVERSION = 1000
+#More Generals
+	RECRUIT_COMMANDER_NUM_OPTIONS = 3
+	RECRUIT_COMMANDER_POOL_SIZE = 5
+#Faster Incorporation
+	INCORPORATION_TIME_SAME_CULTURE = 1				# Years if the state is a Homeland of one of the country's primary cultures
+	INCORPORATION_TIME_SAME_HERITAGE = 4			# Years if the state is a Homeland of a culture that matches of one of the country's primary cultures' Heritage traits
+	INCORPORATION_TIME_SAME_TRAIT = 8				# Years if the state is a Homeland of a culture with any trait in common with a country's primary cultures
+	INCORPORATION_TIME_NO_MATCH = 12				# Years if the state's Homeland cultures have nothing in common with the country's primary cultures
+#Reduced Radicals
+	FIRED_POP_RADICALIZATION_BASE_FRACTION = 0.1		# This percentage of a pop becomes radicalized when they lose their job, for instance due to a building being downsized
+	FIRED_POP_RADICALIZATION_SHARES_FACTOR = 0.05		# Additional percentage of pop that becomes radicalized they lost their job for each per-pop share they had in the building			
