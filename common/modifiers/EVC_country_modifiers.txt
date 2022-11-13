@@ -1,0 +1,10 @@
+﻿cultivation_law = { #cultivation system
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	building_group_bg_plantations_throughput_mult = 0.2
+	building_group_bg_agriculture_throughput_mult = -0.5
+	country_tax_income_add = 4000
+}
+cultivation_law_overlord = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_tax_income_add = 10000
+}

@@ -1,0 +1,7 @@
+COUNTRIES = {
+	c:DEI = {
+		add_modifier = {
+			name = cultivation_law
+		}
+	}
+}
