@@ -1482,7 +1482,7 @@ BGL = {
 }
 
 IND = {
-	color = { 128  170  63 }
+	color = { 194 66 41 }
 	
 	country_type = unrecognized
 	
@@ -1639,7 +1639,7 @@ ORI = {
 }
 
 PAN = {
-	color = { 255  87  127 }
+	color = { 194 66 41 }
 	
 	country_type = unrecognized
 	
@@ -3703,7 +3703,7 @@ WLD = {
 
 # India
 BHT = {
-	color = { 255  140  0 }
+	color = { 194 66 41 }
 	
 	country_type = recognized
 
