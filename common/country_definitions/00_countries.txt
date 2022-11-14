@@ -1049,7 +1049,7 @@ ROM = {
 }
 
 SER = {
-	color = { 166  72  57 }
+	color = { 41  89  174 }
 	
 	country_type = recognized
 
@@ -1188,7 +1188,7 @@ GEO = {
 }
 
 HDJ = {
-	color = { 121  229  215 }
+	color = { 79  152  64 }
 	
 	country_type = unrecognized
 	
@@ -1291,7 +1291,7 @@ PER = {
 }
 
 JAB = {
-	color = { 183  62  62 }
+	color = { 121  229  215 }
 	
 	country_type = unrecognized
 	
@@ -1325,7 +1325,7 @@ MAH = {
 }
 
 KAT = {
-	color = { 79  152  64 }
+	color = { 128  175  129 }
 	
 	country_type = unrecognized
 	
@@ -1731,7 +1731,7 @@ LAN = {
 }
 
 BRU = {
-	color = { 41  89  174 }
+	color = { 166  72  57 }
 	
 	country_type = unrecognized
 	

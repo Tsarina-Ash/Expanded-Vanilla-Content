@@ -1,0 +1,67 @@
+﻿persia_decisions = {
+
+	is_shown = {
+		exists = c:PER
+		root = c:PER
+		NOT = { 
+            owns_entire_state_region = STATE_ARMENIA 
+            owns_entire_state_region = STATE_AZERBAIJAN
+        }
+        NOT = { 
+            has_variable = persian_manifestation 
+        }
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	when_taken = {
+		if = {
+			limit = {
+				owns_entire_state_region = STATE_ARMENIA
+                owns_entire_state_region = STATE_AZERBAIJAN
+			}
+		}
+
+		if = {
+			limit = {
+				exists = c:RUS
+			}
+			create_incident = {
+				country = c:RUS
+				value = 20
+			}
+		}	
+		# Add Claims
+		s:STATE_ARMENIA = { 
+			if = {
+				limit = {
+					NOT = {
+						any_scope_state = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_AZERBAIJAN = { 
+			if = {
+				limit = {
+					NOT = {
+						any_scope_state = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+        set_variable = persian_manifestation
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
