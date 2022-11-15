@@ -1,1 +1,46 @@
-﻿
+﻿EVC_je_reform_the_cultivation_system = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	is_shown_when_inactive = {
+		has_modifier = cultivation_law
+		OR = {
+			NOT = {
+				is_subject_of = c:NET
+			}
+			NOT = {
+				has_variable = cultivation_law_mission
+			}
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		has_modifier = cultivation_law
+		OR = {
+			AND = {
+				has_law = law_type:law_slavery_banned
+				NOT = { has_law = law_type:law_serfdom }
+				NOT = { has_law = law_type:law_agrarianism }
+			}
+			NOT = {
+				is_subject_of = c:NET
+			}
+		}
+	}
+
+	on_complete = {
+		set_variable = cultivation_law_mission #If the Dutch force the DEI to keep the cultivation system, then they shouldn't just be able to redo this journal entry over and over again
+		trigger_event = { id = EVC_east_indies.1 }
+		remove_modifier = cultivation_law
+		if = {
+			limit = {
+				is_subject_of = c:NET
+			}
+			scope:overlord = {
+				trigger_event = { id = EVC_netherlands.1 }
+			}
+		}
+	}
+}

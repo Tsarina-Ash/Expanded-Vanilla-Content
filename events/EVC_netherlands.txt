@@ -1,0 +1,42 @@
+﻿namespace = EVC_netherlands_colonial_management
+
+EVC_netherlands_colonial_management.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_netherlands_colonial_management.1.t
+	desc = EVC_netherlands_colonial_management.1.d
+	flavor = EVC_netherlands_colonial_management.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/asia_farmers_market.bd2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/farmers_market"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = EVC_netherlands_colonial_management.1.a
+		default_option = yes
+		remove_modifier = cultivation_law_overlord
+		state_rich_standard_of_living_add = -0.5
+	}
+	option = {
+		name = EVC_netherlands_colonial_management.1.b
+		remove_modifier = cultivation_law_overlord
+		state_rich_standard_of_living_add = -0.5
+		create_diplomatic_play = {
+			name = dutch_reestablishment_of_cultivation_system
+			target_country = c:DEI
+			type = dp_implement_cultivation_system
+		}
+	}
+}

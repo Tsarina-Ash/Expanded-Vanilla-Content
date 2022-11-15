@@ -1,0 +1,49 @@
+dp_implement_cultivation_system = {
+	requires_interest_marker = no
+	initiator_can_add_war_goals = no
+	target_can_add_war_goals = no
+	mirror_war_goal = yes #Dutch East Indies will also try to Humiliate which will have a different effect
+	
+	war_goal = humiliation
+
+	texture = "gfx/interface/icons/war_goals/contain_threat.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		exists = c:NET
+		c:NET = THIS
+	}
+	
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {
+		if = {
+			limit = {
+				c:NET = {
+					has_modifier = country_humiliated
+				}
+			}
+			c:DIE = {
+				trigger_event = { id = EVC_east_indies.2 }
+			}
+		}
+		if = {
+			limit = {
+				c:DEI = {
+					has_modifier = country_humiliated
+				}
+			}
+			c:DEI = {
+				add_modifier = cultivation_law
+			}
+			c:NET = {
+				add_modifier = cultivation_law_overlord
+			}
+		}
+	}
+}

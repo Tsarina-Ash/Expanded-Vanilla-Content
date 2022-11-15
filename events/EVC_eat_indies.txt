@@ -1,2 +1,72 @@
 ﻿namespace = EVC_east_indies
 
+EVC_east_indies.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_east_indies.1.t
+	desc = EVC_east_indies.1.d
+	flavor = EVC_east_indies.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/asia_farmers_market.bd2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/farmers_market"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+	immediate = {
+	}
+
+	option = {
+		name = EVC_east_indies.1.a
+		default_option = yes
+		state_poor_standard_of_living_add = 1
+		state_rich_standard_of_living_add = -0.5
+	}
+	option = {
+		name = EVC_east_indies.1.b
+		interest_group_ig_rural_folk_approval_add = 4
+		interest_group_ig_landowners_approval_add = -4
+	}
+}
+
+EVC_east_indies.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_east_indies.2.t
+	desc = EVC_east_indies.2.d
+	flavor = EVC_east_indies.2.f
+
+	duration = 3
+
+	trigger = {
+	}
+	immediate = {
+	}
+
+	option = {
+		name = EVC_east_indies.2.a
+		default_option = yes
+		country_prestige_add = 20
+	}
+	option = {
+		name = EVC_east_indies.2.b
+		country_prestige_add = 20
+		remove_diplomatic_pact = {
+			country = c:NET
+			type = customs_union
+		}
+		remove_diplomatic_pact = {
+			country = c:NET
+			type = dominion
+		}
+	}
+}
