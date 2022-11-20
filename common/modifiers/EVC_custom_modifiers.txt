@@ -1,0 +1,4 @@
+﻿temporary_tax_cut = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	tax_income_add = -0.05
+}
