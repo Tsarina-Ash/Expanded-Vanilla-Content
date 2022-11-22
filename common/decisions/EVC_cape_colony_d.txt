@@ -4,6 +4,9 @@
 		exists = c:GBR
 		c:SAF = ROOT
 		is_subject = yes
+		NOT = {
+			has_variable = SAF_dominion_asked
+		}
 	}
 
 	possible = {
@@ -20,6 +23,7 @@
 		    	popup = yes
 		    }
         }
+		set_variable = SAF_dominion_asked
     }
 
 	ai_chance = {

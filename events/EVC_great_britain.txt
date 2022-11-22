@@ -22,11 +22,14 @@ EVC_great_britain.1 = {
 	option = {
 		name = EVC_great_britain.1.b
 		default_option = yes
-		if = {
-			limit = {
-				NOT = { is_subject_type = subject_type_dominion }
+		c:SAF = {
+			if = {
+				limit = {
+					NOT = { is_subject_type = subject_type_dominion }
+				}
+				change_subject_type = subject_type_dominion
 			}
-			change_subject_type = subject_type_dominion
 		}
+		
 	}
 }
