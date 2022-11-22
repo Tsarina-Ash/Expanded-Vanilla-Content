@@ -1,0 +1,32 @@
+﻿namespace = EVC_great_britain
+
+EVC_great_britain.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_great_britain.1.t
+	desc = EVC_great_britain.1.d
+	flavor = EVC_great_britain.1.f
+
+	duration = 3
+
+	trigger = {
+	}
+	immediate = {
+	}
+
+	option = {
+		name = EVC_great_britain.1.a
+		country_prestige_add = 20
+	}
+	option = {
+		name = EVC_great_britain.1.b
+		default_option = yes
+		if = {
+			limit = {
+				NOT = { is_subject_type = subject_type_dominion }
+			}
+			change_subject_type = subject_type_dominion
+		}
+	}
+}

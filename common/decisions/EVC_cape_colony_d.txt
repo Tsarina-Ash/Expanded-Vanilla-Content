@@ -1,1 +1,32 @@
-﻿
+﻿cape_colony_becomes_dominion = {
+	is_shown = {
+		exists = c:SAF
+		exists = c:GBR
+		c:SAF = ROOT
+		is_subject = yes
+	}
+
+	possible = {
+		in_default = no
+		taking_loans = no
+		is_at_war = no
+	}
+
+	when_taken = {
+        c:GBR = {
+		    trigger_event = {
+		    	id = EVC_great_britain.1
+		    	days = 0
+		    	popup = yes
+		    }
+        }
+    }
+
+	ai_chance = {
+		base = 20	
+		modifier = {
+			trigger = { gold_reserves > 300000 }
+			add = 30
+		}		
+	}
+}
