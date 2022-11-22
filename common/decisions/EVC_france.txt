@@ -1,0 +1,18 @@
+﻿france_economy_decision = {
+	is_shown = {
+		has_modifier = modifier_inefficient_economy
+	}
+
+	possible = {	
+		has_technology_researched = steel_frame_buildings
+		has_technology_researched = reinforced_concrete
+	}	
+	
+	when_taken = {
+		remove_modifier = modifier_inefficient_economy
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}

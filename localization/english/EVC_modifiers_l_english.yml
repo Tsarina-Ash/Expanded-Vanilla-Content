@@ -1,3 +1,6 @@
 ﻿l_english:
   cultivation_law:0 "Cultivation System"
   cultivation_law_overlord:0 "$cultivation_law$"
+  modifier_low_birth_rate:0 "Dangerously Low Birthrate"
+  modifier_radical_population:0 "Highly Radical Population"
+  modifier_inefficient_economy:0 "Inefficient Economy"
