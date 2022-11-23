@@ -32,3 +32,20 @@ EVC_india_popularity = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_popularity_add = 50
 }
+
+partial_EVC_india_influence_prestige = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+	country_influence_mult = 0.1
+}
+
+EVC_indonesia_popularity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 50
+}
+
+partial_EVC_indonesia_influence_prestige = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+	country_influence_mult = 0.1
+}

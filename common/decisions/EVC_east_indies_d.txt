@@ -2,6 +2,7 @@
 	is_shown = {
 		exists = c:DEI
 		this = c:DEI
+		has_variable = DEI_can_form_indonesia
 	}
 	possible = {
 		this = c:DEI
@@ -10,22 +11,21 @@
 		not = {
 			is_subject = yes
 		}
-		
 	}
 	when_taken = {
 		c:DEI = { change_tag = IDN }
 		
 		set_state_religion = rel:sunni
 		
-		remove_primary_culture = cu:dutch
-		add_primary_culture = cu:balinese
-		add_primary_culture = cu:batak
-		add_primary_culture = cu:bornean
-		add_primary_culture = cu:dayak
-		add_primary_culture = cu:javan
-		add_primary_culture = cu:malay
-		add_primary_culture = cu:moluccan
-		add_primary_culture = cu:sumatran
+		# remove_primary_culture = cu:dutch
+		# add_primary_culture = cu:balinese
+		# add_primary_culture = cu:batak
+		# add_primary_culture = cu:bornean
+		# add_primary_culture = cu:dayak
+		# add_primary_culture = cu:javan
+		# add_primary_culture = cu:malay
+		# add_primary_culture = cu:moluccan
+		# add_primary_culture = cu:sumatran
 	}
 	ai_chance = {
 		base = 0

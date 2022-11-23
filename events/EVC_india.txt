@@ -1,6 +1,6 @@
 ﻿namespace = EVC_india
 
-# North/South German Confederation
+# India
 EVC_india.1 = {
 	type = country_event
 	placement = ROOT
@@ -38,28 +38,7 @@ EVC_india.1 = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				country_has_primary_culture = cu:north_german
-				NOT = { exists = c:NGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
-			}
-			change_tag = NGF
-		}
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:south_german
-				NOT = { exists = c:SGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
-			}
-			change_tag = SGF
-		}
+		set_variable = BIC_can_form_india
 	}
 	option = {
 		name = EVC_india.1.b
@@ -67,36 +46,11 @@ EVC_india.1 = {
 			name = partial_EVC_india_influence_prestige
 			months = normal_modifier_time
 		}
-		if = {
-			limit = {
-				country_has_primary_culture = cu:north_german
-				NOT = { exists = c:NGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
-			}
-			change_tag = NGF
-		}
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:south_german
-				NOT = { exists = c:SGF }
-				OR = {
-					NOT = { exists = c:AUS }
-					NOT = { THIS = c:AUS }
-				}
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
-			}
-			change_tag = SGF
-		}
+		set_variable = BIC_can_form_india
 	}
 }
 
-# Annex a German country
+# Annex an Indian Country
 EVC_india.2 = {
 	type = country_event
 	placement = ROOT
@@ -116,44 +70,35 @@ EVC_india.2 = {
 
 	duration = 3
 
-	cooldown = { months = 4 }
+	cooldown = { months = 4 }a
 
 	trigger = {
 		root.infamy < infamy_threshold:infamous
-		OR = {
-			country_tier = kingdom
-			country_tier = principality
-		}
 		any_country = {
 			trigger_if = {
 				limit = {
 					has_technology_researched = pan-nationalism
 				}
 				OR = {
-					country_has_primary_culture = cu:north_german
-					country_has_primary_culture = cu:south_german
+					country_has_primary_culture = cu:avadhi
+					country_has_primary_culture = cu:pashtun
+					country_has_primary_culture = cu:baluchi
+					country_has_primary_culture = cu:sinhala
+					country_has_primary_culture = cu:panjabi
+					country_has_primary_culture = cu:kashmiri
+					country_has_primary_culture = cu:sindi
+					country_has_primary_culture = cu:rajput
+					country_has_primary_culture = cu:kannada
+					country_has_primary_culture = cu:malayalam
+					country_has_primary_culture = cu:telegu
+					country_has_primary_culture = cu:sindi
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					ROOT = {
-						country_has_primary_culture = cu:north_german
-					}
-				}
-				country_has_primary_culture = cu:north_german
-			}
-			trigger_else_if = {
-				limit = {
-					ROOT = {
-						country_has_primary_culture = cu:south_german
-					}
-				}
-				country_has_primary_culture = cu:south_german
 			}
 			has_diplomatic_pact = {
 				who = ROOT
 				type = customs_union
 			}
+			is_subject_of = c:BIC
 			OR = {
 				is_subject = no
 				is_subject_of = ROOT
@@ -161,7 +106,7 @@ EVC_india.2 = {
 			country_rank < rank_value:major_power
 			relations:root >= relations_threshold:amicable
 			is_player = no
-			NOT = { has_variable = german_minor_dont_annex }
+			NOT = { has_variable = indian_minor_dont_annex }
 		}
 	}
 
@@ -173,30 +118,25 @@ EVC_india.2 = {
 						has_technology_researched = pan-nationalism
 					}
 					OR = {
-						country_has_primary_culture = cu:north_german
-						country_has_primary_culture = cu:south_german
+						country_has_primary_culture = cu:avadhi
+						country_has_primary_culture = cu:pashtun
+						country_has_primary_culture = cu:baluchi
+						country_has_primary_culture = cu:sinhala
+						country_has_primary_culture = cu:panjabi
+						country_has_primary_culture = cu:kashmiri
+						country_has_primary_culture = cu:sindi
+						country_has_primary_culture = cu:rajput
+						country_has_primary_culture = cu:kannada
+						country_has_primary_culture = cu:malayalam
+						country_has_primary_culture = cu:telegu
+						country_has_primary_culture = cu:sindi
 					}
-				}
-				trigger_else_if = {
-					limit = {
-						ROOT = {
-							country_has_primary_culture = cu:north_german
-						}
-					}
-					country_has_primary_culture = cu:north_german
-				}
-				trigger_else_if = {
-					limit = {
-						ROOT = {
-							country_has_primary_culture = cu:south_german
-						}
-					}
-					country_has_primary_culture = cu:south_german
 				}
 				has_diplomatic_pact = {
 					who = ROOT
 					type = customs_union
 				}
+				is_subject_of = c:BIC
 				OR = {
 					is_subject = no
 					is_subject_of = ROOT
@@ -204,9 +144,9 @@ EVC_india.2 = {
 				country_rank < rank_value:major_power
 				relations:root >= relations_threshold:amicable
 				is_player = no
-				NOT = { has_variable = german_minor_dont_annex }
+				NOT = { has_variable = indian_minor_dont_annex }
 			}
-			save_scope_as = german_annex_country
+			save_scope_as = indian_annex_country
 		}
 	}
 
@@ -214,10 +154,10 @@ EVC_india.2 = {
 		name = EVC_india.2.a
 		default_option = yes
 		create_incident = {
-			country = scope:german_annex_country
+			country = scope:indian_annex_country
 			value = 3
 		}
-		annex = scope:german_annex_country
+		annex = scope:indian_annex_country
 		ai_chance = {
 			base = 1
 		}
@@ -225,12 +165,12 @@ EVC_india.2 = {
 	option = {
 		name = EVC_india.2.b
 		change_relations = {
-			country = scope:german_annex_country
+			country = scope:indian_annex_country
 			value = 20
 		}
 		scope:german_annex_country = {
 			set_variable = {
-				name = german_minor_dont_annex
+				name = indian_minor_dont_annex
 				days = 1825
 			}
 		}

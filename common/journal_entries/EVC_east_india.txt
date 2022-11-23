@@ -1,5 +1,5 @@
 ﻿east_indian_unification = {
-  	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
     is_shown_when_inactive = {
         c:BIC = this
@@ -11,32 +11,39 @@
     }
     complete = {
         calc_true_if = {
-			owns_entire_state_region = STATE_POMERANIA
-			owns_entire_state_region = STATE_ELBE
-			owns_entire_state_region = STATE_WESTPHALIA
-			owns_entire_state_region = STATE_ANHALT
-			owns_entire_state_region = STATE_RHINELAND
-			owns_entire_state_region = STATE_NORTH_RHINE
-			owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
-			owns_entire_state_region = STATE_HANNOVER
-			owns_entire_state_region = STATE_BRUNSWICK
-			owns_entire_state_region = STATE_SAXONY
-			owns_entire_state_region = STATE_HESSE
-			owns_entire_state_region = STATE_MECKLENBURG
-			owns_entire_state_region = STATE_SILESIA
-			owns_entire_state_region = STATE_WEST_PRUSSIA
-			owns_entire_state_region = STATE_EAST_PRUSSIA
-			owns_entire_state_region = STATE_POSEN
-            amount >= 14
+			owns_entire_state_region = STATE_KASHMIR
+			owns_entire_state_region = STATE_PASHTUNISTAN
+			owns_entire_state_region = STATE_PUNJAB
+			owns_entire_state_region = STATE_BALUCHISTAN
+			owns_entire_state_region = STATE_SINDH
+			owns_entire_state_region = STATE_DELHI
+			owns_entire_state_region = STATE_AWADH
+			owns_entire_state_region = STATE_BIHAR
+			owns_entire_state_region = STATE_NORTH_BENGAL
+			owns_entire_state_region = STATE_SOUTH_BENGAL
+			owns_entire_state_region = STATE_ASSAM
+			owns_entire_state_region = STATE_RAJPUTANA
+			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_NAGPUR
+			owns_entire_state_region = STATE_ORISSA
+			owns_entire_state_region = STATE_BOMBAY
+            owns_entire_state_region = STATE_HYDERABAD
+            owns_entire_state_region = STATE_GUJARAT
+            owns_entire_state_region = STATE_MYSORE
+            owns_entire_state_region = STATE_TRAVANCORE
+            owns_entire_state_region = STATE_MADRAS
+            owns_entire_state_region = STATE_CEYLON
+            owns_entire_state_region = STATE_CIRCARS
+            amount >= 17
         }
     }
     on_monthly_pulse = {
         events = {
-            #Event to actually annex the country#
+            EVC_india.2
         }
     }
     on_complete = {
-        #Unification event or something#
+        trigger_event = { id = EVC_india.1 }
     }
     weight = 100
 }

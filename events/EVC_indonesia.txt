@@ -1,1 +1,173 @@
-﻿
+﻿add_namespace = EVC_indonesia
+
+# India
+EVC_indonesia.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_indonesia.1.t
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = EVC_indonesia.1.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				is_in_government = yes
+			}
+			leader = {
+				add_modifier = {
+					name = EVC_indonesia_popularity
+					months = long_modifier_time
+				}
+			}
+		}
+		set_variable = BIC_can_form_india
+	}
+	option = {
+		name = EVC_indonesia.1.b
+		add_modifier = {
+			name = partial_EVC_indonesia_influence_prestige
+			months = normal_modifier_time
+		}
+		set_variable = DEI_can_form_indonesia
+	}
+}
+
+# Annex an Indian Country
+EVC_indonesia.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_indonesia.2.t
+	desc = EVC_indonesia.2.d
+	flavor = EVC_indonesia.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	cooldown = { months = 4 }a
+
+	trigger = {
+		root.infamy < infamy_threshold:infamous
+		any_country = {
+			trigger_if = {
+				limit = {
+					has_technology_researched = pan-nationalism
+				}
+				OR = {
+					country_has_primary_culture = cu:balinese
+						country_has_primary_culture = cu:batak
+						country_has_primary_culture = cu:bornean
+						country_has_primary_culture = cu:dayak
+						country_has_primary_culture = cu:javan
+						country_has_primary_culture = cu:malay
+						country_has_primary_culture = cu:moluccan
+						country_has_primary_culture = cu:sumatran
+				}
+			}
+			has_diplomatic_pact = {
+				who = ROOT
+				type = customs_union
+			}
+			is_subject_of = c:DEI
+			OR = {
+				is_subject = no
+				is_subject_of = ROOT
+			}
+			country_rank < rank_value:major_power
+			relations:root >= relations_threshold:amicable
+			is_player = no
+			NOT = { has_variable = indian_minor_dont_annex }
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				trigger_if = {
+					limit = {
+						has_technology_researched = pan-nationalism
+					}
+					OR = {
+						country_has_primary_culture = cu:balinese
+						country_has_primary_culture = cu:batak
+						country_has_primary_culture = cu:bornean
+						country_has_primary_culture = cu:dayak
+						country_has_primary_culture = cu:javan
+						country_has_primary_culture = cu:malay
+						country_has_primary_culture = cu:moluccan
+						country_has_primary_culture = cu:sumatran
+					}
+				}
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
+				}
+				is_subject_of = c:DEI
+				OR = {
+					is_subject = no
+					is_subject_of = ROOT
+				}
+				country_rank < rank_value:major_power
+				relations:root >= relations_threshold:amicable
+				is_player = no
+				NOT = { has_variable = indonesian_minor_dont_annex }
+			}
+			save_scope_as = indonesian_annex_country
+		}
+	}
+
+	option = {
+		name = EVC_indonesia.2.a
+		default_option = yes
+		create_incident = {
+			country = scope:indonesian_annex_country
+			value = 3
+		}
+		annex = scope:indonesian_annex_country
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = EVC_indonesia.2.b
+		change_relations = {
+			country = scope:indonesian_annex_country
+			value = 20
+		}
+		scope:german_annex_country = {
+			set_variable = {
+				name = indonesian_minor_dont_annex
+				days = 1825
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

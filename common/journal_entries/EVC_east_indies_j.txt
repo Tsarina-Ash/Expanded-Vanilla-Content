@@ -44,3 +44,43 @@
 		}
 	}
 }
+east_indian_unification = {
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+    is_shown_when_inactive = {
+        c:DEI = this
+    }
+    possible = {
+        is_subject = no
+        country_rank >= rank_value:major_power
+        has_technology_research = pan_nationalism
+    }
+    complete = {
+        calc_true_if = {
+			owns_entire_state_region = STATE_MALAYA
+			owns_entire_state_region = STATE_ACEH
+			owns_entire_state_region = STATE_NORTH_SUMATRA
+			owns_entire_state_region = STATE_SOUTH_SUMATRA
+			owns_entire_state_region = STATE_WEST_JAVA
+			owns_entire_state_region = STATE_CENTRAL_JAVA
+			owns_entire_state_region = STATE_EAST_JAVA
+			owns_entire_state_region = STATE_SUNDA_ISLANDS
+			owns_entire_state_region = STATE_NORTH_BORNEO
+			owns_entire_state_region = STATE_WEST_BORNEO
+			owns_entire_state_region = STATE_EAST_BORNEO
+			owns_entire_state_region = STATE_CELEBES
+			owns_entire_state_region = STATE_MOLUCCAS
+			owns_entire_state_region = STATE_WESTERN_NEW_GUINEA
+            amount >= 11
+        }
+    }
+    on_monthly_pulse = {
+        events = {
+            EVC_indonesia.2
+        }
+    }
+    on_complete = {
+        trigger_event = { id = EVC_indonesia.1 }
+    }
+    weight = 100
+}
