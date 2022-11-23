@@ -130,17 +130,11 @@
 		s:STATE_TEXAS = {
 			if = {
 				limit = {
-					NOT = {
-						exists = c:TEX
-						ROOT = {
-							has_claim = s:STATE_TEXAS
-						}
-					}
 					any_scope_state = {
 						owner = c:MEX
 					}
 				}
-				add_claim = ROOT
+				add_claim = ROOT 
 			}
 		}
 		s:STATE_MONTANA = { 
