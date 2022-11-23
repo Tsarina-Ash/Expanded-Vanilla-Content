@@ -6,5 +6,11 @@
   france_economy_decision:0 "Root Out Inefficient Bureaucrats"
   france_economy_decision_desc:0 "Our economy has grown at a unprecedented speed and our government has not been able to keep up with the demand for a larger government. Due to this there has been a huge amount of tax waste and a lower throughput compared to other industrialized nations. Rooting out inefficient bureaucrats and replacing them should do the trick now that there is a greater knowledge of this modern economy."
   #Cape Colony
-  persia_decisions:0 ""
-  persia_decisions_desc:0 ""
+  cape_colony_becomes_dominion:0 "Demand Dominionship"
+  cape_colony_becomes_dominion_desc:0 ""
+  #East India Company
+  east_india_becomes_india:0 "India for Indians"
+  east_india_becomes_india_desc:0 ""
+  #Dutch East Indies
+  east_indies_becomes_indeonesia:0 "Form Indeonesia"
+  east_indies_becomes_indeonesia_desc:0 ""

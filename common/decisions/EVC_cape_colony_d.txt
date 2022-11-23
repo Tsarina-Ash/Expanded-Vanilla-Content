@@ -13,6 +13,10 @@
 		in_default = no
 		taking_loans = no
 		is_at_war = no
+		root.gdp > 3000000
+        c:GBR = {
+            relations:root >= relations_threshold:amicable
+        }
 	}
 
 	when_taken = {
