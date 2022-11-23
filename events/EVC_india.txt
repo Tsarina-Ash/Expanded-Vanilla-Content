@@ -69,7 +69,7 @@ EVC_india.2 = {
 
 	duration = 3
 
-	cooldown = { months = 4 }a
+	cooldown = { months = 4 }
 
 	trigger = {
 		root.infamy < infamy_threshold:infamous
@@ -93,11 +93,13 @@ EVC_india.2 = {
 					country_has_primary_culture = cu:sindi
 				}
 			}
-			has_diplomatic_pact = {
-				who = ROOT
-				type = customs_union
+			OR = {
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
+				}
+				is_subject_of = c:BIC
 			}
-			is_subject_of = c:BIC
 			OR = {
 				is_subject = no
 				is_subject_of = ROOT
@@ -131,11 +133,13 @@ EVC_india.2 = {
 						country_has_primary_culture = cu:sindi
 					}
 				}
-				has_diplomatic_pact = {
-					who = ROOT
-					type = customs_union
+				OR = {
+					has_diplomatic_pact = {
+						who = ROOT
+						type = customs_union
+					}
+					is_subject_of = c:BIC
 				}
-				is_subject_of = c:BIC
 				OR = {
 					is_subject = no
 					is_subject_of = ROOT
@@ -167,7 +171,7 @@ EVC_india.2 = {
 			country = scope:indian_annex_country
 			value = 20
 		}
-		scope:german_annex_country = {
+		scope:indian_annex_country = {
 			set_variable = {
 				name = indian_minor_dont_annex
 				days = 1825

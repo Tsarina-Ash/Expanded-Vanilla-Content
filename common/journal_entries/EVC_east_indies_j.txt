@@ -4,9 +4,9 @@
 	is_shown_when_inactive = {
 		has_modifier = cultivation_law
 		OR = {
-			NOT = {
-				is_subject_of = c:NET
-			}
+			# NOT = {
+			# 	is_subject_of = c:NET
+			# }
 			NOT = {
 				has_variable = cultivation_law_mission
 			}
@@ -36,10 +36,13 @@
 		remove_modifier = cultivation_law
 		if = {
 			limit = {
-				is_subject_of = c:NET
+				c:NET = {
+					has_modifier = cultivation_law_overlord
+				}
 			}
-			scope:overlord = {
-				trigger_event = { id = EVC_netherlands.1 }
+			c:NET = {
+				# remove_modifier = cultivation_law_overlord
+				trigger_event = { id = EVC_netherlands_colonial_management.1 }
 			}
 		}
 	}
@@ -47,13 +50,14 @@
 east_indies_unification = {
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
-    is_shown_when_inactive = {
-        c:DEI = this
+	is_shown_when_inactive = {
+        THIS = c:DEI
     }
+
     possible = {
         is_subject = no
         country_rank >= rank_value:major_power
-        has_technology_research = pan_nationalism
+        has_technology_researched = pan-nationalism
     }
     complete = {
         calc_true_if = {

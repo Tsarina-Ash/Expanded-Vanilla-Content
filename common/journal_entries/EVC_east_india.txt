@@ -2,12 +2,13 @@
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
     is_shown_when_inactive = {
-        c:BIC = this
+        THIS = c:BIC
     }
+    
     possible = {
         is_subject = no
         country_rank >= rank_value:major_power
-        has_technology_research = pan_nationalism
+        has_technology_researched = pan-nationalism
     }
     complete = {
         calc_true_if = {

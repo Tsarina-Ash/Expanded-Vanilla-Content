@@ -1,6 +1,6 @@
-﻿add_namespace = EVC_indonesia
+﻿namespace = EVC_indonesia
 
-# India
+# Indonesia
 EVC_indonesia.1 = {
 	type = country_event
 	placement = ROOT
@@ -38,7 +38,7 @@ EVC_indonesia.1 = {
 				}
 			}
 		}
-		set_variable = BIC_can_form_india
+		set_variable = DEI_can_form_indonesia
 	}
 	option = {
 		name = EVC_indonesia.1.b
@@ -70,7 +70,7 @@ EVC_indonesia.2 = {
 
 	duration = 3
 
-	cooldown = { months = 4 }a
+	cooldown = { months = 4 }
 
 	trigger = {
 		root.infamy < infamy_threshold:infamous
@@ -90,11 +90,13 @@ EVC_indonesia.2 = {
 						country_has_primary_culture = cu:sumatran
 				}
 			}
-			has_diplomatic_pact = {
-				who = ROOT
-				type = customs_union
+			OR = {
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
+				}
+				is_subject_of = c:DEI
 			}
-			is_subject_of = c:DEI
 			OR = {
 				is_subject = no
 				is_subject_of = ROOT
@@ -124,11 +126,13 @@ EVC_indonesia.2 = {
 						country_has_primary_culture = cu:sumatran
 					}
 				}
-				has_diplomatic_pact = {
-					who = ROOT
-					type = customs_union
+				OR = {
+					has_diplomatic_pact = {
+						who = ROOT
+						type = customs_union
+					}
+					is_subject_of = c:DEI
 				}
-				is_subject_of = c:DEI
 				OR = {
 					is_subject = no
 					is_subject_of = ROOT
@@ -160,7 +164,7 @@ EVC_indonesia.2 = {
 			country = scope:indonesian_annex_country
 			value = 20
 		}
-		scope:german_annex_country = {
+		scope:indonesian_annex_country = {
 			set_variable = {
 				name = indonesian_minor_dont_annex
 				days = 1825
