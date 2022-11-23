@@ -1,0 +1,42 @@
+﻿east_indian_unification = {
+  	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+    is_shown_when_inactive = {
+        c:BIC = this
+    }
+    possible = {
+        is_subject = no
+        country_rank >= rank_value:major_power
+        has_technology_research = pan_nationalism
+    }
+    complete = {
+        calc_true_if = {
+			owns_entire_state_region = STATE_POMERANIA
+			owns_entire_state_region = STATE_ELBE
+			owns_entire_state_region = STATE_WESTPHALIA
+			owns_entire_state_region = STATE_ANHALT
+			owns_entire_state_region = STATE_RHINELAND
+			owns_entire_state_region = STATE_NORTH_RHINE
+			owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+			owns_entire_state_region = STATE_HANNOVER
+			owns_entire_state_region = STATE_BRUNSWICK
+			owns_entire_state_region = STATE_SAXONY
+			owns_entire_state_region = STATE_HESSE
+			owns_entire_state_region = STATE_MECKLENBURG
+			owns_entire_state_region = STATE_SILESIA
+			owns_entire_state_region = STATE_WEST_PRUSSIA
+			owns_entire_state_region = STATE_EAST_PRUSSIA
+			owns_entire_state_region = STATE_POSEN
+            amount >= 14
+        }
+    }
+    on_monthly_pulse = {
+        events = {
+            #Event to actually annex the country#
+        }
+    }
+    on_complete = {
+        #Unification event or something#
+    }
+    weight = 100
+}
