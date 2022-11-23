@@ -1,1 +1,20 @@
 ﻿l_english:
+  EVC_india.1.t:0 "Unification Complete"
+  EVC_india.1.d:0 "After many years of strugle under colonial rule our people have finally united together to form the nation of India and we are stronger than ever before its all thanks to..."
+  EVC_india.1.a:0 "The Leadership is responsible and the world should know of their achievement."
+  EVC_india.1.b:0 "The People and the world should know of our achievement."
+  
+  EVC_india.2.t:0 "Confederation with [SCOPE.sCountry('indian_annex_country').GetName]"
+  EVC_india.2.d:0 "As part of our efforts to unify the people of India, [SCOPE.sCountry('indian_annex_country').GetName] has agreed to join our growing confederation."
+  EVC_india.2.a:0 "One step closer to unification!"
+  EVC_india.2.b:0 "This is not in the interests of the state."
+
+  EVC_indonesia.1.t:0 "Unification Complete"
+  EVC_indonesia.1.d:0 "After many years of strugle under colonial rule our people have finally united together to form the nation of Indonesia and we are stronger than ever before its all thanks to..."
+  EVC_indonesia.1.a:0 "The Leadership is responsible and the world should know of their achievement."
+  EVC_indonesia.1.b:0 "The People and the world should know of our achievement."
+
+  EVC_indonesia.2.t:0 "Confederation with [SCOPE.sCountry('indonesian_annex_country').GetName]"
+  EVC_indonesia.2.d:0 "As part of our efforts to unify the people of Indonesia, [SCOPE.sCountry('indonesian_annex_country').GetName] has agreed to join our growing confederation."
+  EVC_indonesia.2.a:0 "One step closer to unification!"
+  EVC_indonesia.2.b:0 "This is not in the interests of the state."

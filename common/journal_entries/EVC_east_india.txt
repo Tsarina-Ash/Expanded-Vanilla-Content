@@ -1,4 +1,4 @@
-﻿east_indian_unification = {
+﻿east_india_unification = {
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
     is_shown_when_inactive = {

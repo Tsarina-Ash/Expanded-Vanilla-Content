@@ -4,3 +4,7 @@
   modifier_low_birth_rate:0 "Dangerously Low Birthrate"
   modifier_radical_population:0 "Highly Radical Population"
   modifier_inefficient_economy:0 "Inefficient Economy"
+  EVC_india_popularity:0 "Indian Unifier"
+  partial_EVC_india_influence_prestige:0 "Unified India"
+  EVC_indonesia_popularity:0 "Indonesian Unifier"
+  partial_EVC_indonesia_influence_prestige:0 "Unified Indonesia"
