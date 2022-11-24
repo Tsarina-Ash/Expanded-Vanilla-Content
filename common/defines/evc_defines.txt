@@ -47,6 +47,7 @@ NEvents = {
 }
 
 NTechnology = {
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.35
 }
 
 NCharacters = {
