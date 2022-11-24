@@ -273,7 +273,7 @@ STATE_CHERSON = {
     farm = "xB02161"
     mine = "x9E24DE"
     wood = "xA669E7"
-    arable_land = 72
+    arable_land = 82
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 48
@@ -552,7 +552,7 @@ STATE_WEST_GALICIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 36
+        undiscovered_amount = 40
     }
 }
 
@@ -756,7 +756,7 @@ STATE_WALLACHIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        undiscovered_amount = 80
     }
 }
 

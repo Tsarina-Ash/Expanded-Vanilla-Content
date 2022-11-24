@@ -14,6 +14,10 @@
     capped_resources = {
         bg_fishing = 4
     }
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
     naval_exit_id = 3046
 }
 
@@ -67,6 +71,10 @@ STATE_YEMEN = {
     wood = "x034B03"
     arable_land = 58
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" }
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 25
+	}
     capped_resources = {
         bg_lead_mining = 12
         bg_fishing = 9
@@ -225,7 +233,11 @@ STATE_BAGHDAD = {
     farm = "x205060"
     mine = "x4F90CC"
     wood = "x0CA064"
-    arable_land = 54
+    arable_land = 64
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_tobacco_plantations" }
 }
 
