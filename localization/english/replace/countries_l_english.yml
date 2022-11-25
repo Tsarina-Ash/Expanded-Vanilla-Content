@@ -1,0 +1,11 @@
+﻿l_english:
+  PRU:0 "Kingdom Of Prussia"
+  PRU_ADJ:0 "Prussian"
+  RUS:0 "Russian Empire"
+  RUS_ADJ:0 "Russian"
+  AUS:0 "Austrian Empire"
+  AUS_ADJ:0 "Austrian"
+  #Dynamic Country Names
+  dyn_c_united_states:0 "United States Of America"=
+  dyn_c_soviet_union:0 "Union of Soviet Socialist Republics"
+  dyn_c_great_qing:0 "Qing Empire"
