@@ -1,0 +1,4 @@
+﻿homestead_act = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_migration_pull_mult = 1.50
+}

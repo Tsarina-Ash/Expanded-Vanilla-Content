@@ -14,3 +14,9 @@
   #Dutch East Indies
   east_indies_becomes_indeonesia:0 "Form Indeonesia"
   east_indies_becomes_indeonesia_desc:0 ""
+  #United States 
+  homestead_act_decision:0 "Homestead Act"
+  homestead_act_decision_desc:0 "The Homestead Act gives each and every person who moves to the West an opportunity to gain dozens of acres in land."
+  #Generic Decisions
+  new_world_migration_decision:0 "New Life In The New World"
+  new_world_migration_decision_desc:0 "There is a great amount of political freedom not enjoyed in other countries unfortunately. However we can help these people by offering to pay for European tickets to our country."

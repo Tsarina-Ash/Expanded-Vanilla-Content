@@ -54,3 +54,14 @@ modifier_new_world_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	state_migration_pull_mult = 1
 }
+
+modifier_new_world_decision_migration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_migration_pull_mult = 1
+	state_birth_rate_mult = 0.03
+}
+
+modifier_new_world_decision_migration_money_payment = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 14425
+}
