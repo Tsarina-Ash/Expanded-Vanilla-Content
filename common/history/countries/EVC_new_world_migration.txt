@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:USA = {
 		add_modifier = {
 			name = modifier_new_world_migration

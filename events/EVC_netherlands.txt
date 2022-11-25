@@ -6,7 +6,7 @@ EVC_netherlands_colonial_management.1 = {
 
 	title = EVC_netherlands_colonial_management.1.t
 	desc = EVC_netherlands_colonial_management.1.d
-	flavor = EVC_netherlands_colonial_management.1.f
+	# flavor = EVC_netherlands_colonial_management.1.f
 
 	event_image = {
 		video = "gfx/event_pictures/asia_farmers_market.bd2"
@@ -27,12 +27,12 @@ EVC_netherlands_colonial_management.1 = {
 		name = EVC_netherlands_colonial_management.1.a
 		default_option = yes
 		remove_modifier = cultivation_law_overlord
-		state_rich_standard_of_living_add = -0.5
+		# state_rich_standard_of_living_add = -0.5
 	}
 	option = {
 		name = EVC_netherlands_colonial_management.1.b
 		remove_modifier = cultivation_law_overlord
-		state_rich_standard_of_living_add = -0.5
+		# state_rich_standard_of_living_add = -0.5
 		create_diplomatic_play = {
 			name = dutch_reestablishment_of_cultivation_system
 			target_country = c:DEI

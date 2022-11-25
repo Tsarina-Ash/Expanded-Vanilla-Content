@@ -6,7 +6,7 @@ EVC_great_britain.1 = {
 
 	title = EVC_great_britain.1.t
 	desc = EVC_great_britain.1.d
-	flavor = EVC_great_britain.1.f
+	# flavor = EVC_great_britain.1.f
 
 	duration = 3
 

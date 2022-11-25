@@ -6,7 +6,7 @@ EVC_east_indies.1 = {
 
 	title = EVC_east_indies.1.t
 	desc = EVC_east_indies.1.d
-	flavor = EVC_east_indies.1.f
+	# flavor = EVC_east_indies.1.f
 
 	event_image = {
 		video = "gfx/event_pictures/asia_farmers_market.bd2"
@@ -27,13 +27,13 @@ EVC_east_indies.1 = {
 	option = {
 		name = EVC_east_indies.1.a
 		default_option = yes
-		state_poor_standard_of_living_add = 1
-		state_rich_standard_of_living_add = -0.5
+		# state_poor_standard_of_living_add = 1
+		# state_rich_standard_of_living_add = -0.5
 	}
 	option = {
 		name = EVC_east_indies.1.b
-		interest_group_ig_rural_folk_approval_add = 4
-		interest_group_ig_landowners_approval_add = -4
+		# interest_group_ig_rural_folk_approval_add = 4
+		# interest_group_ig_landowners_approval_add = -4
 	}
 }
 
@@ -43,7 +43,7 @@ EVC_east_indies.2 = {
 
 	title = EVC_east_indies.2.t
 	desc = EVC_east_indies.2.d
-	flavor = EVC_east_indies.2.f
+	# flavor = EVC_east_indies.2.f
 
 	duration = 3
 

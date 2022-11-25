@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:NET = {
 		add_modifier = {
 			name = cultivation_law_overlord

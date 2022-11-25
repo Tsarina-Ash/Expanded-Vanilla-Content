@@ -1,4 +1,4 @@
-east_india_becomes_india = {
+﻿east_india_becomes_india = {
 	is_shown = {
 		exists = c:BIC
 		this = c:BIC

@@ -57,10 +57,6 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
-			country = c:TUV
-			type = vassal
-		}
-		create_diplomatic_pact = {
 			country = c:MGL
 			type = vassal
 		}

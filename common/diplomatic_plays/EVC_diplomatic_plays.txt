@@ -1,4 +1,4 @@
-dp_implement_cultivation_system = {
+﻿dp_implement_cultivation_system = {
 	requires_interest_marker = no
 	initiator_can_add_war_goals = no
 	target_can_add_war_goals = no
@@ -28,7 +28,7 @@ dp_implement_cultivation_system = {
 					has_modifier = country_humiliated
 				}
 			}
-			c:DIE = {
+			c:DEI = {
 				trigger_event = { id = EVC_east_indies.2 }
 			}
 		}

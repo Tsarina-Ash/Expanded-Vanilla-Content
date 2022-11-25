@@ -18,16 +18,11 @@
 	s:STATE_TOMSK={
 		region_state:RUS={
 		}
-		region_state:TUV={
+		region_state:MGL={
 		}
 	}
 	s:STATE_TUVA={
-		region_state:TUV={
-			create_building={
-				building="building_rye_farm"
-				level = 2
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
-			}
+		region_state:MGL={
 		}
 	}
 	s:STATE_TOBOLSK={
