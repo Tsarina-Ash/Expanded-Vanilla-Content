@@ -1,0 +1,176 @@
+COUNTRIES = {
+	c:USA = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:QUE = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:ONT = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:NBS = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:NVS = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:HBC = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:ORG = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:TEX = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:MEX = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:UCA = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:MKT = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:CUB = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:HAI = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:CLM = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:VNZ = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:ECU = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:PEU = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:BOL = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:CHL = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:ARG = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:URU = { #URU Mommy, fuck me harder
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:PRG = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:BRZ = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:NSW = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:WAS = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:TAS = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:SAS = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:PRA = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+	c:PNI = {
+		add_modifier = {
+			name = modifier_new_world_migration
+			months = 120 #10 years
+		}
+	}
+}
