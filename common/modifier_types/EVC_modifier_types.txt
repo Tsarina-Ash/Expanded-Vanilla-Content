@@ -1,0 +1,17 @@
+#Building
+building_output_uranium_add = {
+	good = yes
+	percent = no
+}
+building_output_enriched_uranium_add = {
+	good = yes
+	percent = no
+}
+building_input_uranium_add = {
+	good = no
+	percent = no	
+}
+building_input_enriched_uranium_add = {
+	good = no
+	percent = no	
+}
