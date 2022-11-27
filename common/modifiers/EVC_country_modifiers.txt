@@ -12,7 +12,7 @@ cultivation_law_overlord = {
 
 modifier_low_birth_rate = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-    state_birth_rate_mult = -0.05
+    state_birth_rate_mult = -0.02
 }
 
 modifier_radical_population = {
