@@ -120,7 +120,7 @@ building_gold_fields = {
 
 building_uranium_mine = {
 	building_group = bg_uranium_mining
-	texture = ""
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium

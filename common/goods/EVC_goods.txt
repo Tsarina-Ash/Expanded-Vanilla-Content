@@ -1,4 +1,4 @@
-uranium = {
+﻿uranium = {
 	texture = ""
 	cost = 40
 	category = industry
