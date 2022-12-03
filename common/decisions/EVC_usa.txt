@@ -235,28 +235,3 @@
 		base = 30
 	}
 }
-
-fuck_ireland = {
-
-	is_shown = {
-		exists = c:USA
-		root = c:USA
-	}
-
-	possible = {
-
-	}
-
-	when_taken = {
-		s:STATE_MOSCOW = { 
-			add_devastation = 70
-		}
-		s:STATE_MUNSTER = { 
-			add_devastation = 70
-		}
-	}
-
-	ai_chance = {
-		base = 30
-	}
-}
