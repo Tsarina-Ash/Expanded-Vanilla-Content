@@ -85,11 +85,11 @@ in_default = {
 
 declared_bankruptcy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_prestige_mult = -0.5
-	country_loan_interest_rate_mult = 0.5
+	country_prestige_mult = -0.8
+	country_loan_interest_rate_mult = 0.15
 	unit_offense_mult = -0.5
 	unit_defense_mult = -0.5
-	state_construction_mult = -0.5
+	state_construction_mult = -0.25
 }
 
 incorporated_state = {
