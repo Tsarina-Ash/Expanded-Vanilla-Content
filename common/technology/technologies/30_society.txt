@@ -288,6 +288,7 @@ pharmaceuticals = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 1
+		state_mortality_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -320,6 +321,7 @@ quinine = {
 
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
+		state_mortality_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -529,6 +531,7 @@ civilizing_mission = {
 
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
+		state_assimilation_mult = 0.1
 	}
 	
 	unlocking_technologies = {
@@ -684,6 +687,7 @@ malaria_prevention = {
 
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
+		state_mortality_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -817,6 +821,7 @@ antibiotics = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 1
+		state_mortality_mult = -0.05
 	}
 	
 	unlocking_technologies = {
