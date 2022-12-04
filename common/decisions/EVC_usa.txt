@@ -27,7 +27,9 @@
 		owns_entire_state_region = STATE_SOUTH_DAKOTA
 		owns_entire_state_region = STATE_NEBRASKA
 		owns_entire_state_region = STATE_KANSAS
-		owns_entire_state_region = STATE_ALASKA
+		owns_entire_state_region = STATE_IDAHO
+		owns_entire_state_region = STATE_WASHINGTON
+		owns_entire_state_region = STATE_OREGON
 	}
 
 	when_taken = {
@@ -116,7 +118,19 @@
 				months = 121
 			} 
 		}
-		s:STATE_ALASKA.region_state:USA = { 
+		s:STATE_IDAHO.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
+		}
+		s:STATE_WASHINGTON.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
+		}
+		s:STATE_OREGON.region_state:USA = { 
 			add_modifier = {
 				name = homestead_act
 				months = 121
