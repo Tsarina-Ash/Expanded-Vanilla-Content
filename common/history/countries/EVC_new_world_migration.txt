@@ -5,42 +5,6 @@
 			months = 120 #10 years
 		}
 	}
-	c:QUE = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:ONT = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:NBS = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:NVS = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:HBC = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:ORG = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
 	c:TEX = {
 		add_modifier = {
 			name = modifier_new_world_migration
@@ -137,30 +101,6 @@
 			months = 120 #10 years
 		}
 	}
-	c:NSW = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:WAS = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:TAS = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
-	c:SAS = {
-		add_modifier = {
-			name = modifier_new_world_migration
-			months = 120 #10 years
-		}
-	}
 	c:PRA = {
 		add_modifier = {
 			name = modifier_new_world_migration
@@ -173,4 +113,77 @@
 			months = 120 #10 years
 		}
 	}
+
+	#Canada
+
+	c:QUE = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+	c:ONT = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+	c:NBS = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+	c:NVS = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+	c:HBC = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+	c:ORG = {
+		add_modifier = {
+			name = modifier_canadian_migration
+			months = 120 #10 years
+		}
+	}
+
+	#Australia
+
+	c:NSW = {
+		add_modifier = {
+			name = modifier_australia_migration
+			months = 120 #10 years
+		}
+	}
+	c:WAS = {
+		add_modifier = {
+			name = modifier_australia_migration
+			months = 120 #10 years
+		}
+	}
+	c:TAS = {
+		add_modifier = {
+			name = modifier_australia_migration
+			months = 120 #10 years
+		}
+	}
+	c:SAS = {
+		add_modifier = {
+			name = modifier_australia_migration
+			months = 120 #10 years
+		}
+	}
+	c:UNT = {
+		add_modifier = {
+			name = modifier_australia_migration
+			months = 120 #10 years
+		}
+	}
+
 }
