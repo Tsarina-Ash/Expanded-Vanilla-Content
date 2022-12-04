@@ -1,4 +1,4 @@
-EVC_je_rhur_boom = {
+﻿EVC_je_rhur_boom = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	is_shown_when_inactive = {
@@ -9,6 +9,7 @@ EVC_je_rhur_boom = {
 			country_has_primary_culture = cu:north_german
 			country_has_primary_culture = cu:south_german
 		}
+		THIS = c:GER
 	}
 
 	complete = {
@@ -19,23 +20,32 @@ EVC_je_rhur_boom = {
 		country_rank >= rank_value:great_power
 	}
 
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_state_trait = state_trait_ruhr_coalfield
+			}
+			save_scope_as = rhur_boom_1
+		}
+	}
+
 	on_complete = {
-		s:STATE_WESTPHALIA = {
+		s:STATE_WESTPHALIA.region_state:GER = {
 			add_modifier = {
 				name = rhur_boom
-				duration = 61
+				months = 61
 			}
 		}
-		s:STATE_NORTH_RHINE = {
+		s:STATE_NORTH_RHINE.region_state:GER = {
 			add_modifier = {
 				name = rhur_boom
-				duration = 61
+				months = 61
 			}
 		}
-		s:STATE_RHINELAND = {
+		s:STATE_RHINELAND.region_state:GER = {
 			add_modifier = {
 				name = rhur_boom
-				duration = 61
+				months = 61
 			}
 		}
 		set_variable = rhur_boomed

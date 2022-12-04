@@ -1,9 +1,9 @@
 ﻿homestead_act = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_migration_pull_mult = 1.50
+	state_birth_rate_mult = 0.1
 }
 
 rhur_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_birth_rate_mult = 0.02
+	state_birth_rate_mult = 0.05
 }
