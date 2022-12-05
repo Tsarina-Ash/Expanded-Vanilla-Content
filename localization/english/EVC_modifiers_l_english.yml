@@ -12,3 +12,6 @@
   rhur_boom:0 "Ruhr Industrial Boom"
   modifier_australia_migration:0 "Oceanic Population Boom"
   modifier_canadian_migration:0 "Canadian Population Boom"
+  modifier_chinese_population_boom:0 "Plentiful Harvest"
+  modifier_board_of_revenue:0 "Board Of Revenue"
+  modifier_resitance_to_westernization:0 "Resistance To Westernization"

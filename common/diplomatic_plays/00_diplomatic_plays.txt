@@ -87,7 +87,7 @@ dp_conquer_state = {
 
 dp_return_state = {
 	requires_interest_marker = no
-
+	enable_switch_sides = yes
 	war_goal = return_state
 	
 	texture = "gfx/interface/icons/war_goals/return_state.dds"

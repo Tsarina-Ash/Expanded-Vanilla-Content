@@ -55,7 +55,6 @@ law_land_based_taxation = {
 
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.15
-		state_tax_capacity_mult = -0.05
 		country_authority_add = 50
 	}	
 	
@@ -106,6 +105,7 @@ law_per_capita_based_taxation = {
 	progressiveness = 0
 	
 	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		country_authority_add = 50
 	}	

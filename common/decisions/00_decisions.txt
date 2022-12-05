@@ -292,7 +292,7 @@ new_world_migration_decision = {
 			has_law = law_type:law_state_religion
 		}
 
-		gold_reserves > 2000000
+		gold_reserves > 500000
 	}
 
 	when_taken = {
@@ -304,7 +304,7 @@ new_world_migration_decision = {
 
 		add_modifier = {
 			name = modifier_new_world_decision_migration_money_payment
-			months = 24
+			months = 48
 		}
 
 		set_variable = has_done_new_world_migration_decision
