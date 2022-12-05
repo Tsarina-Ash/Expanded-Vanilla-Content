@@ -25,7 +25,8 @@
 
 		add_modifier = {
 			name = modifier_chinese_population_boom
-			months = 72 #20 years
+			years = 20
+			is_decaying = yes
 		}
 
 		add_modifier = {
@@ -34,8 +35,15 @@
 
 		add_modifier = {
 			name = modifier_resitance_to_westernization
-			months = 144 #40 years
+			years = 50
+			is_decaying = yes
 		}
+
+		add_modifier = {
+			name = modifier_highly_radical_population
+			years = 100
+			is_decaying = yes
+		}		
 
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials

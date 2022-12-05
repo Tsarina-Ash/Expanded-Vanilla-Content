@@ -2,13 +2,77 @@
 	c:XIN = {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+
+		add_modifier = {
+			name = modifier_board_of_revenue
+		}
+
+		add_modifier = {
+			name = modifier_resitance_to_westernization
+			years = 50
+			is_decaying = yes
+		}
+
+		add_modifier = {
+			name = modifier_radical_population
+			years = 15
+			is_decaying = yes
+		}
+
 	}
 	c:MGL = {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+
+		add_modifier = {
+			name = modifier_board_of_revenue
+		}
+
+		add_modifier = {
+			name = modifier_resitance_to_westernization
+			years = 50
+			is_decaying = yes
+		}
 	}
 	c:YUN = {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+
+		add_modifier = {
+			name = modifier_chinese_population_boom
+			years = 10
+		}
+
+		add_modifier = {
+			name = modifier_board_of_revenue
+		}
+
+		add_modifier = {
+			name = modifier_resitance_to_westernization
+			years = 40
+			is_decaying = yes
+		}
+
+		add_modifier = {
+			name = modifier_radical_population
+			years = 50
+			is_decaying = yes
+		}
+
+	}
+
+	c:TIB = {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+
+		add_modifier = {
+			name = modifier_board_of_revenue
+		}
+
+		add_modifier = {
+			name = modifier_resitance_to_westernization
+			years = 20
+			is_decaying = yes
+		}
 	}
 }
