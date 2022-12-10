@@ -20,7 +20,7 @@ law_traditionalism = {
 	
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.3
-		state_tax_capacity_mult = -0.2
+		state_tax_capacity_mult = -0.25
 		country_tech_spread_mult = -0.05
 		
 		country_subsidies_bg_infrastructure = yes
@@ -101,10 +101,9 @@ law_agrarianism = {
 	}
 	
 	modifier = {
-		state_aristocrats_investment_pool_contribution_add = 0.2	
-		state_capitalists_investment_pool_contribution_add = 0.1
-		building_construction_sector_throughput_mult = -0.05
-
+		state_aristocrats_investment_pool_contribution_add = 0.25
+		state_capitalists_investment_pool_contribution_add = 0.05
+		
 		country_subsidies_bg_agriculture = yes
 		country_subsidies_bg_ranching = yes
 		country_subsidies_bg_plantations = yes
@@ -156,7 +155,7 @@ law_laissez_faire = {
 	modifier = {
 		country_loan_interest_rate_mult = -0.3
 		
-		state_capitalists_investment_pool_contribution_add = 0.5	
+		state_capitalists_investment_pool_contribution_add = 0.75
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
@@ -201,9 +200,9 @@ law_command_economy = {
 	
 	modifier = {
 		country_mandate_subsidies = yes
-		country_bureaucrats_pol_str_mult = 0.1
-		state_tax_capacity_mult = 0.25
-		country_authority_mult = 0.25
+		
+		state_tax_capacity_mult = 0.35
+		country_authority_mult = 0.3
 	}
 	
 	possible_political_movements = {

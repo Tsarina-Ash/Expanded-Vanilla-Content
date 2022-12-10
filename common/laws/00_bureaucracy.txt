@@ -37,8 +37,6 @@ law_appointed_bureaucrats = {
 	modifier = {
 		interest_group_ig_intelligentsia_pol_str_mult = 0.2
 		state_tax_capacity_mult = 0.3
-
-		country_authority_add = 50
 	}
 	
 	possible_political_movements = {
