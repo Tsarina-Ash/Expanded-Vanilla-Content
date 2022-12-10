@@ -101,6 +101,7 @@ law_agrarianism = {
 	}
 	
 	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.15
 		state_aristocrats_investment_pool_contribution_add = 0.25
 		state_capitalists_investment_pool_contribution_add = 0.05
 		
