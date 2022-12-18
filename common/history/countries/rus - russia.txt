@@ -37,5 +37,16 @@
 		ig:ig_landowners = {
 			set_interest_group_name = ig_gentry_assembly
 		}
+
+		add_modifier = {
+			name = modifier_massive_population_boom
+			years = 15
+		}
+
+		add_modifier = {
+			name = modifier_resitance_to_westernization_2
+			years = 1
+		}
+
 	}
 }

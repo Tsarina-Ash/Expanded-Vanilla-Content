@@ -52,7 +52,7 @@ law_monarchy = {
 	modifier = {
 		country_legitimacy_headofstate_add = 20
 		country_legitimacy_ideological_incoherence_mult = 0.1
-		interest_group_ig_landowners_pol_str_mult = 0.75
+		interest_group_ig_landowners_pol_str_mult = 0.5
 		country_authority_add = 200
 	}
 	

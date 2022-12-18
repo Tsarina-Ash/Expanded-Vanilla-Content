@@ -24,12 +24,6 @@
 		set_tax_level = low
 
 		add_modifier = {
-			name = modifier_chinese_population_boom
-			years = 20
-			is_decaying = yes
-		}
-
-		add_modifier = {
 			name = modifier_board_of_revenue
 		}
 
@@ -43,6 +37,10 @@
 			name = modifier_highly_radical_population
 			years = 100
 			is_decaying = yes
+		}	
+
+		add_modifier = {
+			name = stagnated_confucianism
 		}		
 
 		ig:ig_landowners = { 

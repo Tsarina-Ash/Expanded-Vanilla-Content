@@ -7,3 +7,8 @@ rhur_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_birth_rate_mult = 0.05
 }
+
+massive_famine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = -0.3
+}
