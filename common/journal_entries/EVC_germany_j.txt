@@ -9,24 +9,19 @@
 			country_has_primary_culture = cu:north_german
 			country_has_primary_culture = cu:south_german
 		}
-		THIS = c:GER
+		OR = {
+			THIS = C:GER
+			THIS = C:PRU
+		}
 	}
 
 	complete = {
+		THIS = C:GER
 		owns_entire_state_region = STATE_WESTPHALIA
 		owns_entire_state_region = STATE_NORTH_RHINE
 		owns_entire_state_region = STATE_RHINELAND
 		has_technology_researched = open_hearth_process
 		country_rank >= rank_value:great_power
-	}
-
-	immediate = {
-		random_scope_state = {
-			limit = {
-				has_state_trait = state_trait_ruhr_coalfield
-			}
-			save_scope_as = rhur_boom_1
-		}
 	}
 
 	on_complete = {
