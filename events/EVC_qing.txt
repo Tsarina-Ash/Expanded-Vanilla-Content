@@ -19,6 +19,8 @@ EVC_qing.1 = {
 	trigger = {
 		game_date > 1844.2.7
 		has_modifier = stagnated_confucianism
+		exist = c:CHI
+		this = c:CHI
 	}
 
 	immediate = {
@@ -51,6 +53,8 @@ EVC_qing.2 = {
 	trigger = {
 		game_date > 1852.2.9
 		has_modifier = confucianalism_slow_revival
+		exist = c:CHI
+		this = c:CHI
 	}
 
 	immediate = {
@@ -83,6 +87,8 @@ EVC_qing.3 = {
 	trigger = {
 		game_date > 1860.1.1
 		has_modifier = confucianalism_slow_recovery
+		exist = c:CHI
+		this = c:CHI
 	}
 
 	immediate = {
