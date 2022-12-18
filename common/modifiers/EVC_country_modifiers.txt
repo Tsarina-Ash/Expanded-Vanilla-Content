@@ -99,7 +99,7 @@ modifier_outdated_bureaucracy = {
 
 modifier_massive_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.15
 }
 
 modifier_industrial_boom = {
@@ -134,31 +134,27 @@ modifier_resitance_to_westernization = {
 stagnated_confucianism = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 
-	country_weekly_innovation_mult = -0.2
-
 	building_arts_academy_throughput_mult = 0.05
 
 	interest_group_ig_devout_pop_attraction_mult = 0.1
 	interest_group_ig_intelligentsia_pop_attraction_mult = 0.05
 	
-	country_weekly_innovation_mult = 0.1
-	state_conversion_mult = 0.15
-	state_assimilation_mult = 0.15
+	country_weekly_innovation_mult = -0.2
+	state_conversion_mult = -0.15
+	state_assimilation_mult = -0.15
 }
 
 confucianalism_slow_revival = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-
-	country_weekly_innovation_mult = -0.1
 
 	building_arts_academy_throughput_mult = 0.1
 
 	interest_group_ig_devout_pop_attraction_mult = 0.05
 	interest_group_ig_intelligentsia_pop_attraction_mult = 0.1
 	
-	country_weekly_innovation_mult = 0.1
-	state_conversion_mult = 0.05
-	state_assimilation_mult = 0.05
+	country_weekly_innovation_mult = -0.1
+	state_conversion_mult = -0.05
+	state_assimilation_mult = -0.05
 }
 
 confucianalism_slow_recovery = {
@@ -169,9 +165,9 @@ confucianalism_slow_recovery = {
 	interest_group_ig_devout_pop_attraction_mult = 0.1
 	interest_group_ig_intelligentsia_pop_attraction_mult = 0.15
 
-	country_weekly_innovation_mult = 0.1
-	state_conversion_mult = 0.15
-	state_assimilation_mult = 0.15
+	country_weekly_innovation_mult = 0.05
+	state_conversion_mult = 0.10
+	state_assimilation_mult = 0.10
 }
 
 confucionalism_revived = {
@@ -182,9 +178,9 @@ confucionalism_revived = {
 	interest_group_ig_devout_pop_attraction_mult = 0.15
 	interest_group_ig_intelligentsia_pop_attraction_mult = 0.25
 
-	country_weekly_innovation_mult = 0.15
-	state_conversion_mult = 0.25
-	state_assimilation_mult = 0.25
+	country_weekly_innovation_mult = 0.10
+	state_conversion_mult = 0.15
+	state_assimilation_mult = 0.15
 
 	country_prestige_mult = 0.05
 }

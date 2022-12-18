@@ -1,15 +1,15 @@
 ﻿namespace = EVC_qing
 
-EVC_qing_confucianism_slowly_reforms.1 = {
+EVC_qing.1 = {
 	type = country_event
 	placement = ROOT
 
-	title = EVC_qing_confucianism_slowly_reforms.1.t
-	desc = EVC_qing_confucianism_slowly_reforms.1.d
+	title = EVC_qing.1.t
+	desc = EVC_qing.1.d
 
 	event_image = {
-		video = "gfx/event_pictures/asia_farmers_market.bd2"
-	}
+        video = "gfx/event_pictures/asia_farmers_market.bd2"
+    }
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/asia/farmers_market"
@@ -24,19 +24,19 @@ EVC_qing_confucianism_slowly_reforms.1 = {
 	}
 
 	option = {
-		name = EVC_qing_confucianism_slowly_reforms.1.a
+		name = EVC_qing.1.a
 		default_option = yes
 		remove_modifier = stagnated_confucianism
 		add_modifier = confucianalism_slow_revival
 	}
 }
 
-EVC_qing_confucianism_slowly_revived.1 = {
+EVC_qing.2 = {
 	type = country_event
 	placement = ROOT
 
-	title = EVC_qing_confucianism_slowly_revived.1.t
-	desc = EVC_qing_confucianism_slowly_revived.1.d
+	title = EVC_qing.2.t
+	desc = EVC_qing.2.d
 
 	event_image = {
 		video = "gfx/event_pictures/asia_farmers_market.bd2"
@@ -55,19 +55,19 @@ EVC_qing_confucianism_slowly_revived.1 = {
 	}
 
 	option = {
-		name = EVC_qing_confucianism_slowly_revived.1.a
+		name = EVC_qing.2.a
 		default_option = yes
 		remove_modifier = confucianalism_slow_revival
 		add_modifier = confucianalism_slow_recovery
 	}
 }
 
-EVC_qing_confucianism_revived.1 = {
+EVC_qing.3 = {
 	type = country_event
 	placement = ROOT
 
-	title = EVC_qing_confucianism_revived.1.t
-	desc = EVC_qing_confucianism_revived.1.d
+	title = EVC_qing.3.t
+	desc = EVC_qing.3.d
 
 	event_image = {
 		video = "gfx/event_pictures/asia_farmers_market.bd2"
@@ -86,15 +86,15 @@ EVC_qing_confucianism_revived.1 = {
 	}
 
 	option = {
-		name = EVC_qing_confucianism_revived.1.a
+		name = EVC_qing.3.a
 		default_option = yes
 		remove_modifier = confucianalism_slow_recovery
 		add_modifier = confucionalism_revived
 		add_modifier = anti_monarchist_talk_begins
 		add_modifier = {
-			anti_monarchist_talk_begins
-				years = 100
-				is_decaying = yes
+			name = anti_monarchist_talk_begins
+			years = 100
+			is_decaying = yes
 		}	
 
 	}
