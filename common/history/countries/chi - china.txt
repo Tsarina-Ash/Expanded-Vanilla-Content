@@ -29,19 +29,15 @@
 
 		add_modifier = {
 			name = modifier_resitance_to_westernization
-			years = 50
+			years = 30
 			is_decaying = yes
 		}
 
 		add_modifier = {
 			name = modifier_highly_radical_population
-			years = 100
+			years = 75
 			is_decaying = yes
 		}	
-
-		add_modifier = {
-			name = stagnated_confucianism
-		}		
 
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials
