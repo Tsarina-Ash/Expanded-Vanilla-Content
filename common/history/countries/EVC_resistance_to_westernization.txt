@@ -3,10 +3,10 @@
 		add_modifier = {
 			name = modifier_resitance_to_westernization_2
 			years = 20
+			is_decaying = yes
 		}
 		add_modifier = {
 			name = modifier_outdated_bureaucracy
-			years = 40
 		}
 	}
 }
