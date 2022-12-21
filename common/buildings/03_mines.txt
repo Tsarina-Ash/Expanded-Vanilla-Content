@@ -138,3 +138,87 @@ building_uranium_mine = {
 		pmg_ownership_capital_building_uranium_mine
 	}
 }
+
+building_bauxite_mine = {
+	building_group = bg_bauxite_mining
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_bauxite_mine
+		pmg_explosives_building_bauxite_mine
+		pmg_steam_automation_building_bauxite_mine
+		pmg_train_automation_building_bauxite_mine
+		pmg_ownership_capital_building_bauxite_mine
+	}
+}
+
+building_lithium_mine = {
+	building_group = bg_lithium_mining
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_lithium_mine
+		pmg_explosives_building_lithium_mine
+		pmg_steam_automation_building_lithium_mine
+		pmg_train_automation_building_lithium_mine
+		pmg_ownership_capital_building_lithium_mine
+	}
+}
+
+building_copper_mine = {
+	building_group = bg_copper_mining
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_copper_mine
+		pmg_explosives_building_copper_mine
+		pmg_steam_automation_building_copper_mine
+		pmg_train_automation_building_copper_mine
+		pmg_ownership_capital_building_copper_mine
+	}
+}
+
+building_zinc_mine = {
+	building_group = bg_zinc_mining
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_zinc_mine
+		pmg_explosives_building_zinc_mine
+		pmg_steam_automation_building_zinc_mine
+		pmg_train_automation_building_zinc_mine
+		pmg_ownership_capital_building_zinc_mine
+	}
+}

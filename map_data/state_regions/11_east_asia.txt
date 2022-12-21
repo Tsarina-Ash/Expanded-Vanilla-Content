@@ -60,6 +60,7 @@ STATE_YUNNAN = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 60
+        bg_bauxite_mining = 30
         bg_logging = 17
     }
 }
@@ -147,6 +148,7 @@ STATE_GUANGXI = {
     arable_land = 934
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 24
         bg_logging = 9
     }
 }
@@ -371,6 +373,7 @@ STATE_GUANGDONG = {
     arable_land = 758
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 18
         bg_logging = 8
         bg_fishing = 14
     }
@@ -389,6 +392,7 @@ STATE_FUJIAN = {
     arable_land = 970
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
+        bg_uranium_mining = 6
         bg_logging = 16
         bg_fishing = 10
     }
@@ -443,6 +447,7 @@ STATE_NANJING = {
     arable_land = 638
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
+        bg_uranium_mining = 12
         bg_logging = 5
     }
 }
@@ -533,6 +538,7 @@ STATE_NORTHERN_ANHUI = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_uranium_mining = 14
         bg_logging = 6
     }
 }
@@ -598,6 +604,7 @@ STATE_FORMOSA = {
     arable_land = 172
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 8
         bg_logging = 7
         bg_fishing = 13
     }
@@ -618,6 +625,8 @@ STATE_SHANDONG = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_sulfur_mining = 32
+        bg_uranium_mining = 8
+        bg_bauxite_mining = 13
         bg_logging = 6
         bg_fishing = 15
     }
@@ -787,6 +796,7 @@ STATE_MEKONG = {
     arable_land = 92
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 39
         bg_logging = 20
         bg_fishing = 16
     }

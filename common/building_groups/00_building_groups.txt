@@ -340,6 +340,38 @@ bg_uranium_mining = {
 	can_use_slaves = yes
 }
 
+bg_bauxite_mining = {
+	parent_group = bg_mining
+
+	default_building = building_bauxite_mine
+
+	can_use_slaves = yes
+}
+
+bg_lithium_mining = {
+	parent_group = bg_mining
+
+	default_building = building_lithium_mine
+
+	can_use_slaves = yes
+}
+
+bg_copper_mining = {
+	parent_group = bg_mining
+
+	default_building = building_copper_mine
+
+	can_use_slaves = yes
+}
+
+bg_zinc_mining = {
+	parent_group = bg_mining
+
+	default_building = building_zinc_mine
+
+	can_use_slaves = yes
+}
+
 # Logging
 
 bg_logging = {

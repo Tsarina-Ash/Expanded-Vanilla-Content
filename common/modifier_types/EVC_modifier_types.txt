@@ -1,17 +1,73 @@
 ﻿#Building
+building_input_uranium_add = {
+	good = no
+	percent = no	
+}
 building_output_uranium_add = {
 	good = yes
 	percent = no
+}
+building_input_enriched_uranium_add = {
+	good = no
+	percent = no	
 }
 building_output_enriched_uranium_add = {
 	good = yes
 	percent = no
 }
-building_input_uranium_add = {
+building_input_bauxite_add = {
 	good = no
 	percent = no	
 }
-building_input_enriched_uranium_add = {
+building_output_bauxite_add = {
+	good = yes
+	percent = no
+}
+building_input_aluminum_add = {
 	good = no
 	percent = no	
+}
+building_output_aluminum_add = {
+	good = yes
+	percent = no
+}
+building_input_medical_supplies_add = {
+	good = no
+	percent = no	
+}
+building_output_medical_supplies_add = {
+	good = yes
+	percent = no
+}
+building_input_lithium_add = {
+	good = no
+	percent = no	
+}
+building_output_lithium_add = {
+	good = yes
+	percent = no
+}
+building_input_zinc_add = {
+	good = no
+	percent = no	
+}
+building_output_zinc_add = {
+	good = yes
+	percent = no
+}
+building_input_copper_add = {
+	good = no
+	percent = no	
+}
+building_output_copper_add = {
+	good = yes
+	percent = no
+}
+building_input_batteries_add = {
+	good = no
+	percent = no	
+}
+building_output_batteries_add = {
+	good = yes
+	percent = no
 }

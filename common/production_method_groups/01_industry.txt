@@ -500,3 +500,69 @@ pmg_ownership_capital_building_enrichment_plants = {
 		pm_worker_cooperative_industry
 	}
 }
+
+pmg_base_building_alumina_refinery = {
+	texture =  "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_sodium_reduction
+		pm_bayer_process
+	}
+}
+
+pmg_ownership_capital_building_alumina_refinery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_alumina_refinery
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_agricultural_good_greenhouse = {
+	texture =  "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_wine_production
+		pm_fruit_production
+		pm_sugar_production
+		pm_coffee_production
+		pm_tea_production
+		pm_opium_production
+		pm_tobacco_production
+	}
+}
+
+pmg_ownership_capital_building_greenhouse = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_greenhouse
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_battery_industry = {
+	texture =  "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_lead_acid
+		pm_zinc_carbon
+		pm_lithium_ion
+	}
+}
+
+pmg_ownership_capital_building_battery_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_battery_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}

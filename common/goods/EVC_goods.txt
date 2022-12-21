@@ -1,7 +1,7 @@
 ﻿uranium = {
 	texture = ""
 	cost = 40
-	category = industry
+	category = industrial
 
 	prestige_factor = 5
 }
@@ -11,7 +11,46 @@ enriched_uranium = {
 	category = industrial
 
 	prestige_factor = 10
+}
+bauxite = {
+	texture = ""
+	cost = 40
+	category = industrial
 
-	traded_quantity = 8
-	convoy_cost_multiplier = 1.5
+	prestige_factor = 5
+}
+aluminum = {
+	texture = ""
+	cost = 60
+	category = industrial
+
+	prestige_factor = 10
+}
+lithium = {
+	texture = ""
+	cost = 40
+	category = industrial
+
+	prestige_factor = 5
+}
+zinc = {
+	texture = ""
+	cost = 40
+	category = industrial
+
+	prestige_factor = 5
+}
+copper = {
+	texture = ""
+	cost = 40
+	category = industrial
+
+	prestige_factor = 5
+}
+batteries = {
+	texture = ""
+	cost = 40
+	category = industrial
+
+	prestige_factor = 5
 }

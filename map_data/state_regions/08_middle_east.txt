@@ -12,6 +12,7 @@
     arable_land = 28
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
+        bg_bauxite_mining = 14
         bg_fishing = 4
     }
 	resource = {
@@ -366,6 +367,7 @@ STATE_KHORASAN = {
     arable_land = 64
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 15
         bg_logging = 4
     }
 }
@@ -463,6 +465,9 @@ STATE_LURISTAN = {
     wood = "x928FFD"
     arable_land = 64
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" }
+    capped_resources = {
+        bg_bauxite_mining = 16
+    }
 }
 
 STATE_HUDAVENDIGAR = {
@@ -496,6 +501,7 @@ STATE_AYDIN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_bauxite_mining = 6
         bg_logging = 5
         bg_fishing = 15
     }
@@ -514,6 +520,7 @@ STATE_KONYA = {
     arable_land = 86
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
+        bg_bauxite_mining = 32
         bg_logging = 4
         bg_fishing = 6
     }

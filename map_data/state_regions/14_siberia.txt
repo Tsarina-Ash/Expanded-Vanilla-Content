@@ -32,6 +32,7 @@ STATE_TOMSK = {
     capped_resources = {
         bg_coal_mining = 44
         bg_iron_mining = 27
+        bg_bauxite_mining = 18
         bg_logging = 13
     }
 }
@@ -170,6 +171,7 @@ STATE_KAMCHATKA = {
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
+        bg_bauxite_mining = 8
         bg_logging = 13
     }
     naval_exit_id = 3118
