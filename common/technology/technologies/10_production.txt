@@ -119,6 +119,10 @@ intensive_agriculture = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
 	category = production
+
+	modifier = {
+		state_birth_rate_mult = 0.025
+	}
 	
 	unlocking_technologies = {
 		enclosure
@@ -281,6 +285,10 @@ improved_fertilizer = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
 	category = production
+
+	modifier = {
+		state_birth_rate_mult = 0.025
+	}
 	
 	unlocking_technologies = {	
 		intensive_agriculture
@@ -464,7 +472,7 @@ shift_work = {
 	}
 	
 	unlocking_technologies = {	
-		electrical_generation
+		mechanized_workshops
 	}
 }
 
@@ -478,6 +486,23 @@ steel_railway_cars = {
 	
 	unlocking_technologies = {	
 		railways
+	}
+}
+
+electrical_generation = {
+	# Unlocks Power Plants
+	# Unlocks Electric Sewing Machines PM and Automatic Power Looms PM in Textile Mills
+	# Unlocks Brine Electrolysis PM in Chemical Plants
+	# Unlocks Electric Fencing PM and Refrigerated Storage PM in Livestock Ranches
+	# Unlocks Refrigerated Storage PM in Fishing Wharfs
+	# Unlocks Electric Saw Mills PM in Logging Camps
+	# Unlocks Electric Streetlights PM in Urban Centers
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		rotary_valve_engine
 	}
 }
 
@@ -526,6 +551,7 @@ conveyors = {
 	unlocking_technologies = {	
 		vulcanization
 		shift_work
+		electrical_generation
 	}
 }
 
@@ -579,7 +605,8 @@ pneumatic_tools = {
 	category = production
 	
 	modifier = {
-		building_construction_sector_throughput_mult = 0.15
+		building_construction_sector_throughput_mult = 0.1
+		building_output_hardwood_mult = 0.25
 		country_resource_discovery_chance_mult = 0.25
 	}
 	
@@ -595,6 +622,10 @@ nitrogen_fixation = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
 	category = production
+
+	modifier = {
+		state_birth_rate_mult = 0.025
+	}
 	
 	unlocking_technologies = {
 		improved_fertilizer
@@ -634,6 +665,19 @@ plastics = {
 	}
 }
 
+electrical_capacitors = {
+	# Unlocks Electric Sewing Machines PM and Automatic Power Looms PM in Textile Mills
+	# Unlocks Brine Electrolysis PM in Chemical Plants
+	# Unlocks Electric Saw Mills PM in Logging Camps
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		electrical_generation
+	}
+}
+
 radio = {
 	# Unlocks Radios PM in Electrics Industry
 	era = era_4
@@ -653,6 +697,7 @@ telephone = {
 	
 	unlocking_technologies = {
 		shift_work
+		electrical_generation
 	}
 }
 

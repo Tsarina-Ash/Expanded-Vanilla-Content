@@ -1,0 +1,48 @@
+﻿EVC_je_rhur_boom = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = {
+		NOT = {
+			has_variable = rhur_boomed
+		}
+		OR = {
+			country_has_primary_culture = cu:north_german
+			country_has_primary_culture = cu:south_german
+		}
+		OR = {
+			THIS = C:GER
+			THIS = C:PRU
+		}
+	}
+
+	complete = {
+		THIS = C:GER
+		owns_entire_state_region = STATE_WESTPHALIA
+		owns_entire_state_region = STATE_NORTH_RHINE
+		owns_entire_state_region = STATE_RHINELAND
+		has_technology_researched = open_hearth_process
+		country_rank >= rank_value:great_power
+	}
+
+	on_complete = {
+		s:STATE_WESTPHALIA.region_state:GER = {
+			add_modifier = {
+				name = rhur_boom
+				months = 61
+			}
+		}
+		s:STATE_NORTH_RHINE.region_state:GER = {
+			add_modifier = {
+				name = rhur_boom
+				months = 61
+			}
+		}
+		s:STATE_RHINELAND.region_state:GER = {
+			add_modifier = {
+				name = rhur_boom
+				months = 61
+			}
+		}
+		set_variable = rhur_boomed
+	}
+}

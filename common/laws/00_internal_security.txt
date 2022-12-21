@@ -27,6 +27,7 @@ law_national_guard = {
 	}
 
 	institution = institution_home_affairs
+
 	institution_modifier = {
 		state_conscription_rate_add = 0.005
 		political_movement_radicalism_mult = -0.05
@@ -61,6 +62,7 @@ law_secret_police = {
 	}
 	
 	institution = institution_home_affairs
+
 	institution_modifier = {
 		country_suppression_ig_attraction_mult = -0.05
 		political_movement_radicalism_mult = -0.1
@@ -87,6 +89,7 @@ law_guaranteed_liberties = {
 	}
 	
 	institution = institution_home_affairs
+	
 	institution_modifier = {
 		state_radicals_from_sol_change_mult = -0.05
 		state_loyalists_from_sol_change_mult = 0.05

@@ -17,6 +17,8 @@ law_mercantilism = {
 		country_authority_add = 100
 		country_tech_spread_mult = -0.1
 
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+
 		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.05
 		country_shopkeepers_pol_str_mult = 0.05
 	}
@@ -60,13 +62,12 @@ law_protectionism = {
 	}
 
 	modifier = {
-		country_tech_spread_mult = -0.05
 		country_trade_route_cost_mult = 0.2
 		state_capitalists_investment_pool_contribution_add = 0.05
 
 		country_bureaucrats_pol_str_mult = 0.05
 	}
-		
+	
 	tariff_modifier_no_priority = {
 		tariff_export_add = 0.10
 		tariff_import_add = 0.10
@@ -99,7 +100,16 @@ law_free_trade = {
 	unlocking_technologies = {
 		stock_exchange
 	}
-		
+
+	modifier = {
+		country_trade_route_competitiveness_mult = 0.5
+		country_trade_route_quantity_mult = 0.5
+		country_trade_route_cost_mult = -0.5
+		country_tech_spread_mult = 0.05
+
+		country_capitalists_pol_str_mult = 0.1
+	}
+	
 	on_enact = {
 		if = {
 			limit = { is_banning_goods = g:opium }
@@ -115,9 +125,6 @@ law_free_trade = {
 		country_trade_route_competitiveness_mult = 0.5
 		country_trade_route_quantity_mult = 0.5
 		country_trade_route_cost_mult = -0.5
-		country_tech_spread_mult = 0.05
-
-		country_capitalists_pol_str_mult = 0.1
 	}
 	
 	possible_political_movements = {
@@ -140,6 +147,7 @@ law_isolationism = {
 		country_authority_mult = 0.5
 		state_tax_capacity_mult = 0.25
 		country_tech_spread_mult = -0.15
+		state_bureaucracy_population_base_cost_factor_mult = -0.1
 
 		country_capitalists_pol_str_mult = -0.1
 		
@@ -147,7 +155,7 @@ law_isolationism = {
 		
 		market_disallow_trade_routes = yes
 	}
-	
+
 	possible_political_movements = {
 		law_protectionism
 		law_free_trade

@@ -20,3 +20,9 @@
   #Generic Decisions
   new_world_migration_decision:0 "New Life In The New World"
   new_world_migration_decision_desc:0 "There is a great amount of political freedom not enjoyed in other countries unfortunately. However we can help these people by offering to pay for European tickets to our country."
+  #Korea
+  Korea_economy_decision:0 "Root Out Inefficient Bureaucrats"
+  Korea_economy_decision_desc:0 "Our economy has grown at a unprecedented speed and our government has not been able to keep up with the demand for a larger government. Due to this there has been a huge amount of tax waste and a lower throughput compared to other industrialized nations. Rooting out inefficient bureaucrats and replacing them should do the trick now that there is a greater knowledge of this modern economy."
+  #China/Qing
+  han_becomes_accepted_in_china:0 "Incorporate Han Into An Officially Accepted Culture"
+  han_becomes_accepted_in_china_desc:0 "Han people have always been apart of our mandate and it is onlpy right now to incorporate them into our culture, society and our government."

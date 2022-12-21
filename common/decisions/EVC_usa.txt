@@ -27,233 +27,117 @@
 		owns_entire_state_region = STATE_SOUTH_DAKOTA
 		owns_entire_state_region = STATE_NEBRASKA
 		owns_entire_state_region = STATE_KANSAS
-		owns_entire_state_region = STATE_ALASKA
+		owns_entire_state_region = STATE_IDAHO
+		owns_entire_state_region = STATE_WASHINGTON
+		owns_entire_state_region = STATE_OREGON
 	}
 
 	when_taken = {
 
-		s:STATE_CALIFORNIA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_CALIFORNIA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_NEVADA = {  
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_NEVADA.region_state:USA = {  
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_UTAH = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_UTAH.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_ARIZONA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_ARIZONA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_NEW_USAICO = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_NEW_USAICO.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_OKLAHOMA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_OKLAHOMA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_TEXAS = {
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_TEXAS.region_state:USA = {
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_MONTANA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_MONTANA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_WYOMING = {  
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_WYOMING.region_state:USA = {  
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_COLORADO = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_COLORADO.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_NORTH_DAKOTA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_NORTH_DAKOTA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_SOUTH_DAKOTA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_SOUTH_DAKOTA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_NEBRASKA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_NEBRASKA.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_KANSAS = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_KANSAS.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
-		s:STATE_ALASKA = { 
-			if = {
-				limit = {
-					any_scope_state = {
-						owner = c:USA
-					}
-				}
-				add_modifier = {
-					name = homestead_act
-					months = 61
-				} 
-			}
+		s:STATE_IDAHO.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
+		}
+		s:STATE_WASHINGTON.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
+		}
+		s:STATE_OREGON.region_state:USA = { 
+			add_modifier = {
+				name = homestead_act
+				months = 121
+			} 
 		}
 
         set_variable = has_done_homestead_act
-	}
-
-	ai_chance = {
-		base = 30
-	}
-}
-
-fuck_ireland = {
-
-	is_shown = {
-		exists = c:USA
-		root = c:USA
-	}
-
-	possible = {
-
-	}
-
-	when_taken = {
-		s:STATE_MOSCOW = { 
-			add_devastation = 70
-		}
-		s:STATE_MUNSTER = { 
-			add_devastation = 70
-		}
 	}
 
 	ai_chance = {

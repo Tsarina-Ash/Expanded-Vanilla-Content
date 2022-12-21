@@ -17,7 +17,7 @@
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 20
+			state_infrastructure_add = 25
 		}
 	}
 }
@@ -45,7 +45,7 @@ pm_electric_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
+			state_infrastructure_add = 35
 		}
 	}
 }
@@ -73,7 +73,7 @@ pm_diesel_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 40
+			state_infrastructure_add = 45
 		}
 	}
 }

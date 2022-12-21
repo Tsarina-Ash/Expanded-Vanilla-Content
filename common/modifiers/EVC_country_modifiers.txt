@@ -12,13 +12,20 @@ cultivation_law_overlord = {
 
 modifier_low_birth_rate = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-    state_birth_rate_mult = -0.05
+    state_birth_rate_mult = -0.2
 }
 
 modifier_radical_population = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
     country_radicals_from_conquest_mult = 0.5
 	state_radicals_from_sol_change_mult = 0.5
+    political_movement_radicalism_add = 1
+}
+
+modifier_highly_radical_population = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+    country_radicals_from_conquest_mult = 0.5
+	state_radicals_from_sol_change_mult = 2
     political_movement_radicalism_add = 1
 }
 
@@ -51,17 +58,136 @@ partial_EVC_indonesia_influence_prestige = {
 }
 
 modifier_new_world_migration = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	state_migration_pull_mult = 1
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.15
 }
 
 modifier_new_world_decision_migration = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	state_migration_pull_mult = 1
-	state_birth_rate_mult = 0.03
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.1
 }
 
 modifier_new_world_decision_migration_money_payment = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	country_expenses_add = 14425
+	country_expenses_add = 7212
+}
+
+modifier_australia_migration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.1
+	state_migration_pull_mult = 0.1
+}
+
+modifier_canadian_migration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.05
+	state_migration_pull_mult = 0.1
+}
+
+modifier_resitance_to_westernization_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	interest_group_ig_landowners_pol_str_mult = 0.25
+	country_military_tech_cost_mult = 0.3
+	country_production_tech_cost_mult = 0.05
+}
+
+modifier_outdated_bureaucracy = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    state_tax_waste_add = 0.1
+    building_throughput_mult = -0.05
+}
+
+modifier_massive_population_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.15
+}
+
+modifier_industrial_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+    building_throughput_mult = 0.05
+	building_construction_sector_throughput_mult = 0.1
+}
+
+# Custom Qing Ideas
+
+modifier_chinese_population_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.05
+}
+
+modifier_board_of_revenue = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_bureaucracy_investment_cost_factor_mult = -0.2
+	state_tax_capacity_mult = 0.1
+}
+
+modifier_resitance_to_westernization = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	interest_group_ig_landowners_pol_str_mult = 0.25
+
+	country_tech_spread_mult = -0.15
+
+	country_military_tech_cost_mult = 0.2
+	country_production_tech_cost_mult = 0.1
+}
+
+stagnated_confucianism = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+
+	building_arts_academy_throughput_mult = 0.05
+
+	interest_group_ig_devout_pop_attraction_mult = 0.1
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.05
+	
+	country_weekly_innovation_mult = -0.2
+	state_conversion_mult = -0.15
+	state_assimilation_mult = -0.15
+}
+
+confucianalism_slow_revival = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+
+	building_arts_academy_throughput_mult = 0.1
+
+	interest_group_ig_devout_pop_attraction_mult = 0.05
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.1
+	
+	country_weekly_innovation_mult = -0.1
+	state_conversion_mult = -0.05
+	state_assimilation_mult = -0.05
+}
+
+confucianalism_slow_recovery = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+
+	building_arts_academy_throughput_mult = 0.15
+
+	interest_group_ig_devout_pop_attraction_mult = 0.1
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.15
+
+	country_weekly_innovation_mult = 0.05
+	state_conversion_mult = 0.10
+	state_assimilation_mult = 0.10
+}
+
+confucionalism_revived = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+
+	building_arts_academy_throughput_mult = 0.25
+
+	interest_group_ig_devout_pop_attraction_mult = 0.15
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.25
+
+	country_weekly_innovation_mult = 0.10
+	state_conversion_mult = 0.15
+	state_assimilation_mult = 0.15
+
+	country_prestige_mult = 0.05
+}
+
+anti_monarchist_talk_begins= {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+
+	interest_group_ig_landowners_pop_attraction_mult = -0.4
+	interest_group_ig_landowners_pol_str_mult = -0.25
 }

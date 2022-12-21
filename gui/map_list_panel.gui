@@ -12,9 +12,7 @@
 types map_list_panel_types {
 	type map_list_panel_item = button {
 		using = clean_button
-		block "button_size_mod"{
-			size = { @panel_width 40 }
-		}
+		size = { @panel_width 40 }
 		tooltip = "[MapListOption.GetTooltip]"
 		using = tooltip_es
 		block "interaction" {
@@ -152,10 +150,7 @@ types map_list_panel_types {
 
 	### MAP LIST WINDOW
 	type map_list_panel = widget {
-		block "sidepanel_size_mod" {
-			using = sidepanel_plus_sidebar_size
-		}
-		# using = sidepanel_plus_sidebar_size
+		using = sidepanel_plus_sidebar_size
 		layoutpolicy_vertical = expanding
 		alwaystransparent = no
 		using = clickthrough_blocker
@@ -186,8 +181,6 @@ types map_list_panel_types {
 				margin_left = -50
 			}
 
-			widget = { size = { 10 20 }}
-
 			widget = {
 				name = "header"
 				size = { 0 50 }
@@ -197,7 +190,7 @@ types map_list_panel_types {
 					using = default_header_bg
 					margin = { 0 2 }
 				}
-				
+
 				textbox = {
 					size = { @panel_width 50 }
 					margin = { 40 0 }
@@ -356,10 +349,7 @@ types map_list_panel_types {
 								fixedgridbox = {
 									visible = "[MapListPanelManager.IsShowingFailedOptions]"
 									datamodel = "[MapListPanel.AccessFailedOptions]"
-									block "failed_options_size_mod" {
-										addcolumn = 540
-									}
-
+									addcolumn = 540
 									addrow = 40
 									item = {
 										map_list_panel_item = {}
@@ -512,36 +502,65 @@ types map_list_panel_types {
 				}
 
 				tooltip = "SORT_BY_RANK"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
+
 			sort_button = {
 				align = left|nobaseline
 				text = "[concept_country]"
 				size = { 140 20 }
 				onclick = "[MapListPanel.Sort('name')]"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
+
 			sort_button = {
 				align = hcenter|nobaseline
 				size = { 80 20 }
 				text = "[concept_prestige]"
 				onclick = "[MapListPanel.Sort('prestige')]"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
+
 			sort_button = {
 				align = hcenter|nobaseline
 				size = { 100 20 }
 				text = "GDP_SHORT"
 				onclick = "[MapListPanel.Sort('gdp')]"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
+
 			sort_button = {
 				align = hcenter|nobaseline
 				size = { 70 20 }
 				text = "SOL_SHORT"
 				onclick = "[MapListPanel.Sort('sol')]"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
+
 			sort_button = {
 				align = hcenter|nobaseline
 				size = { 100 20 }
 				text = "POPULATION_TOOLTIP"
 				onclick = "[MapListPanel.Sort('population')]"
+
+				blockoverride "selected_visibility" {
+					visible = no
+				}
 			}
 		}
 
@@ -708,14 +727,6 @@ types map_list_panel_types {
 	type build_building_map_list_panel = map_list_panel {
 		name = "build_building_map_list_panel"
 
-		blockoverride "sidepanel_size_mod" {
-			using = sidepanel_construction_mod
-		}
-		
-		blockoverride "failed_options_size_mod" {
-			addcolumn = 650
-		}
-
 		blockoverride "headers" {
 			sort_button = {
 				align = center|nobaseline
@@ -734,14 +745,14 @@ types map_list_panel_types {
 				align = center|nobaseline
 				text = "BUILDING_MAP_LIST_PANEL_STATE_HEADER"
 				tooltip = "BUILDING_MAP_LIST_PANEL_STATE_HEADER_TOOLTIP"
-				size = { 130 20 }
+				size = { 100 20 }
 				onclick = "[MapListPanel.Sort('state')]"
 			}
 
 			sort_button = {
 				align = center|nobaseline
 				tooltip = "BUILDING_LEVEL_HEADER_TOOLTIP"
-				size = { 80 20 }
+				size = { 70 20 }
 				onclick = "[MapListPanel.Sort('size')]"
 				button = {
 					texture = "gfx/interface/buttons/sort_button_icons/sort_icon_size.dds"
@@ -755,15 +766,20 @@ types map_list_panel_types {
 				align = center|nobaseline
 				text = "BUILDING_MAP_LIST_PANEL_PEASANTS_HEADER"
 				tooltip = "BUILDING_MAP_LIST_PANEL_PEASANTS_HEADER_TOOLTIP"
-				size = { 85 20 }
+				size = { 70 20 }
 				onclick = "[MapListPanel.Sort('peasants')]"
 			}
 
 			sort_button = {
 				align = center|nobaseline
-				text = "BUILDING_MAP_LIST_PANEL_UNEMPLOYED_HEADER"
-				tooltip = "BUILDING_MAP_LIST_PANEL_UNEMPLOYED_HEADER_TOOLTIP"
-				size = { 85 20 }
+				tooltip = "[concept_infrastructure]"
+				size = { 50 20 }
+				button = {
+					texture = "gfx/interface/buttons/sort_button_icons/sort_icon_infrastructure.dds"
+					size = { 25 25 }
+					parentanchor = center
+					alwaystransparent = yes
+				}
 			}
 
 			sort_button = {
@@ -787,13 +803,11 @@ types map_list_panel_types {
 				onclick = "[MapListPanel.Sort('profit_impact')]"
 			}
 		}
-		blockoverride "button_size_mod" {
-			size = { 650 40 }
-		}
+
 		blockoverride "values" {
 			textbox = {
 				margin = { 5 0 }
-				size = { 130 25 }
+				size = { 100 25 }
 				align = left|nobaseline
 				text = "[MapListOption.GetBuildingData.GetState.GetNameNoFormatting]"
 				parentanchor = vcenter
@@ -804,7 +818,7 @@ types map_list_panel_types {
 			textbox = {
 				datacontext = "[MapListOption.GetBuildingData.GetBuilding]"
 				margin = { 5 0 }
-				size = { 80 25 }
+				size = { 70 25 }
 				align = right|nobaseline
 				text = "[MapListOption.GetBuildingData.GetBuilding.GetExpansionLevelDesc]"
 				parentanchor = vcenter
@@ -813,10 +827,9 @@ types map_list_panel_types {
 				alpha = "[TransparentIfFalse(GreaterThan_int32(MapListOption.GetBuildingData.GetBuilding.GetExpansionLevel, '(int32)0'))]"
 			}
 
-
 			textbox = {
 				margin = { 5 0 }
-				size = { 85 25 }
+				size = { 70 25 }
 				align = right|nobaseline
 				text = "[MapListOption.GetBuildingData.GetState.GetNumSubsistenceWorkingAdults|Dv]"
 				parentanchor = vcenter
@@ -825,39 +838,23 @@ types map_list_panel_types {
 
 			textbox = {
 				margin = { 5 0 }
-				size = { 85 25 }
+				size = { 50 25 }
 				align = right|nobaseline
-				text = "[MapListOption.GetBuildingData.GetState.GetNumUnemployedWorkingAdults|Dv]"
+				text = "[MapListOption.GetBuildingData.GetState.GetInfrastructureBalance|0+=]"
 				parentanchor = vcenter
 				elide = right
 			}
 
-			widget = {
+			textbox = {
+				margin = { 5 0 }
+				margin_right = 10
 				size = { 90 25 }
+				align = right|nobaseline
+				datacontext = "[MapListOption.GetBuildingData.GetBuilding]"
+				text = "#v @money![Building.GetBuildingType.GetExpansionProductivityImpact(Building.Self, Building.GetState)|+]#!"
+				tooltip = "[Building.GetBuildingType.GetExpansionProductivityImpactDesc(Building.Self, Building.GetState)]"
 				parentanchor = vcenter
-				textbox = {
-					datacontext = "[MapListOption.GetBuildingData.GetBuilding]"
-					visible = "[And(GreaterThan_int32(Building.GetExpansionLevel,'(int32)0'), Not(MapListBuildingPanel.GetBuildingType.IsGovernmentFunded))]"
-					using = competitiveness_building_type_tooltip_with_graph
-					using = tooltip_above
-					margin = { 5 0 }
-					size = { 90 25 }
-					align = right|nobaseline
-					text = "[Building.GetProfitabilityInType] ([Building.GetProfitabilityCompareIconInType])"
-					parentanchor = vcenter
-					elide = right
-				}
-				textbox = {
-					datacontext = "[MapListOption.GetBuildingData.GetBuilding]"
-					visible = "[Not(And(GreaterThan_int32(Building.GetExpansionLevel,'(int32)0'), Not(MapListBuildingPanel.GetBuildingType.IsGovernmentFunded)))]"
-					margin = { 5 0 }
-					size = { 90 25 }
-					align = right|nobaseline
-					text = "NOT_AVAILABLE"
-					alpha = "[TransparentIfTrue(Not(And(GreaterThan_int32(Building.GetExpansionLevel,'(int32)0'), Not(MapListBuildingPanel.GetBuildingType.IsGovernmentFunded))))]"
-					parentanchor = vcenter
-					elide = right
-				}
+				elide = right
 			}
 
 			textbox = {
@@ -1050,7 +1047,7 @@ types map_list_panel_types {
 				parentanchor = vcenter
 
 				overlappingitembox = {
-					size = { 280 25 }
+					size = { 300 25 }
 					datacontext = "[MapListOption.GetStrategicRegionData.GetStrategicRegion]"
 					datamodel = "[StrategicRegion.GetInterests]"
 
@@ -1524,110 +1521,21 @@ types map_list_panel_types {
 	}
 
 	# STATE GDP (NATIONALLY)
-
-	type state_gdp_nationally_map_list_panel = map_list_panel {
+	type state_gdp_nationally_map_list_panel = state_map_list_one_value {
 		name = "state_gdp_nationally_map_list_panel"
 
 		blockoverride "itemvisibility" {
 			visible = "[ObjectsEqual(MapListOption.GetStateData.GetState.GetOwner, GetPlayer.Self)]"
 		}
 
-		blockoverride "header_close_button" {
-			onclick = "[MapListPanelManager.CloseCurrentPanel]"
+		blockoverride "shown_on_map_header" {
+			text = "GDP_CONTRIBUTION"
+			onclick = "[MapListPanel.Sort('gdp_contribution')]"
 		}
-
-		blockoverride "headers" {
-			sort_button = {
-				align = left|nobaseline
-				text = "NAME"
-				size = { 240 20 }
-				onclick = "[MapListPanel.Sort('name')]"
-			}
-			sort_button = {
-				align = hcenter|nobaseline
-				size = { 100 20 }
-				text = "POPULATION"
-				onclick = "[MapListPanel.Sort('population')]"
-			}
-			sort_button = {
-				align = hcenter|nobaseline
-				size = { 100 20 }
-				text = "SOL_SHORT"
-				onclick = "[MapListPanel.Sort('standard_of_living')]"
-			}
-			sort_button = {
-				align = hcenter|nobaseline
-				size = { 100 20 }
-				text = "GDP_SHORT"
-				onclick = "[MapListPanel.Sort('gdp_contribution')]"
-			}
+		blockoverride "shown_on_map_value" {
+			text = "@money![State.GetGDPContribution|Dv]"
+			tooltip = "CURRENT_GDP_STATE"
 		}
-
-		blockoverride "values" {
-			textbox = {
-				margin = { 5 0 }
-				size = { 240 25 }
-				align = left|nobaseline
-				text = "[MapListOption.GetStateData.GetState.GetOwner.GetFlagTextIcon]  [MapListOption.GetStateData.GetState.GetName]"
-				parentanchor = vcenter
-				elide = right
-			}
-
-			textbox = {
-				datacontext = "[MapListOption.GetStateData.GetState]"
-				margin = { 5 0 }
-				size = { 100 25 }
-				align = right|nobaseline
-				parentanchor = vcenter
-				elide = right
-				text = "[State.GetPopulationSize|Kv]"
-				tooltip = "TOOLTIP_STATE_POPULATION"
-			}
-
-			textbox = {
-				datacontext = "[MapListOption.GetStateData.GetState]"
-				margin = { 5 0 }
-				size = { 100 25 }
-				align = right|nobaseline
-				parentanchor = vcenter
-				elide = right
-				tooltip = "NUM_SOL"
-				text = "[State.GetAverageStandardOfLivingAll|v1]"
-			}
-
-			textbox = {
-				datacontext = "[MapListOption.GetStateData.GetState]"
-				margin = { 5 0 }
-				size = { 100 25 }
-				align = right|nobaseline
-				parentanchor = vcenter
-				elide = right
-				text = "@money![State.GetGDPContribution|Dv]"
-				tooltip = "CURRENT_GDP_STATE"
-			}
-		}
-
-		blockoverride "interaction" {
-			datacontext = "[MapListOption.AccessStateData.AccessState]"
-			onclick = "[InformationPanelBar.OpenStatePanel(State.AccessSelf)]"
-			onrightclick = "[RightClickMenuManager.ShowForState(State.AccessSelf)]"
-			onmousehierarchyenter = "[AccessHighlightManager.HighlightState(State.Self)]"
-			onmousehierarchyleave = "[AccessHighlightManager.RemoveHighlight]"
-		}
-
-		# blockoverride "itemvisibility" {
-		# 	visible = "[ObjectsEqual(MapListOption.GetStateData.GetState.GetOwner, GetPlayer.Self)]"
-		# }
-
-		# blockoverride "shown_on_map_header" {
-		# 	text = "GDP_CONTRIBUTION"
-		# 	onclick = "[MapListPanel.Sort('gdp_contribution')]"
-		# }
-		# blockoverride "shown_on_map_value" {
-		# 	text = "@money![State.GetGDPContribution|Dv]"
-		# 	tooltip = "CURRENT_GDP_STATE"
-		# }
-
 	}
 
 	# STATE STANDARD OF LIVING

@@ -61,12 +61,19 @@
 		add_modifier = {
 			name = modifier_haitian_independence_payments
 		}
+
 		add_modifier = {
 			name = modifier_low_birth_rate
+			years = 100
+			is_decaying = yes
 		}
+
 		add_modifier = {
 			name = modifier_radical_population
+			years = 100
+			is_decaying = yes
 		}
+		
 		add_modifier = {
 			name = modifier_inefficient_economy
 		}

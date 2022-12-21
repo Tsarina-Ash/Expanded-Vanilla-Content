@@ -23,7 +23,7 @@ law_colonial_resettlement = {
 	}
 	
 	modifier = {
-		state_migration_pull_unincorporated_mult = 1.0
+		state_migration_pull_unincorporated_mult = 0.25
 	}
 	
 	institution = institution_colonial_affairs 

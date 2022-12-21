@@ -1,0 +1,8 @@
+﻿l_english:
+
+# QOL
+BUILDING_MAP_LIST_PANEL_UNEMPLOYED_HEADER:0 "Unemployed"
+BUILDING_MAP_LIST_PANEL_UNEMPLOYED_HEADER_TOOLTIP:0 "#header Unemployed#!\nNo sorting due to engine limitations."
+
+BUILDING_MAP_LIST_PANEL_INFRA_HEADER:0 "Infrastructure"
+BUILDING_MAP_LIST_PANEL_INFRA_HEADER_TOOLTIP:0 "#header Infrastructure#!\nNo sorting due to engine limitations."

@@ -9,11 +9,11 @@
 		law_poor_laws
 		law_wage_subsidies
 	}
-	
+
 	modifier = {
 		state_radicals_from_sol_change_mult = 0.05
 	}
-
+	
 	# AI will never abolish institutions entirely
 	ai_will_do = {
 		always = no
