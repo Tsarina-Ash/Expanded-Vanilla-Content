@@ -284,6 +284,15 @@ pmg_steelmaking_process = {
 	}
 }
 
+pmg_galvanization_steel_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_galvanization
+		pm_galvanic_paint_steel_mills
+		pm_hot_dip_galvanization_steel_mills
+	}
+}
+
 pmg_automation_building_steel_mills = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {

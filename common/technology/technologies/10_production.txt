@@ -225,6 +225,17 @@ nitroglycerin = {
 	}
 }
 
+galvanizing_paint = {
+	# Unlocks Galvanization Paint PM in Steel Mills
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		bessemer_process
+	}
+}
+
 bessemer_process = {
 	# Unlocks Bessemer Process PM in Steel Mills
 	# Unlocks Steel [Tools] PM in Tooling Workshops
@@ -440,6 +451,17 @@ open_hearth_process = {
 	}
 }
 
+hot_dip_galvanization = {
+	# Unlocks Hot-Dip Glavanization PM in Steel Mills
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		open_hearth_process
+	}
+}
+
 vulcanization = {
 	# Unlocks Elastics PM in Textile Mills
 	era = era_3
@@ -539,6 +561,18 @@ automatic_bottle_blowers = {
 	
 	unlocking_technologies = {	
 		vulcanization
+	}
+}
+
+bayer_process = {
+	# Unlocks the Bayer Proces PM in Alumina Refineries
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		fractional_distillation
+		electrical_generation
 	}
 }
 

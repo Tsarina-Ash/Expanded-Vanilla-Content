@@ -275,6 +275,7 @@ STATE_CUBA = {
     capped_resources = {
         bg_coal_mining = 16
         bg_iron_mining = 18
+        bg_zinc_mining = 12
         bg_bauxite_mining = 14
         bg_logging = 15
         bg_fishing = 10

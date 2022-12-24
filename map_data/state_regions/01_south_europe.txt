@@ -12,6 +12,7 @@
     capped_resources = {
         bg_iron_mining = 27
         bg_lead_mining = 19
+        bg_zinc_mining = 24
         bg_logging = 7
     }
 }
@@ -32,6 +33,7 @@ STATE_PIEDMONT = {
         bg_coal_mining = 28
         bg_iron_mining = 45
         bg_lead_mining = 45
+        bg_zinc_mining = 20
         bg_logging = 8
         bg_fishing = 6
     }
@@ -301,6 +303,7 @@ STATE_VENETIA = {
         bg_coal_mining = 44
         bg_sulfur_mining = 36
         bg_uranium_mining = 8
+        bg_zinc_mining = 40
         bg_logging = 7
         bg_fishing = 12
     }
@@ -376,6 +379,7 @@ STATE_ASTURIAS = {
     capped_resources = {
         bg_gold_mining = 4
         bg_iron_mining = 14
+        bg_zinc_mining = 14
         bg_logging = 5
         bg_fishing = 7
     }
@@ -414,6 +418,7 @@ STATE_NAVARRA = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 60
+        bg_zinc_mining = 26
         bg_logging = 11
         bg_fishing = 6
     }
@@ -789,6 +794,7 @@ STATE_BULGARIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_uranium_mining = 12
+        bg_zinc_mining = 20
         bg_logging = 14
         bg_fishing = 2
     }
@@ -808,6 +814,7 @@ STATE_SLOVENIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 60
+        bg_zinc_mining = 30
         bg_logging = 11
     }
 }

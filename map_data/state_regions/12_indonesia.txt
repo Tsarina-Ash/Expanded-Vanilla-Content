@@ -211,6 +211,7 @@ STATE_NORTH_SUMATRA = {
         bg_coal_mining = 40
         bg_sulfur_mining = 48
         bg_bauxite_mining = 24
+        bg_zinc_mining = 24
         bg_logging = 29
         bg_fishing = 13
     }

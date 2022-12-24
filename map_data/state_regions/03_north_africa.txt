@@ -31,6 +31,7 @@ STATE_UPPER_EGYPT = {
     arable_land = 60
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
+        bg_zinc_mining = 24
         bg_logging = 2
         bg_fishing = 13
     }
@@ -187,6 +188,7 @@ STATE_BLUE_NILE = {
     arable_land = 92
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
+        bg_zinc_mining = 8
         bg_logging = 14
     }
 }
@@ -261,6 +263,7 @@ STATE_INNER_MOROCCO = {
     capped_resources = {
         bg_iron_mining = 30
         bg_lead_mining = 30
+        bg_zinc_mining = 20
         bg_fishing = 4
     }
     naval_exit_id = 3089
@@ -280,6 +283,7 @@ STATE_ALGIERS = {
     capped_resources = {
         bg_iron_mining = 21
         bg_lead_mining = 27
+        bg_zinc_mining = 18
         bg_logging = 6
         bg_fishing = 8
     }
@@ -314,6 +318,7 @@ STATE_TLEMCEN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 15
+        bg_zinc_mining = 20
         bg_fishing = 3
     }
     naval_exit_id = 3032
@@ -333,6 +338,7 @@ STATE_TUNISIA = {
     capped_resources = {
         bg_lead_mining = 15
         bg_sulfur_mining = 48
+        bg_zinc_mining = 34
         bg_logging = 9
         bg_fishing = 7
     }

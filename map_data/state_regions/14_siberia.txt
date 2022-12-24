@@ -33,6 +33,7 @@ STATE_TOMSK = {
         bg_coal_mining = 44
         bg_iron_mining = 27
         bg_bauxite_mining = 18
+        bg_zinc_mining = 18
         bg_logging = 13
     }
 }
@@ -122,6 +123,7 @@ STATE_NENETSIA = {
     arable_land = 16
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
+        bg_zinc_mining = 18
         bg_logging = 13
         bg_fishing = 12
     }
@@ -191,6 +193,7 @@ STATE_OKHOTSK = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 36
+        bg_zinc_mining = 24
         bg_fishing = 10
     }
     naval_exit_id = 3118
