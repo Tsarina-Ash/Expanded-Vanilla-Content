@@ -458,6 +458,7 @@ hot_dip_galvanization = {
 	category = production
 
 	unlocking_technologies = {
+		galvanizing_paint
 		open_hearth_process
 	}
 }

@@ -505,6 +505,7 @@ STATE_AYDIN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_zinc_mining = 12
         bg_bauxite_mining = 6
         bg_logging = 5
         bg_fishing = 15
@@ -633,6 +634,7 @@ STATE_ANKARA = {
     arable_land = 60
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
+        bg_zinc_mining = 10
         bg_logging = 9
     }
 }

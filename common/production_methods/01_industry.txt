@@ -3385,7 +3385,7 @@ pm_bayer_process = {
 	texture = ""
 
 	unlocking_technologies = {
-
+		bayer_process
 	}
 
 	building_modifiers = {
