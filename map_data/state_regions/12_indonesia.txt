@@ -137,10 +137,10 @@ STATE_WEST_JAVA = {
         type = "bg_rubber"
         undiscovered_amount = 15
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 20
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3052
 }
 
@@ -267,10 +267,10 @@ STATE_ACEH = {
         type = "bg_rubber"
         undiscovered_amount = 18
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 15
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 15
+    }
     naval_exit_id = 3051
 }
 
@@ -366,10 +366,10 @@ STATE_EASTERN_NEW_GUINEA = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 12
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3129
 }
 
@@ -420,10 +420,10 @@ STATE_MINDANAO = {
         type = "bg_rubber"
         undiscovered_amount = 10
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 4
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 4
+    }
     naval_exit_id = 3055
 }
 

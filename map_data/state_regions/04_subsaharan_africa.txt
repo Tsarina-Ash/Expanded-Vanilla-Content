@@ -19,10 +19,10 @@
         type = "bg_rubber"
         undiscovered_amount = 22
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 15
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 15
+    }
     naval_exit_id = 3091
 }
 
@@ -185,10 +185,10 @@ STATE_HAUSALAND = {
         type = "bg_rubber"
         undiscovered_amount = 20
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 30
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_BENIN = {
@@ -278,10 +278,10 @@ STATE_OUTER_HAUSALAND = {
         bg_uranium_mining = 24
         bg_logging = 4
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 15
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 15
+    }
 }
 
 STATE_BORNU = {
@@ -867,10 +867,10 @@ STATE_CONGO = {
         type = "bg_rubber"
         undiscovered_amount = 60
     }
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 10
-	}
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
     naval_exit_id = 3104
 }
 
