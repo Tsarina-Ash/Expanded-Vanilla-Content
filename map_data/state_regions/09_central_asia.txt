@@ -217,8 +217,11 @@ STATE_UZBEKIA = {
     arable_land = 116
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" }
     capped_resources = {
-        bg_uranium_mining = 18
         bg_logging = 6
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 18
     }
 }
 
@@ -267,8 +270,11 @@ STATE_TURKMENIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_opium_plantations" }
     capped_resources = {
         bg_sulfur_mining = 40
-        bg_uranium_mining = 12
         bg_logging = 2
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
 }
 
@@ -284,8 +290,11 @@ STATE_SEMIRECHE = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 28
-        bg_uranium_mining = 24
         bg_logging = 4
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 24
     }
 }
 

@@ -54,3 +54,9 @@
   EVC_russia.1.t:0 "Russian Serfdom Reform"
   EVC_russia.1.d:0 "The country for too long has had serfs be the foundation of our economy nad has always promised to fight for freedom and we've also always fought to be a great power. However here we are as one of the last remaming great powers still having a form of slavery. Today it has been abolished all across the realm and will stay that way for good."
   EVC_russia.1.a:0 "Long Live The Tsar!"
+
+  EVC_resource.1.t:0 "Uranium Rush"
+  EVC_resource.1.d:0 "Uranium has discovered in [ROOT.GetState.GetName] is causing people to flock to the state, hoping to find jobs in this booming industry."
+  EVC_resource.1.f:0 ""
+  EVC_resource.1.a:0 "Encourage this trend. Uranium is the future!"
+  EVC_resource.1.b:0 "Caution that much may yet change in [ROOT.GetState.GetName]."

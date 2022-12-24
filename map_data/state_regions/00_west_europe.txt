@@ -13,9 +13,12 @@
     capped_resources = {
         bg_iron_mining = 36
         bg_lead_mining = 18
-        bg_uranium_mining = 24
         bg_logging = 23
         bg_fishing = 11
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 24
     }
     naval_exit_id = 3000
 }
@@ -74,9 +77,12 @@ STATE_NORRLAND = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 60
-        bg_uranium_mining = 8
         bg_logging = 20
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3000
 }
@@ -151,9 +157,12 @@ STATE_WESTERN_NORWAY = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 20
-        bg_uranium_mining = 4
         bg_logging = 14
         bg_fishing = 15
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3027
 }
@@ -258,9 +267,12 @@ STATE_SOUTHERN_FINLAND = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 12
-        bg_uranium_mining = 8
         bg_logging = 11
         bg_fishing = 8
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3000
 }
@@ -401,9 +413,12 @@ STATE_YORKSHIRE = {
         bg_coal_mining = 100
         bg_iron_mining = 75
         bg_lead_mining = 27
-        bg_uranium_mining = 12
         bg_logging = 6
         bg_fishing = 7
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
     naval_exit_id = 3027
 }
@@ -421,10 +436,13 @@ STATE_HIGHLANDS = {
     arable_land = 42
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_uranium_mining = 8
         bg_logging = 14
         bg_whaling = 6
         bg_fishing = 14
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3027
 }
@@ -485,9 +503,13 @@ STATE_WEST_COUNTRY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 60
-        bg_uranium_mining = 20
+        bg_uranium_mining = 6
         bg_logging = 6
         bg_fishing = 9
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 14
     }
     naval_exit_id = 3028
 }
@@ -548,9 +570,12 @@ STATE_MUNSTER = {
     capped_resources = {
         bg_zinc_mining = 24
         bg_lead_mining = 24
-        bg_uranium_mining = 8
         bg_logging = 4
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3030
 }
@@ -748,8 +773,11 @@ STATE_ALSACE_LORRAINE = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 60
-        bg_uranium_mining = 12
         bg_logging = 17
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
 }
 
@@ -799,8 +827,11 @@ STATE_LIMOUSIN = {
     capped_resources = {
         bg_coal_mining = 56
         bg_iron_mining = 15
-        bg_uranium_mining = 18
         bg_logging = 8
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 18
     }
 }
 
@@ -817,9 +848,12 @@ STATE_BRITTANY = {
     arable_land = 158
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_uranium_mining = 14
         bg_logging = 11
         bg_fishing = 15
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 14
     }
     naval_exit_id = 3029
 }
@@ -837,8 +871,11 @@ STATE_BURGUNDY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 33
-        bg_uranium_mining = 24
         bg_logging = 9
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 24
     }
 }
 
@@ -1003,8 +1040,11 @@ STATE_WALLONIA = {
         bg_iron_mining = 60
         bg_lead_mining = 30
         bg_zinc_mining = 20
-        bg_uranium_mining = 10
         bg_logging = 17
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 10
     }
 }
 
@@ -1057,6 +1097,7 @@ STATE_BOHEMIA = {
     capped_resources = {
         bg_coal_mining = 48
         bg_iron_mining = 45
+        bg_uranium_mining = 6
         bg_logging = 17
     }
 }
@@ -1093,8 +1134,11 @@ STATE_STYRIA = {
         bg_iron_mining = 24
         bg_lead_mining = 24
         bg_zinc_mining = 24
-        bg_uranium_mining = 8
         bg_logging = 8
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
 }
 
@@ -1113,8 +1157,11 @@ STATE_TYROL = {
         bg_gold_mining = 2
         bg_iron_mining = 36
         bg_zinc_mining = 40
-        bg_uranium_mining = 4
         bg_logging = 9
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 4
     }
 }
 
@@ -1192,8 +1239,11 @@ STATE_EAST_SWITZERLAND = {
     capped_resources = {
         bg_iron_mining = 30
         bg_lead_mining = 30
-        bg_uranium_mining = 14
         bg_logging = 17
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 14
     }
 }
 
@@ -1357,8 +1407,11 @@ STATE_BADEN = {
     capped_resources = {
         bg_coal_mining = 20
         bg_iron_mining = 15
-        bg_uranium_mining = 12
         bg_logging = 11
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
 }
 
@@ -1437,8 +1490,11 @@ STATE_FRANCONIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_uranium_mining = 12
         bg_logging = 17
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
 }
 
@@ -1457,6 +1513,7 @@ STATE_SAXONY = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 30
+        bg_uranium_mining = 8
         bg_sulfur_mining = 80
         bg_logging = 6
     }

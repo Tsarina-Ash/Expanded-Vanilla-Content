@@ -84,8 +84,11 @@ STATE_KIEV = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 72
-        bg_uranium_mining = 18
         bg_logging = 9
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 18
     }
 }
 
@@ -101,8 +104,11 @@ STATE_BRYANSK = {
     arable_land = 180
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_uranium_mining = 10
         bg_logging = 33
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 10
     }
 }
 
@@ -134,9 +140,12 @@ STATE_ORSHA = {
     arable_land = 148
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_uranium_mining = 32
         bg_bauxite_mining = 8
         bg_logging = 23
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 32
     }
 }
 
@@ -631,9 +640,12 @@ STATE_TRANSDANUBIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 84
-        bg_uranium_mining = 12
         bg_bauxite_mining = 34
         bg_logging = 7
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
 }
 
@@ -682,9 +694,12 @@ STATE_WEST_SLOVAKIA = {
     capped_resources = {
         bg_coal_mining = 44
         bg_iron_mining = 63
-        bg_uranium_mining = 18
         bg_bauxite_mining = 26
         bg_logging = 8
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 18
     }
 }
 

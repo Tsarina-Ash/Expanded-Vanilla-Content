@@ -134,8 +134,11 @@ STATE_VOLTA = {
     arable_land = 100
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_uranium_mining = 8
         bg_logging = 4
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     resource = {
         type = "bg_rubber"
@@ -275,8 +278,11 @@ STATE_OUTER_HAUSALAND = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 48
-        bg_uranium_mining = 24
         bg_logging = 4
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 24
     }
 	resource = {
 		type = "bg_oil_extraction"
@@ -1159,9 +1165,12 @@ STATE_NAMAQUALAND = {
     capped_resources = {
         bg_coal_mining = 32
         bg_zinc_mining = 24
-        bg_uranium_mining = 14
         bg_logging = 4
         bg_fishing = 7
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 14
     }
     naval_exit_id = 3105
 }
@@ -1181,9 +1190,12 @@ STATE_HEREROLAND = {
     capped_resources = {
         bg_coal_mining = 40
         bg_zinc_mining = 24
-        bg_uranium_mining = 14
         bg_logging = 2
         bg_fishing = 6
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 14
     }
     naval_exit_id = 3105
 }
@@ -1305,8 +1317,11 @@ STATE_NORTHERN_CAPE = {
     capped_resources = {
         bg_iron_mining = 33
         bg_zinc_mining = 32
-        bg_uranium_mining = 12
         bg_logging = 2
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
     resource = {
         type = "bg_gold_fields"

@@ -1,0 +1,46 @@
+﻿namespace = EVC_resource
+
+#Copied from the oil rush/discovery event
+EVC_resource.1 = {
+	type = state_event
+	placement = ROOT
+
+	event_image = {
+		video = "gfx/event_pictures/asia_poor_people_moving.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/poor_people_moving"
+
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	title = EVC_resource.1.t
+	desc = EVC_resource.1.d
+	flavor = EVC_resource.1.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	trigger = {
+		has_building = bg_uranium_mining
+		NOT = { has_modifier = state_uranium_rush }
+	}
+
+	option = {
+		name = EVC_resource.1.a
+		default_option = yes
+		add_modifier = {
+			name = state_uranium_rush
+			months = short_modifier_time
+		}
+	}
+
+	option = {
+		name = EVC_resource.1.b
+		add_modifier = {
+			name = state_limited_uranium_rush
+			months = short_modifier_time
+		}
+	}
+}

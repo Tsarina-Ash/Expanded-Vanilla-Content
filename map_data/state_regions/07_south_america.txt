@@ -510,8 +510,11 @@ STATE_BAJO_PARAGUAY = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_iron_mining = 15
-        bg_uranium_mining = 8
         bg_logging = 14
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
 }
 
@@ -958,9 +961,12 @@ STATE_SAO_PAULO = {
         bg_coal_mining = 32
         bg_iron_mining = 15
         bg_zinc_mining = 15
-        bg_uranium_mining = 6
         bg_logging = 22
         bg_fishing = 5
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 6
     }
     resource = {
         type = "bg_rubber"
@@ -1034,9 +1040,12 @@ STATE_BAHIA = {
     capped_resources = {
         bg_lead_mining = 30
         bg_zinc_mining = 18
-        bg_uranium_mining = 12
         bg_logging = 18
         bg_fishing = 8
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 12
     }
     resource = {
         type = "bg_rubber"
@@ -1081,9 +1090,12 @@ STATE_CEARA = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_iron_mining = 18
-        bg_uranium_mining = 8
         bg_logging = 7
         bg_fishing = 3
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 8
     }
     resource = {
         type = "bg_rubber"
@@ -1127,9 +1139,12 @@ STATE_PARAIBA = {
     arable_land = 102
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_uranium_mining = 10
         bg_logging = 4
         bg_fishing = 2
+    }
+    resource = {
+        type = "bg_uranium_mining"
+        undiscovered_amount = 10
     }
     resource = {
         type = "bg_rubber"

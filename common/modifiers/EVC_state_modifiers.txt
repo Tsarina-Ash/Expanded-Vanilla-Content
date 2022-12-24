@@ -17,3 +17,15 @@ syrian_westernization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_birth_rate_mult = 0.05
 }
+
+state_uranium_rush = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_oil_extraction_employee_mult = 0.5
+	state_migration_pull_mult = 0.15
+}
+
+state_limited_uranium_rush = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_oil_extraction_employee_mult = 0.25
+	state_migration_pull_mult = 0.1
+}
