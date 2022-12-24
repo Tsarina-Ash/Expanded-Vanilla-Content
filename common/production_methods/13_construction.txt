@@ -123,6 +123,7 @@ pm_arc_welded_buildings = {
 			building_input_tools_add = 40
 			building_input_electricity_add = 40
 			building_input_copper_add = 50
+			building_input_aluminum_add = 20
 		} 
 
 		level_scaled = {
