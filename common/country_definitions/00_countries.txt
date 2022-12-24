@@ -1371,7 +1371,7 @@ BHN = {
 }
 
 HND = {
-	color = { 150 77 240 }
+	color = { 188  113  61 } #color = { 150 77 240 }
 	
 	country_type = unrecognized
 	

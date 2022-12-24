@@ -191,3 +191,13 @@ anti_monarchist_talk_begins= {
 	interest_group_ig_landowners_pop_attraction_mult = -0.4
 	interest_group_ig_landowners_pol_str_mult = -0.25
 }
+
+russian_serfs_freed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_minimum_wealth_add = 2
+}
+
+modifier_temporary_china_population_nerf = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = -0.15
+}

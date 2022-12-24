@@ -1,0 +1,40 @@
+﻿EVC_france_syrian_conquest = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = {
+		NOT = {
+			has_variable = france_conquered_syria
+		}
+		THIS = C:FRA
+	}
+
+	complete = {
+		THIS = C:FRA
+		owns_entire_state_region = STATE_ALEPPO
+		owns_entire_state_region = STATE_SYRIA
+		owns_entire_state_region = STATE_DEIR_EZ_ZOR
+		country_rank >= rank_value:great_power
+	}
+
+	on_complete = {
+		s:STATE_ALEPPO.region_state:FRA = {
+			add_modifier = {
+				name = syrian_westernization
+				months = 73
+			}
+		}
+		s:STATE_SYRIA.region_state:FRA = {
+			add_modifier = {
+				name = syrian_westernization
+				months = 73
+			}
+		}
+		s:STATE_DEIR_EZ_ZOR.region_state:FRA = {
+			add_modifier = {
+				name = syrian_westernization
+				months = 73
+			}
+		}
+		set_variable = france_conquered_syria
+	}
+}

@@ -20,6 +20,9 @@
   modifier_massive_population_boom:0 "Population Boom"
   modifier_industrial_boom:0 "Mass Industrialization"
   modifier_outdated_bureaucracy:0 "Outdated Bureaucracy"
+  syrian_westernization:0 "Syrian Population Boom"
+  russian_serfs_freed:0 "Serfs Freed"
+  modifier_temporary_china_population_nerf:0 "Century Of Turmoil"
 
   stagnated_confucianism:0 "Stagnated Confucianism"
   confucianalism_slow_revival:0 "Limited Revival Of Confucianism"

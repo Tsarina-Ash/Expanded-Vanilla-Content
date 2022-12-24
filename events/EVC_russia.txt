@@ -1,0 +1,41 @@
+﻿namespace = EVC_russia
+
+EVC_russia.1 = {
+
+	type = country_event
+	placement = root
+
+	title = EVC_russia.1.t
+	desc = EVC_russia.1.d
+	flavor = EVC_russia.1.f
+
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_russian_serfs.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/russian_serfs"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" 
+
+	duration = 3
+
+	option = {
+		name = EVC_russia.1.a
+
+		add_modifier = {
+			name = russian_serfs_freed
+			months = normal_modifier_time
+		}
+
+		add_loyalists = {
+			pop_type = peasants
+			value = small_radicals
+		}
+		add_radicals = {
+			pop_type = aristocrats
+			value = large_radicals
+		}
+	}
+}
