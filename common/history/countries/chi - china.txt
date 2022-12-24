@@ -34,6 +34,12 @@
 		}
 
 		add_modifier = {
+			name = modifier_temporary_china_population_nerf
+			years = 25
+			is_decaying = yes
+		}
+
+		add_modifier = {
 			name = modifier_highly_radical_population
 			years = 75
 			is_decaying = yes

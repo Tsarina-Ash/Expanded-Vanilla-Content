@@ -196,3 +196,8 @@ russian_serfs_freed = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	state_minimum_wealth_add = 2
 }
+
+modifier_temporary_china_population_nerf = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = -0.1
+}
