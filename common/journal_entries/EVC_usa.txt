@@ -6,9 +6,7 @@
 	}
 
 	complete = {
-		calc_true_if = {
-			country_owns_entire_state_region = STATE_HAWAII
-		}
+		country_owns_entire_state_region = STATE_HAWAII
 	}
 
 	on_complete = {

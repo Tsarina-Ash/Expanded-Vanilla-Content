@@ -205,14 +205,15 @@ usa_found_yellowstone = {
 	is_shown = {
 		exists = c:USA
 		this = c:USA
-
+		
         NOT = { 
             has_variable = has_founded_yellowstone
         }		
 	}
 	possible = {
+		owns_entire_state_region = STATE_WYOMING
 		this = c:USA
-		date = >1860.1.1
+		game_date > 1860.1.1
 
 	}
 	

@@ -2,6 +2,16 @@
 	is_shown = {
 		exists = c:MEX
 		this = c:MEX
+		NOT = {
+			OR = {
+				has_claim = s:STATE_GUATEMALA
+				has_claim = s:STATE_HONDURAS
+				has_claim = s:STATE_SAN_SALVADOR
+				has_claim = s:STATE_NICARAGUA
+				has_claim = s:STATE_COSTA_RICA
+				has_claim = s:STATE_PANAMA
+			}
+		}
 	}
 	possible = {
 		this = c:MEX

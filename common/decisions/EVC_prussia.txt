@@ -11,7 +11,7 @@
 	
 	when_taken = {
 		add_modifier = {
-			prussian_general_staff
+			name = prussian_general_staff
 			years = 30
 		}
 

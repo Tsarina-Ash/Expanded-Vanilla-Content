@@ -21,6 +21,9 @@ france_chanoines_expedition = {
 	is_shown = {
 		exists = c:FRA
 		this = c:FRA
+		NOT = {
+			has_variable = chanoines_expedition
+		}
 	}
 	possible = {
 		this = c:FRA
@@ -28,12 +31,15 @@ france_chanoines_expedition = {
 	}
 	
 	when_taken = {
-
+		set_variable = chanoines_expedition
 		country_prestige_add = 20
 
 		c:JAP = {
-			add_modifier = western_expedition_bonus
-			years = 20
+			add_modifier = {
+				name = western_expedition_bonus
+				years = 20
+			}
+			#Japan should get an event
 		}
 
         change_relations = {
@@ -51,6 +57,15 @@ france_intervene_in_indochina = {
 	is_shown = {
 		exists = c:FRA
 		this = c:FRA
+		NOT = {
+			OR = {
+				has_claim = s:STATE_TONKIN
+				has_claim = s:STATE_ANNAM
+				has_claim = s:STATE_MEKONG
+				has_claim = s:STATE_LAOS
+				has_claim = s:STATE_CAMBODIA
+			}
+		}
 	}
 	possible = {
 		this = c:FRA
@@ -59,7 +74,10 @@ france_intervene_in_indochina = {
 	
 	when_taken = {
 
-		change_infamy = -5
+		create_incident = {
+			tcountry = c:FRA
+			value = 4
+		}
 
         s:STATE_TONKIN = {
 			add_claim = c:FRA
@@ -67,18 +85,32 @@ france_intervene_in_indochina = {
         s:STATE_ANNAM = {
 			add_claim = c:FRA
 		}
-        s:STATE_MEKONG = {
+		s:STATE_MEKONG = {
+			add_claim = c:FRA
+		}
+		s:STATE_LAOS = {
 			add_claim = c:FRA
 		}
         s:STATE_CAMBODIA = {
 			add_claim = c:FRA
 		}
-        s:STATE_LAOS = {
-			add_claim = c:FRA
-		}
+		# create_diplomatic_play = {
+		# 	name = french_intervention_in_indochina 
+		# 	escalation = 75 
+		# 	war = false 
+		# 	initiator = c:FRA 
+		# 	type = dp_conquer_state
+		# 	add_war_goal = { holder = c:FRA, type = conquer_state, state = s:STATE_TONKIN, country = DAI, region = region_indochina } 
+		# 	add_war_goal = { holder = c:FRA, type = conquer_state, state = s:STATE_ANNAM, country = DAI, region = region_indochina } 
+		# 	add_war_goal = { holder = c:FRA, type = conquer_state, state = s:STATE_MEKONG, country = DAI, region = region_indochina } 
+		# }
 	}
 
 	ai_chance = {
 		base = 10
+		modifier = {
+			has_war = yes
+			factor = 0
+		}
 	}
 }
