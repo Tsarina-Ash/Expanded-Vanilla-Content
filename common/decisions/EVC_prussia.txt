@@ -2,6 +2,9 @@
 	is_shown = {
 		exists = c:PRU
 		this = c:PRU
+        NOT = { 
+            has_variable = prussia_done_army_reforms 
+        }		
 	}
 
 	possible = {	
@@ -17,6 +20,7 @@
 
 		country_prestige_add = 20
 
+        set_variable = prussia_done_army_reforms
 	}
 
 	ai_chance = {

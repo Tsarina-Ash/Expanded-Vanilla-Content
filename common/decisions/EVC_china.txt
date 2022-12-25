@@ -2,6 +2,9 @@
 	is_shown = {
 		exists = c:CHI
 		this = c:CHI
+        NOT = { 
+            has_variable = qing_han_is_primary_culture_now 
+        }		
 	}
 	possible = {
 		this = c:CHI
@@ -13,6 +16,7 @@
 	}
 	when_taken = {
 		add_primary_culture = cu:han
+        set_variable = qing_han_is_primary_culture_now
 	}
 
 	ai_chance = {
@@ -24,6 +28,9 @@ china_invite_western_advisors = {
 	is_shown = {
 		exists = c:CHI
 		this = c:CHI
+        NOT = { 
+            has_variable = qing_has_done_western_exped 
+        }		
 	}
 	possible = {
 		this = c:CHI
@@ -41,6 +48,7 @@ china_invite_western_advisors = {
 			add_modifier = western_advisors_payments
 			years = 20
 		}
+        set_variable = qing_has_done_western_exped		
 	}
 
 	ai_chance = {

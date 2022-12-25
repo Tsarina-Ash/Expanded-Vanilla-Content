@@ -12,6 +12,9 @@
 				has_claim = s:STATE_PANAMA
 			}
 		}
+        NOT = { 
+            has_variable = mexico_claimed_central_america 
+        }			
 	}
 	possible = {
 		this = c:MEX
@@ -38,7 +41,8 @@
 		}
         s:STATE_PANAMA = {
 			add_claim = c:MEX
-		}			
+		}	
+		set_variable = mexico_claimed_central_america				
 	}
 
 	ai_chance = {

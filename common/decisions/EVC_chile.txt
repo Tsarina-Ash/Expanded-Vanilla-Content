@@ -4,7 +4,7 @@
 		this = c:CHL
 
         NOT = { 
-            has_variable = persian_manifestation 
+            has_variable = chile_has_expanded_valparaiso 
         }
 	}
 

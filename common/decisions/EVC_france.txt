@@ -22,8 +22,8 @@ revival_of_paris = {
 		exists = c:FRA
 		this = c:FRA
 		NOT = {
-			has_variable = chanoines_expedition
-		}
+			has_variable = french_intervention_in_vietnam
+		}		
 	}
 	possible = {
 		this = c:FRA
@@ -31,11 +31,12 @@ revival_of_paris = {
 	}
 	
 	when_taken = {
-		s:STATE_PARIS.region_state:FRA = {
+		s:STATE_ILE_DE_FRANCE.region_state:FRA = {
 			add_modifier = {
 				name = parisian_revival
 			}
 		}
+		set_variable = french_intervention_in_vietnam		
 	}
 
 	ai_chance = {
@@ -92,6 +93,9 @@ france_intervene_in_indochina = {
 				has_claim = s:STATE_CAMBODIA
 			}
 		}
+		NOT = {
+			has_variable = french_intervention_in_vietnam
+		}
 	}
 	possible = {
 		this = c:FRA
@@ -99,7 +103,7 @@ france_intervene_in_indochina = {
 	}
 	
 	when_taken = {
-
+		set_variable = french_intervention_in_vietnam
 		create_incident = {
 			tcountry = c:FRA
 			value = 4
