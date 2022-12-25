@@ -160,7 +160,7 @@ building_bauxite_mine = {
 	}
 }
 
-building_lithium_mine = {
+building_lithium_mine = { #Lithium Extractor
 	building_group = bg_lithium_mining
 	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = mine
@@ -169,7 +169,7 @@ building_lithium_mine = {
 	terrain_manipulator = mining
 
 	unlocking_technologies = {
-		
+		pumpjacks
 	}
 
 	production_method_groups = {
