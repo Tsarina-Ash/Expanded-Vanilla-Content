@@ -59,12 +59,12 @@ partial_EVC_indonesia_influence_prestige = {
 
 modifier_new_world_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.3
 }
 
 modifier_new_world_decision_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.15
 }
 
 modifier_new_world_decision_migration_money_payment = {
@@ -74,13 +74,13 @@ modifier_new_world_decision_migration_money_payment = {
 
 modifier_australia_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.15
 	state_migration_pull_mult = 0.1
 }
 
 modifier_canadian_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.1
 	state_migration_pull_mult = 0.1
 }
 
@@ -99,7 +99,7 @@ modifier_outdated_bureaucracy = {
 
 modifier_massive_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.25
 }
 
 modifier_industrial_boom = {
@@ -199,5 +199,5 @@ russian_serfs_freed = {
 
 modifier_temporary_china_population_nerf = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = -0.15
+	state_birth_rate_mult = -0.1
 }
