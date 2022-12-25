@@ -295,7 +295,7 @@
 		region_state:JAB = {
 			create_pop = {
 				culture = bedouin
-				size = 38496
+				size = 30296 #38496
 			}
 			create_pop = {
 				culture = bedouin
@@ -403,6 +403,12 @@
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 300
+			}
+		}
+		region_state:JAB = {
+			create_pop = {
+				culture = bedouin
+				size = 1000
 			}
 		}
 	}
@@ -553,6 +559,12 @@
 				size = 4000
 			}
 		}
+		region_state:JAB = {
+			create_pop = {
+				culture = bedouin
+				size = 3000
+			}
+		}
 	}
 	s:STATE_ALEPPO = {
 		region_state:EGY = {
@@ -665,6 +677,12 @@
 				size = 10000
 			}
 		}
+		region_state:JAB = {
+			create_pop = {
+				culture = bedouin
+				size = 5000
+			}
+		}
 	}
 	s:STATE_MOSUL = {
 		region_state:TUR = {
@@ -730,6 +748,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
+				size = 200
+			}
+		}
+		region_state:JAB ={
+			create_pop = {
+				culture = bedouin
 				size = 200
 			}
 		}

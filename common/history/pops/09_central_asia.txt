@@ -347,7 +347,7 @@
 		region_state:KOK = {
 			create_pop = {
 				culture = tajik
-				size = 211004
+				size = 191004 #211004
 			}
 			create_pop = {
 				culture = uzbek
@@ -366,6 +366,12 @@
 			create_pop = {
 				culture = kirgiz
 				size = 16000
+			}
+		}
+		region_state:AFG = {
+			create_pop = {
+				culture = tajik
+				size = 20000
 			}
 		}
 	}
