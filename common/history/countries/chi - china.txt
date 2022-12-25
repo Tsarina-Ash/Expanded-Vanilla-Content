@@ -28,16 +28,20 @@
 		}
 
 		add_modifier = {
+			name = modifier_imperial_examinations
+		}
+
+		add_modifier = {
 			name = modifier_resitance_to_westernization
 			years = 30
 			is_decaying = yes
 		}
 
 		add_modifier = {
-			name = modifier_highly_radical_population
-			years = 75
+			name = modifier_temporary_china_population_nerf
+			years = 20
 			is_decaying = yes
-		}	
+		}
 
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials

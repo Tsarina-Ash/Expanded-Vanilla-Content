@@ -34,7 +34,12 @@ STATE_TOMSK = {
         bg_iron_mining = 27
         bg_bauxite_mining = 18
         bg_zinc_mining = 18
+        bg_copper_mining = 60
         bg_logging = 13
+    }
+    resource = {
+        type = "bg_lithium_mining"
+        undiscovered_amount = 50
     }
 }
 
@@ -105,6 +110,7 @@ STATE_OB = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 20
+        bg_copper_mining = 20
         bg_logging = 13
         bg_fishing = 11
     }
@@ -124,6 +130,7 @@ STATE_NENETSIA = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_zinc_mining = 18
+        bg_copper_mining = 30
         bg_logging = 13
         bg_fishing = 12
     }
@@ -174,6 +181,7 @@ STATE_KAMCHATKA = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_bauxite_mining = 8
+        bg_copper_mining = 12
         bg_logging = 13
     }
     naval_exit_id = 3118
@@ -194,6 +202,7 @@ STATE_OKHOTSK = {
     capped_resources = {
         bg_coal_mining = 36
         bg_zinc_mining = 24
+        bg_copper_mining = 30
         bg_fishing = 10
     }
     naval_exit_id = 3118
@@ -253,6 +262,7 @@ STATE_IRKUTSK = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 36
+        bg_copper_mining = 60
         bg_logging = 13
     }
 }

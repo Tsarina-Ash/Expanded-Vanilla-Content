@@ -2681,6 +2681,7 @@ pm_aeroplane_production = {
 			building_input_fabric_add = 20
 			building_input_oil_add = 20
 			building_input_aluminum_add = 40
+			building_input_lithium_add = 5 #Lithium Soap :3
 
 			# output goods
 			building_output_aeroplanes_add = 50
@@ -3391,6 +3392,7 @@ pm_bayer_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_bauxite_add = 30
+			building_input_lithium_add = 5
 			building_input_electricity_add = 15
 
 			building_output_aluminum_add = 60
@@ -3555,7 +3557,7 @@ pm_tobacco_production = {
 	texture = ""
 
 	unlocking_technologies = {
-
+		
 	}
 
 	building_modifiers = {

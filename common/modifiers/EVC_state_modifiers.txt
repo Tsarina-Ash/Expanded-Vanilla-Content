@@ -1,14 +1,60 @@
 ﻿homestead_act = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.2
+	state_assimilation_mult = 0.5
 }
 
 rhur_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.2
 }
 
 massive_famine = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_birth_rate_mult = -0.3
+}
+
+syrian_westernization = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_birth_rate_mult = 0.05
+}
+
+state_uranium_rush = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_oil_extraction_employee_mult = 0.5
+	state_migration_pull_mult = 0.15
+}
+
+state_limited_uranium_rush = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_oil_extraction_employee_mult = 0.25
+	state_migration_pull_mult = 0.1
+}
+
+russian_potato_decree_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_group_bg_agriculture_throughput_mult = 0.15
+
+	state_radicals_from_sol_change_mult = 0.5
+}
+
+yellowstone_founded_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.03
+	building_group_bg_agriculture_throughput_mult = 0.1
+}
+
+small_baby_boom_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.1
+}
+
+parisian_revival = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.2
+	state_assimilation_mult = 0.1
+	state_migration_pull_mult = 0.1
+
+    building_throughput_mult = 0.05
+	building_construction_sector_throughput_mult = 0.1
 }

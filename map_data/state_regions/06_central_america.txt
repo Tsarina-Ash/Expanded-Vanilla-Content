@@ -106,6 +106,7 @@ STATE_COSTA_RICA = {
     capped_resources = {
         bg_coal_mining = 24
         bg_bauxite_mining = 28
+        bg_copper_mining = 20
         bg_logging = 8
         bg_fishing = 3
     }
@@ -129,6 +130,7 @@ STATE_PANAMA = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_coal_mining = 36
+        bg_copper_mining = 40
         bg_logging = 8
         bg_fishing = 6
     }
@@ -152,6 +154,7 @@ STATE_HAITI = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_bauxite_mining = 8
+        bg_copper_mining = 30
         bg_logging = 7
         bg_fishing = 6
     }
@@ -174,6 +177,7 @@ STATE_SANTO_DOMINGO = {
     arable_land = 46
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_copper_mining = 30
         bg_logging = 11
         bg_fishing = 7
     }
@@ -194,6 +198,7 @@ STATE_PUERTO_RICO = {
     arable_land = 28
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
+        bg_copper_mining = 20
         bg_logging = 2
         bg_fishing = 4
     }
@@ -250,6 +255,7 @@ STATE_JAMAICA = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_bauxite_mining = 34
+        bg_copper_mining = 12
         bg_logging = 4
         bg_fishing = 5
     }
@@ -277,6 +283,7 @@ STATE_CUBA = {
         bg_iron_mining = 18
         bg_zinc_mining = 12
         bg_bauxite_mining = 14
+        bg_copper_mining = 30
         bg_logging = 15
         bg_fishing = 10
     }

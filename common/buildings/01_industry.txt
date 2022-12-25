@@ -345,7 +345,7 @@ building_greenhouse = {
 	required_construction = construction_cost_high
 
 	unlocking_technologies = {
-
+		intensive_agriculture
 	}
 
 	production_method_groups = {

@@ -59,12 +59,17 @@ partial_EVC_indonesia_influence_prestige = {
 
 modifier_new_world_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.3
+}
+
+modifier_permament_usa_pop_growth = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.1
 }
 
 modifier_new_world_decision_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.15
 }
 
 modifier_new_world_decision_migration_money_payment = {
@@ -74,13 +79,13 @@ modifier_new_world_decision_migration_money_payment = {
 
 modifier_australia_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.15
 	state_migration_pull_mult = 0.1
 }
 
 modifier_canadian_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.1
 	state_migration_pull_mult = 0.1
 }
 
@@ -99,7 +104,7 @@ modifier_outdated_bureaucracy = {
 
 modifier_massive_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.25
 }
 
 modifier_industrial_boom = {
@@ -117,8 +122,17 @@ modifier_chinese_population_boom = {
 
 modifier_board_of_revenue = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.15
+	
+	interest_group_ig_landowners_pol_str_mult = 0.25
+}
+
+modifier_imperial_examinations = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_bureaucracy_investment_cost_factor_mult = -0.2
-	state_tax_capacity_mult = 0.1
+	country_weekly_innovation_mult = -0.3
+	
+	interest_group_ig_landowners_pol_str_mult = 0.25
 }
 
 modifier_resitance_to_westernization = {
@@ -190,4 +204,71 @@ anti_monarchist_talk_begins= {
 
 	interest_group_ig_landowners_pop_attraction_mult = -0.4
 	interest_group_ig_landowners_pol_str_mult = -0.25
+}
+
+russian_serfs_freed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_minimum_wealth_add = 2
+}
+
+modifier_temporary_china_population_nerf = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = -0.1
+}
+
+western_expedition_bonus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_spread_mult = 1
+	country_production_tech_spread_mult = 1
+	country_society_tech_spread_mult = 1
+}
+
+prussian_general_staff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_morale_recovery_mult = 0.15
+	building_training_rate_mult = 0.1
+
+	country_army_power_projection_mult = 0.2
+}
+
+western_advisors_payments = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 24000
+}
+
+modifier_pax_britannica = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+	country_influence_mult = 0.1
+
+	country_military_wages_mult = 0.25
+	building_training_rate_mult = 0.05
+	country_army_power_projection_mult = 0.1
+
+	country_military_tech_cost_mult = -0.05
+}
+
+east_india_company_profits = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.05
+	country_prestige_mult = 0.05
+
+	country_tax_income_add = 30000
+}
+
+laissez_faire_to_the_max = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.2
+
+	country_trade_route_competitiveness_mult = 0.15
+	country_trade_route_quantity_mult = 0.05
+	country_trade_route_cost_mult = -0.8
+
+	country_bureaucracy_investment_cost_factor_mult = -0.05
+}
+
+failure_in_mexico_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = -0.15
+	country_influence_mult = -0.1
 }

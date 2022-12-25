@@ -1,54 +1,54 @@
 ﻿uranium = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/uranium.dds"
 	cost = 40
 	category = industrial
 
 	prestige_factor = 5
 }
 enriched_uranium = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/enriched_uranium.dds"
 	cost = 60
 	category = industrial
 
 	prestige_factor = 10
 }
 bauxite = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/bauxite.dds"
 	cost = 40
 	category = industrial
 
 	prestige_factor = 5
 }
 aluminum = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/aluminum.dds"
 	cost = 60
 	category = industrial
 
 	prestige_factor = 10
 }
 lithium = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/lithium.dds"
 	cost = 40
 	category = industrial
 
 	prestige_factor = 5
 }
 zinc = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/zinc.dds"
 	cost = 40
 	category = industrial
 
 	prestige_factor = 5
 }
 copper = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
 	cost = 40
 	category = industrial
 
 	prestige_factor = 5
 }
 batteries = {
-	texture = ""
+	texture = "gfx/interface/icons/goods_icons/batteries.dds"
 	cost = 40
 	category = industrial
 

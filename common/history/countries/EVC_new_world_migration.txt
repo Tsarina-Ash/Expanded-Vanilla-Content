@@ -4,6 +4,8 @@
 			name = modifier_new_world_migration
 			years = 20
 		}
+
+		add_modifier = modifier_permament_usa_pop_growth
 	}
 	c:TEX = {
 		add_modifier = {

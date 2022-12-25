@@ -1,0 +1,21 @@
+﻿EVC_annexation_of_hawaii = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+		exists = c:USA
+		c:USA = ROOT
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_HAWAIIAN_ISLANDS
+	}
+
+	on_complete = {
+		trigger_event = { 
+			id = EVC_usa.1 
+		} 
+	}
+
+    should_be_pinned_by_default = yes
+	weight = 10
+}

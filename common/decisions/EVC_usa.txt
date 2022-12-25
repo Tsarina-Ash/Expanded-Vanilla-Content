@@ -144,3 +144,93 @@
 		base = 30
 	}
 }
+
+usa_perrys_expedition = {
+	is_shown = {
+		exists = c:USA
+		this = c:USA
+
+        NOT = { 
+            has_variable = has_exped_1 
+        }		
+	}
+	possible = {
+		this = c:USA
+		has_technology_researched = nationalism
+	}
+	
+	when_taken = {
+
+		country_prestige_add = 50
+
+        change_relations = {
+			country = c:JAP
+			value = 15
+		}
+
+        set_variable = has_exped_1
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+
+usa_wilkes_expedition = {
+	is_shown = {
+		exists = c:USA
+		this = c:USA
+
+        NOT = { 
+            has_variable = has_exped_2 
+        }		
+	}
+	possible = {
+		this = c:USA
+	}
+	
+	when_taken = {
+
+		country_prestige_add = 25
+
+        set_variable = has_exped_2
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+
+usa_found_yellowstone = {
+	is_shown = {
+		exists = c:USA
+		this = c:USA
+		
+        NOT = { 
+            has_variable = has_founded_yellowstone
+        }		
+	}
+	possible = {
+		owns_entire_state_region = STATE_WYOMING
+		this = c:USA
+		game_date > 1860.1.1
+
+	}
+	
+	when_taken = {
+
+		country_prestige_add = 5
+
+		s:STATE_WYOMING.region_state:USA = {  
+			add_modifier = {
+				name = yellowstone_founded_modifier
+			} 
+		}
+
+        set_variable = has_founded_yellowstone
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}

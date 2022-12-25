@@ -1,0 +1,25 @@
+﻿prussian_army_reforms_decision = {
+	is_shown = {
+		exists = c:PRU
+		this = c:PRU
+	}
+
+	possible = {	
+		has_technology_researched = logistics
+		has_technology_researched = general_staff		
+	}	
+	
+	when_taken = {
+		add_modifier = {
+			name = prussian_general_staff
+			years = 30
+		}
+
+		country_prestige_add = 20
+
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}

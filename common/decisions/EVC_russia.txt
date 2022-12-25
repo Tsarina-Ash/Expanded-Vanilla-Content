@@ -1,0 +1,78 @@
+﻿russian_expanding_into_central_asia = {
+
+	is_shown = {
+		exists = c:RUS
+		root = c:RUS
+        NOT = { 
+            has_variable = russian_expansion_into_central_asia 
+        }
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	when_taken = {
+		s:STATE_URALSK = { 
+			add_claim = ROOT 
+		}
+		s:STATE_AKMOLINSK = { 
+			add_claim = ROOT 
+		}
+		s:STATE_SEMIRECHE = { 
+			add_claim = ROOT 
+		}
+		s:STATE_KHIVA = { 
+			add_claim = ROOT 
+		}
+		s:STATE_TURKMENIA = { 
+			add_claim = ROOT 
+		}	
+		s:STATE_UZBEKIA = { 
+			add_claim = ROOT 
+		}
+		s:STATE_TAJIKISTAN = { 
+			add_claim = ROOT 
+		}
+		s:STATE_KIRGHIZIA = { 
+			add_claim = ROOT 
+		}
+        set_variable = russian_expansion_into_central_asia
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
+
+russian_expanding_into_china = {
+
+	is_shown = {
+		exists = c:RUS
+		root = c:RUS
+        NOT = { 
+            has_variable = russian_expansion_into_china 
+        }
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	when_taken = {
+		s:STATE_TUVA = { 
+			add_claim = ROOT 
+		}
+		s:STATE_JETISY = { 
+			add_claim = ROOT 
+		}
+		s:STATE_OUTER_MANCHURIA = { 
+			add_claim = ROOT 
+		}
+        set_variable = russian_expansion_into_china
+	}
+
+	ai_chance = {
+		base = 20
+	}
+}

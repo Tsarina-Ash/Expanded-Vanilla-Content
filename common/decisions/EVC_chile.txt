@@ -1,0 +1,29 @@
+﻿chile_expand_port_in_valparaiso = {
+	is_shown = {
+		exists = c:CHL
+		this = c:CHL
+
+        NOT = { 
+            has_variable = persian_manifestation 
+        }
+	}
+
+	possible = {	
+		has_technology_researched = steel_frame_buildings
+		has_technology_researched = reinforced_concrete
+	}	
+	
+	when_taken = {
+		s:STATE_SANTIAGO.region_state:CHL = {
+			add_modifier = {
+				name = modifier_new_world_decision_migration
+				years = 8
+			} 
+		}
+        set_variable = chile_has_expanded_valparaiso
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
