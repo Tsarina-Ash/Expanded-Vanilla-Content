@@ -63,7 +63,7 @@ russian_expanding_into_china = {
 		s:STATE_TUVA = { 
 			add_claim = ROOT 
 		}
-		s:STATE_ILI = { 
+		s:STATE_JETISY = { 
 			add_claim = ROOT 
 		}
 		s:STATE_OUTER_MANCHURIA = { 
