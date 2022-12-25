@@ -16,6 +16,8 @@
   #France
   EVC_france_syrian_conquest:0 "French Westernization Of Syria"
   EVC_france_syrian_conquest_desc:0 ""
-  #France
-  EVC_first_russian_reforms:0 "Abolishment Of Serfdom"
+  #Russia
+  EVC_first_russian_reforms:0 "Edict of Emancipation"
   EVC_first_russian_reforms_desc:0 ""
+  EVC_great_game:0 "The Great Game"
+  EVC_great_game_desc:0 ""

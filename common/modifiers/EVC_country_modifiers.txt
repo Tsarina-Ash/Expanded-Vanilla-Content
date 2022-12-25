@@ -117,8 +117,17 @@ modifier_chinese_population_boom = {
 
 modifier_board_of_revenue = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.15
+	
+	interest_group_ig_landowners_pol_str_mult = 0.25
+}
+
+modifier_imperial_examinations = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_bureaucracy_investment_cost_factor_mult = -0.2
-	state_tax_capacity_mult = 0.1
+	country_weekly_innovation_mult = -0.3
+	
+	interest_group_ig_landowners_pol_str_mult = 0.25
 }
 
 modifier_resitance_to_westernization = {
@@ -200,4 +209,24 @@ russian_serfs_freed = {
 modifier_temporary_china_population_nerf = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	state_birth_rate_mult = -0.1
+}
+
+western_expedition_bonus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_spread_mult = 1
+	country_production_tech_spread_mult = 1
+	country_society_tech_spread_mult = 1
+}
+
+prussian_general_staff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_morale_recovery_mult = 0.15
+	building_training_rate_mult = 0.1
+
+	country_army_power_projection_mult = 0.2
+}
+
+western_advisors_payments = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 24000
 }

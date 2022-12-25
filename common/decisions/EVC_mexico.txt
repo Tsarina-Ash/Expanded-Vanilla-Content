@@ -1,0 +1,25 @@
+﻿mex_reconquer_latin_america = {
+	is_shown = {
+		exists = c:MEX
+		this = c:MEX
+	}
+	possible = {
+		this = c:MEX
+		has_technology_researched = nationalism
+		not = {
+			is_subject = yes
+		}
+	}
+	when_taken = {
+        s:STATE_WESTERN_AFGHANISTAN = {
+			add_claim = c:MEX
+		}
+        s:STATE_EASTERN_AFGHANISTAN = {
+			add_claim = c:MEX
+		}
+	}
+
+	ai_chance = {
+		base = 0
+	}	
+}

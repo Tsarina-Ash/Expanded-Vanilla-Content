@@ -16,3 +16,60 @@
 		base = 200
 	}
 }
+
+france_chanoines_expedition = {
+	is_shown = {
+		exists = c:FRA
+		this = c:FRA
+	}
+	possible = {
+		this = c:FRA
+		has_technology_researched = nationalism
+	}
+	
+	when_taken = {
+
+		country_prestige_add = 20
+
+		c:JAP = {
+			add_modifier = western_expedition_bonus
+			years = 20
+		}
+
+        change_relations = {
+			country = c:JAP
+			value = 25
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+
+france_intervene_in_indochina = {
+	is_shown = {
+		exists = c:FRA
+		this = c:FRA
+	}
+	possible = {
+		this = c:FRA
+		has_technology_researched = nationalism
+	}
+	
+	when_taken = {
+
+		change_infamy = -5
+
+        s:STATE_WESTERN_AFGHANISTAN = {
+			add_claim = c:FRA
+		}
+        s:STATE_EASTERN_AFGHANISTAN = {
+			add_claim = c:FRA
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}

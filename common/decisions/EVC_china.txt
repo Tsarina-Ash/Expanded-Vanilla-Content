@@ -19,3 +19,78 @@
 		base = 40
 	}	
 }
+
+china_invite_western_advisors = {
+	is_shown = {
+		exists = c:CHI
+		this = c:CHI
+	}
+	possible = {
+		this = c:CHI
+		not = {
+			is_subject = yes
+			has_law = law_type:law_isolationism
+		}
+	}
+	when_taken = {
+		c:CHI = {
+			add_modifier = western_expedition_bonus
+			years = 20
+		}
+		c:CHI = {
+			add_modifier = western_advisors_payments
+			years = 20
+		}
+	}
+
+	ai_chance = {
+		base = 40
+	}	
+}
+
+chinese_board_of_revenue_decision = {
+	is_shown = {
+		has_modifier = modifier_board_of_revenue
+	}
+
+	possible = {	
+		has_technology_researched = tech_bureaucracy
+	}	
+	
+	when_taken = {
+		remove_modifier = modifier_board_of_revenue
+			add_radicals = {
+				value = 0.25
+			}
+
+			#not = { #if you have a good taxation law skip this part / if you dont have one add that law
+			#	has_law = law_type:law_good_taxation_law
+			#	has_law = law_type:law_better_taxation_law
+			#	has_law = law_type:law_best_taxation_law
+			#		else = {
+			#			add_law = law_type:law_basic_tax_law
+			#		}
+			#}
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
+
+abolish_the_imperial_examination_decision = {
+	is_shown = {
+		has_modifier = modifier_imperial_examinations
+	}
+	
+	when_taken = {
+		remove_modifier = modifier_imperial_examinations
+			add_radicals = {
+				value = 0.25
+			}		
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
