@@ -64,13 +64,13 @@
 
 		add_modifier = {
 			name = modifier_low_birth_rate
-			years = 100
+			years = 40
 			is_decaying = yes
 		}
 
 		add_modifier = {
 			name = modifier_radical_population
-			years = 100
+			years = 65
 			is_decaying = yes
 		}
 		

@@ -6,7 +6,7 @@
 
 rhur_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.2
 }
 
 massive_famine = {
@@ -35,4 +35,14 @@ yellowstone_founded_modifier = {
 small_baby_boom_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_birth_rate_mult = 0.1
+}
+
+parisian_revival = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.2
+	state_assimilation_mult = 0.1
+	state_migration_pull_mult = 0.1
+
+    building_throughput_mult = 0.05
+	building_construction_sector_throughput_mult = 0.1
 }

@@ -266,3 +266,9 @@ laissez_faire_to_the_max = {
 
 	country_bureaucracy_investment_cost_factor_mult = -0.05
 }
+
+failure_in_mexico_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = -0.15
+	country_influence_mult = -0.1
+}

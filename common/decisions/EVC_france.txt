@@ -17,6 +17,32 @@
 	}
 }
 
+revival_of_paris = {
+	is_shown = {
+		exists = c:FRA
+		this = c:FRA
+		NOT = {
+			has_variable = chanoines_expedition
+		}
+	}
+	possible = {
+		this = c:FRA
+		has_technology_researched = nationalism
+	}
+	
+	when_taken = {
+		s:STATE_PARIS.region_state:FRA = {
+			add_modifier = {
+				name = parisian_revival
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
+
 france_chanoines_expedition = {
 	is_shown = {
 		exists = c:FRA
