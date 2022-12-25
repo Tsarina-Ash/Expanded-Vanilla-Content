@@ -61,10 +61,19 @@ france_intervene_in_indochina = {
 
 		change_infamy = -5
 
-        s:STATE_WESTERN_AFGHANISTAN = {
+        s:STATE_TONKIN = {
 			add_claim = c:FRA
 		}
-        s:STATE_EASTERN_AFGHANISTAN = {
+        s:STATE_ANNAM = {
+			add_claim = c:FRA
+		}
+        s:STATE_MEKONG = {
+			add_claim = c:FRA
+		}
+        s:STATE_CAMBODIA = {
+			add_claim = c:FRA
+		}
+        s:STATE_LAOS = {
 			add_claim = c:FRA
 		}
 	}

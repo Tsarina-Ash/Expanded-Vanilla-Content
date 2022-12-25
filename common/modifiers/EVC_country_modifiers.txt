@@ -62,6 +62,11 @@ modifier_new_world_migration = {
 	state_birth_rate_mult = 0.3
 }
 
+modifier_permament_usa_pop_growth = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.1
+}
+
 modifier_new_world_decision_migration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	state_birth_rate_mult = 0.15
@@ -229,4 +234,35 @@ prussian_general_staff = {
 western_advisors_payments = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_expenses_add = 24000
+}
+
+modifier_pax_britannica = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+	country_influence_mult = 0.1
+
+	country_military_wages_mult = 0.25
+	building_training_rate_mult = 0.05
+	country_army_power_projection_mult = 0.1
+
+	country_military_tech_cost_mult = -0.05
+}
+
+east_india_company_profits = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.05
+	country_prestige_mult = 0.05
+
+	country_tax_income_add = 30000
+}
+
+laissez_faire_to_the_max = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.2
+
+	country_trade_route_competitiveness_mult = 0.15
+	country_trade_route_quantity_mult = 0.05
+	country_trade_route_cost_mult = -0.8
+
+	country_bureaucracy_investment_cost_factor_mult = -0.05
 }

@@ -11,12 +11,24 @@
 		}
 	}
 	when_taken = {
-        s:STATE_WESTERN_AFGHANISTAN = {
+        s:STATE_GUATEMALA = {
 			add_claim = c:MEX
 		}
-        s:STATE_EASTERN_AFGHANISTAN = {
+        s:STATE_HONDURAS = {
 			add_claim = c:MEX
 		}
+        s:STATE_SAN_SALVADOR = {
+			add_claim = c:MEX
+		}
+        s:STATE_NICARAGUA = {
+			add_claim = c:MEX
+		}	
+        s:STATE_COSTA_RICA = {
+			add_claim = c:MEX
+		}
+        s:STATE_PANAMA = {
+			add_claim = c:MEX
+		}			
 	}
 
 	ai_chance = {

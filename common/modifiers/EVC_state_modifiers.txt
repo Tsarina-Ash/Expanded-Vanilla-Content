@@ -1,6 +1,7 @@
 ﻿homestead_act = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_birth_rate_mult = 0.2
+	state_assimilation_mult = 0.5
 }
 
 rhur_boom = {
@@ -16,4 +17,22 @@ massive_famine = {
 syrian_westernization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_birth_rate_mult = 0.05
+}
+
+russian_potato_decree_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_group_bg_agriculture_throughput_mult = 0.15
+
+	state_radicals_from_sol_change_mult = 0.5
+}
+
+yellowstone_founded_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.03
+	building_group_bg_agriculture_throughput_mult = 0.1
+}
+
+small_baby_boom_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.1
 }

@@ -1,11 +1,12 @@
 ﻿prussian_army_reforms_decision = {
 	is_shown = {
-		has_modifier = modifier_inefficient_economy
+		exists = c:PRU
+		this = c:PRU
 	}
 
 	possible = {	
-		has_technology_researched = steel_frame_buildings
-		has_technology_researched = reinforced_concrete
+		has_technology_researched = logistics
+		has_technology_researched = general_staff		
 	}	
 	
 	when_taken = {

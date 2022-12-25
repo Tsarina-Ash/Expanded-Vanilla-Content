@@ -1,0 +1,23 @@
+﻿EVC_south_african_union = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+		c:RUS = root
+	}
+
+	complete = {
+		calc_true_if = {
+			country_or_subject_owns_entire_state_region = STATE_TRANSVAAL
+			country_or_subject_owns_entire_state_region = STATE_ZULULAND
+			country_or_subject_owns_entire_state_region= STATE_VRYSTAAT
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_CAPE
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = EVC_saf.1 } 
+	}
+
+    should_be_pinned_by_default = yes
+	weight = 100
+}

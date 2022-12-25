@@ -60,7 +60,7 @@ chinese_board_of_revenue_decision = {
 	when_taken = {
 		remove_modifier = modifier_board_of_revenue
 			add_radicals = {
-				value = 0.25
+				value = 0.05
 			}
 
 			#not = { #if you have a good taxation law skip this part / if you dont have one add that law
@@ -86,7 +86,7 @@ abolish_the_imperial_examination_decision = {
 	when_taken = {
 		remove_modifier = modifier_imperial_examinations
 			add_radicals = {
-				value = 0.25
+				value = 0.1
 			}		
 	}
 

@@ -34,11 +34,5 @@
 			type = je_avert_sepoy_mutiny
 		}
 
-		add_modifier = {
-			name = modifier_radical_population
-			years = 100
-			is_decaying = yes
-		}
-
 	}
 }

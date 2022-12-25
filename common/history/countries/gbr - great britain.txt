@@ -63,6 +63,16 @@
 			set_interest_group_name = ig_anglican_church
 		}
 
+		add_modifier = {
+			name = east_india_company_profits
+			years = 24
+		}
+
+		add_modifier = {
+			name = laissez_faire_to_the_max
+			years = 10
+		}
+
 		add_journal_entry = { type = je_victoria }
 	}
 }

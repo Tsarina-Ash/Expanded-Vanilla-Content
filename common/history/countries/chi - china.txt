@@ -43,12 +43,6 @@
 			is_decaying = yes
 		}
 
-		add_modifier = {
-			name = modifier_highly_radical_population
-			years = 45
-			is_decaying = yes
-		}	
-
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials
 			remove_ideology = ideology_paternalistic
