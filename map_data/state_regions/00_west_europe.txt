@@ -13,6 +13,7 @@
     capped_resources = {
         bg_iron_mining = 36
         bg_lead_mining = 18
+        bg_copper_mining = 40
         bg_logging = 23
         bg_fishing = 11
     }
@@ -77,6 +78,7 @@ STATE_NORRLAND = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 60
+        bg_copper_mining = 60
         bg_logging = 20
         bg_fishing = 12
     }
@@ -184,6 +186,7 @@ STATE_NORTHERN_NORWAY = {
         bg_iron_mining = 18
         bg_sulfur_mining = 20
         bg_zinc_mining = 20
+        bg_copper_mining = 10
         bg_logging = 6
         bg_whaling = 5
         bg_fishing = 10
@@ -328,8 +331,13 @@ STATE_OSTROBOTHNIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 45
+        bg_copper_mining = 18
         bg_logging = 17
         bg_fishing = 10
+    }
+    resource = {
+        type = "bg_lithium_mining"
+        undiscovered_amount = 12
     }
     naval_exit_id = 3000
 }
@@ -436,6 +444,7 @@ STATE_HIGHLANDS = {
     arable_land = 42
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
+        bg_copper_mining = 12
         bg_logging = 14
         bg_whaling = 6
         bg_fishing = 14
@@ -461,6 +470,7 @@ STATE_MIDLANDS = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 60
+        bg_copper_mining = 20
         bg_sulfur_mining = 40
         bg_logging = 6
         bg_fishing = 2
@@ -503,6 +513,7 @@ STATE_WEST_COUNTRY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 60
+        bg_copper_mining = 20
         bg_uranium_mining = 6
         bg_logging = 6
         bg_fishing = 9
@@ -529,6 +540,7 @@ STATE_LOWLANDS = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 15
+        bg_copper_mining = 24
         bg_logging = 14
         bg_fishing = 12
     }
@@ -570,6 +582,7 @@ STATE_MUNSTER = {
     capped_resources = {
         bg_zinc_mining = 24
         bg_lead_mining = 24
+        bg_copper_mining = 48
         bg_logging = 4
         bg_fishing = 12
     }
@@ -653,6 +666,7 @@ STATE_PROVENCE = {
     capped_resources = {
         bg_zinc_mining = 12
         bg_bauxite_mining = 12
+        bg_copper_mining = 20
         bg_logging = 7
         bg_fishing = 12
     }
@@ -694,6 +708,7 @@ STATE_LANGUEDOC = {
     capped_resources = {
         bg_zinc_mining = 24
         bg_bauxite_mining = 40
+        bg_copper_mining = 20
         bg_logging = 6
         bg_fishing = 8
     }
@@ -996,6 +1011,7 @@ STATE_FRIESLAND = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_zinc_mining = 12
+        bg_copper_mining = 12
         bg_logging = 2
         bg_whaling = 5
         bg_fishing = 15
@@ -1040,6 +1056,7 @@ STATE_WALLONIA = {
         bg_iron_mining = 60
         bg_lead_mining = 30
         bg_zinc_mining = 20
+        bg_copper_mining = 60
         bg_logging = 17
     }
     resource = {
@@ -1160,6 +1177,10 @@ STATE_TYROL = {
         bg_logging = 9
     }
     resource = {
+        type = "bg_lithium_mining"
+        undiscovered_amount = 20
+    }
+    resource = {
         type = "bg_uranium_mining"
         undiscovered_amount = 4
     }
@@ -1178,6 +1199,7 @@ STATE_SOUTH_TYROL = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_zinc_mining = 20
+        bg_copper_mining = 10
         bg_logging = 6
     }
 }
@@ -1239,6 +1261,7 @@ STATE_EAST_SWITZERLAND = {
     capped_resources = {
         bg_iron_mining = 30
         bg_lead_mining = 30
+        bg_copper_mining = 20
         bg_logging = 17
     }
     resource = {
@@ -1262,6 +1285,7 @@ STATE_WEST_SWITZERLAND = {
         bg_coal_mining = 48
         bg_iron_mining = 24
         bg_lead_mining = 24
+        bg_copper_mining = 24
         bg_logging = 6
     }
 }
@@ -1300,6 +1324,7 @@ STATE_ANHALT = {
     capped_resources = {
         bg_coal_mining = 44
         bg_bauxite_mining = 16
+        bg_copper_mining = 16
         bg_logging = 20
     }
 }
@@ -1429,6 +1454,7 @@ STATE_HANNOVER = {
     capped_resources = {
         bg_iron_mining = 24
         bg_zinc_mining = 20
+        bg_copper_mining = 18
         bg_logging = 9
         bg_fishing = 4
     }
@@ -1454,6 +1480,7 @@ STATE_BRUNSWICK = {
         bg_iron_mining = 45
         bg_lead_mining = 45
         bg_zinc_mining = 40
+        bg_copper_mining = 20
         bg_logging = 6
     }
 }
@@ -1515,6 +1542,7 @@ STATE_SAXONY = {
         bg_iron_mining = 30
         bg_uranium_mining = 8
         bg_sulfur_mining = 80
+        bg_copper_mining = 40
         bg_logging = 6
     }
 }
@@ -1534,6 +1562,7 @@ STATE_HESSE = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_sulfur_mining = 40
+        bg_copper_mining = 40
         bg_logging = 8
     }
 }
