@@ -5,6 +5,12 @@
   #France
   france_economy_decision:0 "Root Out Inefficient Bureaucrats"
   france_economy_decision_desc:0 "Our economy has grown at a unprecedented speed and our government has not been able to keep up with the demand for a larger government. Due to this there has been a huge amount of tax waste and a lower throughput compared to other industrialized nations. Rooting out inefficient bureaucrats and replacing them should do the trick now that there is a greater knowledge of this modern economy."
+  france_chanoines_expedition:0 "Chanoine's Expedition"
+  france_chanoines_expedition_desc:0 "Chanoine has been sent to Asia to spread knowledge about the western world and we will have made a few friends due to this mission once its completed."
+  france_intervene_in_indochina:0 "Intervene In Indochina"
+  france_intervene_in_indochina_desc:0 "Recent attrocities commited in Indochina to our missionaries and envoys to the region have sparked a massive outrage among the French populous. This rage has been chanelled into a demand for war of conquest."
+  revival_of_paris:0 "Revival Of Paris"
+  revival_of_paris_desc:0 "Paris for the past few years has been a dying city with poverty running rampant, corruption withering the civil service and the economic sector suffering from people leaving to live in the colonies. A mass new campaign to promote a revival of Parisian culture is sure to bring the city back to lfie."
   #Cape Colony
   cape_colony_becomes_dominion:0 "Demand Dominionship"
   cape_colony_becomes_dominion_desc:0 ""
@@ -17,12 +23,43 @@
   #United States 
   homestead_act_decision:0 "Homestead Act"
   homestead_act_decision_desc:0 "The Homestead Act gives each and every person who moves to the West an opportunity to gain dozens of acres in land."
+  usa_perrys_expedition:0 "Perry's Expedition To Japan"
+  usa_perrys_expedition_desc:0 "Commodore Matthew Calbraith Perry was sent off to Asia in order to end Japans isolationism by any means nessecary. As well as open up diplomatic channels between the two and create economic movement between the two."
+  usa_wilkes_expedition:0 "The Wilkes Expedition"
+  usa_wilkes_expedition_desc:0 "A mission to explore the Pacific is in order and we have just the man to do it for us. Wilkes, he will take plenty of geologists, botanists and many others to explore and mapn the pacific in order to plan possible colonization that the United States may do in the future."
+  usa_found_yellowstone:0 "Found Yellowstone National Park"
+  usa_found_yellowstone_desc:0 "A large amount of land in Wyoming has been proposed as a site for a reservation to be protected by the federal government not for people but rather to preserve the nature. A national park opf sorts since the location is untouched with plenty of volcanic geysers, mountain ranges lush with trees, hot springs and an abundance of flora and fauna for the world to see."
+  #Phillipines
+  invade_maguindanao:0 "Invade Maguindanao"
+  invade_maguindanao_desc:0 "For too long our islands have been under threat of invasion by other powers and there has been attempts of colonizing the Maguindanaoans in the south. It is best that we force them into our union now rather than face an invasion from the south later in the future."
+  #Mexico
+  mex_reconquer_latin_america:0 "Reconquer Central America"
+  mex_reconquer_latin_america_desc:0 "We used to own all of Central America under the First Mexican Empire Back in the 1820's. Now that we have the chance, we should retake these lands like our parents before us."
   #Generic Decisions
   new_world_migration_decision:0 "New Life In The New World"
   new_world_migration_decision_desc:0 "There is a great amount of political freedom not enjoyed in other countries unfortunately. However we can help these people by offering to pay for European tickets to our country."
+  #Chile
+  chile_expand_port_in_valparaiso:0 "Expand Port In Valparaiso"
+  chile_expand_port_in_valparaiso_desc:0 "The port in Valparaiso has helped our economy a good bit but if it were expanded further it could fuel a bigger growth of immigrants migrating from other countries as well as create jobs in the area. Ontop of all that it would make us a well-respected center of trade in the Americas."
+  #Russia
+  russian_expanding_into_central_asia:0 "Claim Central Asia"
+  russian_expanding_into_central_asia_desc:0 "For too long Central Asia has remained free and independent with raiding bands constantly attacking our outposts and villages. It is time to crush this evil menace on our border and perhaps make our way over to India and Afghanistan in the process."
+  russian_expanding_into_china:0 "Claim Parts Of China"
+  russian_expanding_into_china_desc:0 "Peter The Great led Russia through much of westernization and western expansion and we have conquered most of the land we could there. It is time to shift our focus to China and see if we can get some land for the Russian Empire and create a name for ourselves."
+  #Prussia
+  prussian_army_reforms_decision:0 "Launch Prussian Army Reforms"
+  prussian_army_reforms_decision_desc:0 "Prussia has many names such as 'The Army With A State' and yet our army has grown to be weak and has begun to rot. Reforms has been needed for a while and the calls have been ignored."
   #Korea
   Korea_economy_decision:0 "Root Out Inefficient Bureaucrats"
   Korea_economy_decision_desc:0 "Our economy has grown at a unprecedented speed and our government has not been able to keep up with the demand for a larger government. Due to this there has been a huge amount of tax waste and a lower throughput compared to other industrialized nations. Rooting out inefficient bureaucrats and replacing them should do the trick now that there is a greater knowledge of this modern economy."
   #China/Qing
   han_becomes_accepted_in_china:0 "Incorporate Han Into An Officially Accepted Culture"
   han_becomes_accepted_in_china_desc:0 "Han people have always been apart of our mandate and it is onlpy right now to incorporate them into our culture, society and our government."
+  chinese_board_of_revenue_decision:0 "Abolish The Board Of Revenue"
+  chinese_board_of_revenue_decision_desc:0 "The Board Of Revenue has made our country more efficient in the terms of tax collection but has blocked us from making meaningful progress in the terms of westernization as its given immense political power to the Landowners."
+  abolish_the_imperial_examination_decision:0 "Abolish The Imperial Examinations"
+  abolish_the_imperial_examination_decision_desc:0 "The Imperial Examinations are a civil service system in which candidates are chosen to run a certain part of the state's bureaucratic syustem. It highly ignores candidates who focus more on western topics and focuses more on literature and Confucist philosophy. This has led to a massive decrease in our standing in the world as we have quickly fallen behind the times."
+  china_invite_western_advisors:0 "Hire Western Advisors"
+  china_invite_western_advisors_desc:0 "Hiring western advisors to guide us in the new world will be the quickest way to modernize but will also be highly expensive."
+  
+

@@ -1,0 +1,27 @@
+﻿invade_maguindanao = {
+	is_shown = {
+		exists = c:PHI
+		this = c:PHI
+	}
+
+	possible = {
+		in_default = no
+		taking_loans = no
+		is_at_war = no
+		root.gdp > 3000000
+		
+		c:MGD ={
+			is_ai = yes
+		}
+
+	}
+	
+	when_taken = {
+		annex = c:MGD
+	}
+
+	ai_chance = {
+		base = 0	
+	}
+}
+

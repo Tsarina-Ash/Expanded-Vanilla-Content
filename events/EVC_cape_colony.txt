@@ -1,0 +1,41 @@
+﻿namespace = EVC_saf
+
+EVC_saf.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_saf.1.t
+	desc = EVC_saf.1.d
+
+	duration = 3
+
+	trigger = {
+	}
+	immediate = {
+	}
+
+	option = {
+		name = EVC_saf.1.a
+
+		default_option = yes
+
+		country_prestige_add = 20
+
+		every_state = {
+			limit = {
+				OR = {
+					owner = { c:SAF = THIS }
+					owner = { is_subject_of = c:SAF	}
+				}
+
+				state_region = {
+            		OR = {
+                		is_homeland = cu:boer
+                	    is_homeland = cu:zulu
+            		}	
+				}
+			}
+			set_state_type = incorporated
+		}
+	}
+}

@@ -39,3 +39,94 @@ EVC_russia.1 = {
 		}
 	}
 }
+
+EVC_russia.2 = {
+	type = country_event
+	placement = root
+
+	title = EVC_russia.2.t
+	desc = EVC_russia.2.d
+	flavor = EVC_russia.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/asia_hinduism_sikhism.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/hinduism_sikhism"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	minor_left_icon = c:TRH
+	minor_right_icon = c:RUS
+
+	duration = 2
+
+	
+	option = {
+		name = EVC_russia.2.a
+		ai_chance = { base = 0 }
+			every_state = {
+				limit = {
+					OR = {
+						owner = { c:RUS = THIS }
+						owner = { is_subject_of = c:RUS	}
+					}
+
+					state_region = {
+                		OR = {
+                    		is_homeland = cu:uzbek
+                    	    is_homeland = cu:kazak
+							is_homeland = cu:kirgiz
+                    	    is_homeland = cu:tajik
+							is_homeland = cu:turkmen
+							is_homeland = cu:uighur
+                		}	
+					}
+				}
+				set_state_type = incorporated
+			}
+
+        	s:STATE_WESTERN_AFGHANISTAN = {
+				add_claim = c:RUS
+			}
+            s:STATE_EASTERN_AFGHANISTAN = {
+				add_claim = c:RUS
+			}
+			
+        change_relations = {
+			country = c:GBR
+			value = -50
+		}
+	}
+    	option = {
+		name = EVC_russia.2.b
+		default_option = yes
+		ai_chance = { base = 1 }
+			every_state = {
+				limit = {
+					OR = {
+						owner = { c:RUS = THIS }
+						owner = { is_subject_of = c:RUS	}
+					}
+					state_region = {
+               		  	OR = {
+                    		is_homeland = cu:uzbek
+                        	is_homeland = cu:kazak
+							is_homeland = cu:kirgiz
+                        	is_homeland = cu:tajik
+							is_homeland = cu:turkmen
+							is_homeland = cu:uighur
+                 		}
+					}
+				}
+				set_state_type = incorporated
+			}
+		}
+
+    change_relations = {
+		country = c:GBR
+		value = 20
+	}
+
+}
