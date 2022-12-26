@@ -820,6 +820,7 @@ antibiotics = {
 	category = society
 	
 	modifier = {
+		state_mortality_mult = -0.05
 		country_institution_health_system_max_investment_add = 1
 	}
 	
@@ -929,6 +930,46 @@ paved_roads = {
 	}
 	
 	unlocking_technologies = {	
+		elevator
+	}
+}
+
+rocket_experimentation = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	unlocking_technologies = {
+		zeppelins
+	}
+}
+
+highway_system = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		state_infrastructure_from_population_add = 0.05
+		state_infrastructure_from_population_max_add = 10
+		state_building_construction_sector_max_level_add = 5
+	}
+
+	unlocking_technologies = {
+		paved_roads
+	}
+}
+
+air_conditioner = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		state_standard_of_living_add = 1
+	}
+
+	unlocking_technologies = {
 		elevator
 	}
 }

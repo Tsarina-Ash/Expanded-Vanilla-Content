@@ -667,6 +667,7 @@ nitrogen_fixation = {
 	category = production
 
 	modifier = {
+		building_greenhouse_throughput_mult = 0.15
 		state_birth_rate_mult = 0.025
 	}
 	
@@ -802,5 +803,21 @@ compression_ignition = {
 	
 	unlocking_technologies = {
 		combustion_engine
+	}
+}
+
+stainless_steel = {
+	# Increases Construction Efficiency
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	modifier = {
+		building_construction_sector_throughput_mult = 0.15
+	}
+
+	unlocking_technologies = {
+		electric_arc_process
+		hot_dip_galvanization
 	}
 }

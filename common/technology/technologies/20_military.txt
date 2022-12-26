@@ -669,6 +669,21 @@ nco_training = {
 	}
 }
 
+light_machine_gun = {
+	# Increases Unit Kill Rate
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	modifier = {
+		unit_kill_rate_add = 0.1
+	}
+
+	unlocking_technologies = {
+		automatic_machine_guns
+	}
+}
+
 chemical_warfare = {
 	# Unlocks Chemical Artillery PM in Barracks
 	era = era_5
