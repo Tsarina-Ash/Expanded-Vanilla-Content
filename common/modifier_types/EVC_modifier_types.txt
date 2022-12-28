@@ -71,3 +71,11 @@ building_output_batteries_add = {
 	good = yes
 	percent = no
 }
+building_input_consumer_electronics_good_add = {
+	good = no
+	percent = no
+}
+building_output_consumer_electronics_good_add = {
+	good = yes
+	percent = no
+}

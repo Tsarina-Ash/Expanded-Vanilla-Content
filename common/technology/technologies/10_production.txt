@@ -821,3 +821,49 @@ stainless_steel = {
 		hot_dip_galvanization
 	}
 }
+
+atomic_experimentation = {
+	#Stepping Stone for Nuclear Techs
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		bayer_process
+		electrical_capacitors
+	}
+}
+
+consumer_electronics = {
+	# Unlocks Consumer Electronics Industry
+	# Unlocking Zinc-Carbon Battery PM for Battery Industries
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		radio
+	}
+}
+
+# opiate_synthesis = {
+# 	# If I ever add Medicine Industry, I'll make this upgrade it
+# 	era = era_5
+# 	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+# 	category = production
+
+# 	unlocking_technologies = {
+# 		nitrogen_fixation
+# 	}
+# }
+
+synthetic_silk = {
+	# Unlocks Nylon PM for Synthetics Plants
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		art_silk
+	}
+}

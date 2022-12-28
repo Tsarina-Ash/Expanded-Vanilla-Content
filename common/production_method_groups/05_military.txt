@@ -47,6 +47,7 @@ pmg_specialist_companies = {
 		pm_infiltrators
 		pm_flamethrower_company
 		pm_chemical_weapons_specialists
+		pm_close_air_support
 	}
 }
 
@@ -99,6 +100,7 @@ pmg_specialist_companies_conscription = {
 		pm_infiltrators_conscription
 		pm_flamethrower_company_conscription
 		pm_chemical_weapons_specialists_conscription
+		pm_close_air_support_conscription
 	}
 }
 

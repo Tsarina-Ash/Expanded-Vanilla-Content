@@ -127,7 +127,7 @@ building_uranium_mine = {
 	terrain_manipulator = mining
 
 	unlocking_technologies = {
-		
+		atomic_experimentation
 	}
 
 	production_method_groups = {
@@ -148,7 +148,7 @@ building_bauxite_mine = {
 	terrain_manipulator = mining
 
 	unlocking_technologies = {
-		
+		shaft_mining
 	}
 
 	production_method_groups = {

@@ -54,3 +54,11 @@ batteries = {
 
 	prestige_factor = 5
 }
+consumer_electronics_good = {
+	texture = ""
+	cost = 80
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 10
+}

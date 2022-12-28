@@ -808,3 +808,44 @@ battlefleet_tactics = {
 		sea_lane_strategies
 	}
 }
+
+steel_helmets = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	modifier = {
+		unit_army_defense_add = 5
+	}
+
+	unlocking_technologies = {
+		stormtroopers
+		nco_training
+	}
+}
+
+close_air_support = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	unlocking_technologies = {
+		military_aviation
+	}
+}
+
+lightning_warfare = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	modifier = {
+		unit_army_offense_mult = 0.3
+		unit_morale_damage_mult = 0.05
+	}
+
+	unlocking_technologies = {
+		mobile_armor
+		close_air_support
+	}
+}

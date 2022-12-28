@@ -3536,7 +3536,7 @@ pm_opium_production = {
 	texture = ""
 
 	unlocking_technologies = {
-
+		
 	}
 
 	building_modifiers = {
@@ -3622,7 +3622,7 @@ pm_zinc_carbon = {
 	texture = ""
 
 	unlocking_technologies = {
-		
+		consumer_electronics
 	}
 	
 	building_modifiers = {
@@ -3680,6 +3680,83 @@ pm_publicly_traded_building_battery_industry = {
 		}
 		unscaled = {
 			building_capitalists_shares_add = 1
+		}
+	}
+}
+
+pm_basic_consumer_electronics = {
+	texture = ""
+
+	unlocking_technologies = {
+		consumer_electronics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_batteries_add = 20
+			building_input_copper_add = 10
+			building_input_iron_add = 20
+			building_input_tools_add = 10
+
+			building_output_consumer_electronics_good_add = 20
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_personal_television = {
+	texture = ""
+
+	unlocking_technologies = {
+		
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_batteries_add = 20
+			building_input_copper_add = 10
+			building_input_iron_add = 10
+			building_input_tools_add = 20
+			building_input_glass_add = 20
+			building_input_oil_add = 10
+
+			building_output_consumer_electronics_good_add = 60
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+pm_nylon = {
+	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
+
+	unlocking_technologies = {
+		synthetic_silk
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_coal_add = 20
+			building_input_oil_add = 10
+			building_output_dye_add = -40
+
+			# output goods
+			building_output_silk_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 500
 		}
 	}
 }

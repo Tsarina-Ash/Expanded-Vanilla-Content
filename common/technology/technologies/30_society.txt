@@ -829,20 +829,20 @@ antibiotics = {
 	}
 }
 
-#vitamins = {
-#	# #todo#! Reduces state mortality by -10% (same as Antibiotics)
-#	era = era_5
-#	texture = "gfx/interface/icons/invention_icons/vitamins.dds"
-#	category = society
-#	
-#	modifier = {
-#		state_mortality_mult = -0.10
-#	}
-#	
-#	unlocking_technologies = {
-#		malaria_prevention
-#	}
-#}
+vitamins = {
+	# #todo#! Reduces state mortality by -10% (same as Antibiotics) #I wanted to add this to the mod anway ;3
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/vitamins.dds"
+	category = society
+	
+	modifier = {
+		state_mortality_mult = -0.05 #-0.1
+	}
+	
+	unlocking_technologies = {
+		malaria_prevention
+	}
+}
 
 mass_propaganda = {
 	# Unlocks Better Radios PM in Electrics Industries
@@ -971,5 +971,68 @@ air_conditioner = {
 
 	unlocking_technologies = {
 		elevator
+	}
+}
+
+# contraception = {
+# 	era = era_6
+# 	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+# 	category = society
+
+# 	modifier = {
+# 		state_birth_rate_mult = -0.2
+# 		state_radicals_from_sol_change_mult = -0.1
+# 		state_loyalists_from_sol_change_mult = 0.1
+# 		state_bureaucracy_population_base_cost_factor_mult = -0.1
+# 	}
+
+# 	unlocking_technologies = {
+# 		antibiotics
+# 	}
+# } 
+
+modern_medical_surgeries = { #Sexual Reassessment Surgery!!!!
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		state_birth_rate_mult = -0.025
+		state_mortality_mult = -0.1
+	}
+
+	unlocking_technologies = {
+		antibiotics
+		vitamins
+	}
+}
+
+patriotism = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		country_authority_mult = 0.1
+		state_assimilation_mult = 0.1
+	}
+
+	unlocking_technologies = {
+		mass_propaganda
+	}
+}
+
+digital_record_keeping = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		state_tax_capacity_add = 25
+		state_tax_capacity_mult = 0.25
+	}
+
+	unlocking_technologies = {
+		mass_surveillance
 	}
 }

@@ -1684,3 +1684,70 @@ pm_battlefleet_tactics = {
 		pm_offense_defense_readjustment
 	}
 }
+
+pm_close_air_support = {
+	texture = ""
+	
+	unlocking_technologies = {
+		close_air_support
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_aeroplanes_add = 1
+			building_input_ammunition_add = 1
+			building_input_oil_add = 1
+		}
+		throughput_scaled = {
+			unit_offense_add = 60
+		}
+
+		unscaled = {
+			building_training_rate_add = -10
+
+			unit_morale_damage_mult = 0.5
+			unit_kill_rate_add = 0.5
+			unit_devastation_mult = 0.8
+			unit_provinces_captured_mult = 0.2
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 8
+		}
+	}	
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_close_air_support_conscription = {
+	texture = ""
+
+	unlocking_technologies = {
+		close_air_support
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_aeroplanes_add = 1
+			building_input_ammunition_add = 1
+			building_input_oil_add = 1
+		}
+		throughput_scaled = {
+			unit_offense_add = 60
+		}
+
+		unscaled = {
+			building_training_rate_add = -10
+
+			unit_morale_damage_mult = 0.5
+			unit_kill_rate_add = 0.5
+			unit_devastation_mult = 0.8
+			unit_provinces_captured_mult = 0.2
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
