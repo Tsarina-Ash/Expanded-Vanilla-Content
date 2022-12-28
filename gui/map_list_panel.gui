@@ -181,6 +181,8 @@ types map_list_panel_types {
 				margin_left = -50
 			}
 
+			widget = { size = { 10 20 }}
+
 			widget = {
 				name = "header"
 				size = { 0 50 }
@@ -745,14 +747,14 @@ types map_list_panel_types {
 				align = center|nobaseline
 				text = "BUILDING_MAP_LIST_PANEL_STATE_HEADER"
 				tooltip = "BUILDING_MAP_LIST_PANEL_STATE_HEADER_TOOLTIP"
-				size = { 100 20 }
+				size = { 130 20 }
 				onclick = "[MapListPanel.Sort('state')]"
 			}
 
 			sort_button = {
 				align = center|nobaseline
 				tooltip = "BUILDING_LEVEL_HEADER_TOOLTIP"
-				size = { 70 20 }
+				size = { 80 20 }
 				onclick = "[MapListPanel.Sort('size')]"
 				button = {
 					texture = "gfx/interface/buttons/sort_button_icons/sort_icon_size.dds"
@@ -766,20 +768,8 @@ types map_list_panel_types {
 				align = center|nobaseline
 				text = "BUILDING_MAP_LIST_PANEL_PEASANTS_HEADER"
 				tooltip = "BUILDING_MAP_LIST_PANEL_PEASANTS_HEADER_TOOLTIP"
-				size = { 70 20 }
+				size = { 85 20 }
 				onclick = "[MapListPanel.Sort('peasants')]"
-			}
-
-			sort_button = {
-				align = center|nobaseline
-				tooltip = "[concept_infrastructure]"
-				size = { 50 20 }
-				button = {
-					texture = "gfx/interface/buttons/sort_button_icons/sort_icon_infrastructure.dds"
-					size = { 25 25 }
-					parentanchor = center
-					alwaystransparent = yes
-				}
 			}
 
 			sort_button = {
@@ -807,7 +797,7 @@ types map_list_panel_types {
 		blockoverride "values" {
 			textbox = {
 				margin = { 5 0 }
-				size = { 100 25 }
+				size = { 130 25 }
 				align = left|nobaseline
 				text = "[MapListOption.GetBuildingData.GetState.GetNameNoFormatting]"
 				parentanchor = vcenter
@@ -818,7 +808,7 @@ types map_list_panel_types {
 			textbox = {
 				datacontext = "[MapListOption.GetBuildingData.GetBuilding]"
 				margin = { 5 0 }
-				size = { 70 25 }
+				size = { 80 25 }
 				align = right|nobaseline
 				text = "[MapListOption.GetBuildingData.GetBuilding.GetExpansionLevelDesc]"
 				parentanchor = vcenter
@@ -827,20 +817,12 @@ types map_list_panel_types {
 				alpha = "[TransparentIfFalse(GreaterThan_int32(MapListOption.GetBuildingData.GetBuilding.GetExpansionLevel, '(int32)0'))]"
 			}
 
-			textbox = {
-				margin = { 5 0 }
-				size = { 70 25 }
-				align = right|nobaseline
-				text = "[MapListOption.GetBuildingData.GetState.GetNumSubsistenceWorkingAdults|Dv]"
-				parentanchor = vcenter
-				elide = right
-			}
 
 			textbox = {
 				margin = { 5 0 }
-				size = { 50 25 }
+				size = { 85 25 }
 				align = right|nobaseline
-				text = "[MapListOption.GetBuildingData.GetState.GetInfrastructureBalance|0+=]"
+				text = "[MapListOption.GetBuildingData.GetState.GetNumSubsistenceWorkingAdults|Dv]"
 				parentanchor = vcenter
 				elide = right
 			}
