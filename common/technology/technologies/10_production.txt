@@ -859,11 +859,51 @@ consumer_electronics = {
 
 synthetic_silk = {
 	# Unlocks Nylon PM for Synthetics Plants
+	# Unlocks Synthetic Silk PM for Textile Mills
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
 	category = production
 
 	unlocking_technologies = {
 		art_silk
+	}
+}
+
+nuclear_fission = {
+	# Unlocks Nuclear Power Plants
+	# Unlocks Uranium Enrichment Chambers
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		atomic_experimentation
+		oil_turbine
+	}
+}
+
+insecticides = {
+	# Unlocks Insecticide PM for agricultural buildings
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	modifier = {
+		state_birth_rate_mult = 0.025
+	}
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+}
+
+polyester = {
+	# Unlocks Synthetic Fiber PM for Textile Mills
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = production
+
+	unlocking_technologies = {
+		plastics
 	}
 }

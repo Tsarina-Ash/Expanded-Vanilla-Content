@@ -3299,6 +3299,10 @@ pm_publicly_traded_building_munition_plants = {
 pm_gas_diffusion = {
 	texture = ""
 
+	unlocking_technologies = {
+		nuclear_fission
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_uranium_add = 20
@@ -3758,5 +3762,60 @@ pm_nylon = {
 			building_employment_machinists_add = 500
 			building_employment_engineers_add = 500
 		}
+	}
+}
+
+pm_sythetic_fiber = {
+	texture = ""
+
+	unlocking_technologies = {
+		polyester
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_fabric_add = 60
+			building_input_dye_add = 20
+			building_input_tools_add = 10
+			building_input_electricity_add = 10
+			building_input_oil_add = 10
+			
+			# output goods
+			building_output_clothes_add = 200
+		}
+
+		level_scaled = {
+			# profit = 1300
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_syntehtic_silk = {
+	texture = ""
+
+	unlocking_technologies = {
+		synthetic_silk
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_rubber_add = 10
+			building_input_silk_add = 20
+			building_input_fabric_add = -10
+			
+			# output goods
+			building_output_clothes_add = -20
+			building_output_luxury_clothes_add = 70
+		}
+		
+		level_scaled = {
+			# profit = 900 (23.4)
+			building_employment_shopkeepers_add = 1000
+		}						
 	}
 }

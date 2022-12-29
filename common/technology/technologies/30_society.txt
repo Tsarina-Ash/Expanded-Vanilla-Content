@@ -939,6 +939,10 @@ rocket_experimentation = {
 	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
 	category = society
 
+	modifier = {
+		country_weekly_innovation_max_add = 30
+	}
+
 	unlocking_technologies = {
 		zeppelins
 	}
@@ -974,22 +978,24 @@ air_conditioner = {
 	}
 }
 
-# contraception = {
-# 	era = era_6
-# 	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
-# 	category = society
+contraception = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/birth_control.dds"
+	category = society
 
-# 	modifier = {
-# 		state_birth_rate_mult = -0.2
-# 		state_radicals_from_sol_change_mult = -0.1
-# 		state_loyalists_from_sol_change_mult = 0.1
-# 		state_bureaucracy_population_base_cost_factor_mult = -0.1
-# 	}
+	modifier = {
+		state_birth_rate_mult = -0.025
+		state_mortality_mult = -0.05
+		# state_radicals_from_sol_change_mult = -0.1
+		# state_loyalists_from_sol_change_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_expected_sol_from_literacy = 1
+	}
 
-# 	unlocking_technologies = {
-# 		antibiotics
-# 	}
-# } 
+	unlocking_technologies = {
+		antibiotics
+	}
+} 
 
 modern_medical_surgeries = { #Sexual Reassessment Surgery!!!!
 	era = era_6
@@ -1019,6 +1025,21 @@ patriotism = {
 
 	unlocking_technologies = {
 		mass_propaganda
+	}
+}
+
+space_exploration = { #Space Probes (Sputnik)
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+
+	modifier = {
+		country_prestige_mult = 0.15
+		country_weekly_innovation_max_add = 20
+	}
+
+	unlocking_technologies = {
+		rocket_experimentation
 	}
 }
 

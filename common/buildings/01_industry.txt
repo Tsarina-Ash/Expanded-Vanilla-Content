@@ -311,7 +311,7 @@ building_uranium_enrichment_plant = {
 	required_construction = construction_cost_very_high
 
 	unlocking_technologies = {
-		#uranium processing
+		nuclear_fission
 	}
 
 	production_method_groups = {

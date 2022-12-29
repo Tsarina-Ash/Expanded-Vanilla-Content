@@ -419,7 +419,7 @@ pm_nuclear_plant = {
 	pollution_generation = 10
 
 	unlocking_technologies = {
-		#nuclear_power
+		nuclear_fission
 	}
 
 	building_modifiers = {

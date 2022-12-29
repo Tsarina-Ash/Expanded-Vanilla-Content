@@ -830,6 +830,7 @@ close_air_support = {
 	category = military
 
 	unlocking_technologies = {
+		light_machine_gun
 		military_aviation
 	}
 }
@@ -847,5 +848,45 @@ lightning_warfare = {
 	unlocking_technologies = {
 		mobile_armor
 		close_air_support
+	}
+}
+
+fission_bombs = { #It's that time
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	unlocking_technologies = {
+		close_air_support
+		chemical_warfare
+	}
+}
+
+turbojet = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	modifier = {
+		unit_army_offense_mult = 0.1
+	}
+
+	unlocking_technologies = {
+		close_air_support
+	}
+}
+
+radar = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = military
+
+	modifier = {
+		unit_recovery_rate_add = 0.05
+		unit_morale_loss_mult = -0.1
+	}
+
+	unlocking_technologies = {
+		stormtroopers
 	}
 }
