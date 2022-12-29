@@ -769,7 +769,7 @@ ZND = {
 }
 
 DFT = {
-	color = { 167 92 56 }
+	color = { 194 66 41 }
 	
 	country_type = decentralized
 	

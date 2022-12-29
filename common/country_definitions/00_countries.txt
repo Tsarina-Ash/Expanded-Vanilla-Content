@@ -10,7 +10,7 @@
 }
 
 GBR = {
-	color = hsv{ 3.60 0.98 0.51 }
+	color = { 209  41  41 }
 
 	country_type = recognized
 
@@ -1348,7 +1348,7 @@ ZAI = {
 }
 
 LAH = {
-	color = { 209  41  41 }
+	color = { 203 54 66 }
 	
 	country_type = unrecognized
 	
@@ -1639,7 +1639,7 @@ ORI = {
 }
 
 PAN = {
-	color = { 194 66 41 }
+	color = { 167 92 56 }
 	
 	country_type = unrecognized
 	
