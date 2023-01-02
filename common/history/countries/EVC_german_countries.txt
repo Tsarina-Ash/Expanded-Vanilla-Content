@@ -1,0 +1,170 @@
+﻿COUNTRIES = {
+	c:PRU = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:BAV = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:BAD = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:AHN = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:BRA = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:BRE = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:FRM = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HAM = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HAN = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HES = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HOL = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:LUB = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:LUX = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:MEC = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:NAS = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:OLD = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:SAX = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:WUR = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HOH = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:WLD = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:MST = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:SCM = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:LIP = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:HEK = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:SCW = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:WEI = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:MEI = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+	c:COB = {
+		add_modifier = {
+			name = german_population_boom
+			years = 60
+		}
+	}
+}

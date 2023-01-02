@@ -272,3 +272,8 @@ failure_in_mexico_modifier = {
 	country_prestige_mult = -0.15
 	country_influence_mult = -0.1
 }
+
+german_population_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.2
+}
