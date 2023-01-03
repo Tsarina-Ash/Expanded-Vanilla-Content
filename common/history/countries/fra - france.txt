@@ -64,7 +64,7 @@
 
 		add_modifier = {
 			name = modifier_low_birth_rate
-			years = 40
+			years = 60
 			is_decaying = yes
 		}
 
