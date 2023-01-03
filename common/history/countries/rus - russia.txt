@@ -40,7 +40,7 @@
 
 		add_modifier = {
 			name = modifier_massive_population_boom
-			years = 15
+			years = 40
 		}
 
 		add_modifier = {

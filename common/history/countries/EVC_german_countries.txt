@@ -2,169 +2,169 @@
 	c:PRU = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:BAV = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:BAD = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
-	c:AHN = {
+	c:ANH = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:BRA = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:BRE = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:FRM = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HAM = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HAN = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HES = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HOL = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:LUB = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:LUX = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:MEC = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:NAS = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:OLD = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:SAX = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:WUR = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HOH = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:WLD = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:MST = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:SCM = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:LIP = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:HEK = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:SCW = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:WEI = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:MEI = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 	c:COB = {
 		add_modifier = {
 			name = german_population_boom
-			years = 60
+			years = 50
 		}
 	}
 }

@@ -4,8 +4,8 @@
 	}
 
 	possible = {	
-		has_technology_researched = steel_frame_buildings
-		has_technology_researched = reinforced_concrete
+		has_technology_researched = shift_work
+		has_technology_researched = labor_movement
 	}	
 	
 	when_taken = {
@@ -22,12 +22,13 @@ revival_of_paris = {
 		exists = c:FRA
 		this = c:FRA
 		NOT = {
-			has_variable = french_intervention_in_vietnam
+			has_variable = paris_revived
 		}		
 	}
 	possible = {
 		this = c:FRA
 		has_technology_researched = nationalism
+		has_technology_researched = realism
 	}
 	
 	when_taken = {
@@ -36,7 +37,7 @@ revival_of_paris = {
 				name = parisian_revival
 			}
 		}
-		set_variable = french_intervention_in_vietnam		
+		set_variable = paris_revived		
 	}
 
 	ai_chance = {
@@ -99,7 +100,7 @@ france_intervene_in_indochina = {
 	}
 	possible = {
 		this = c:FRA
-		has_technology_researched = nationalism
+		has_technology_researched = civilizing_mission
 	}
 	
 	when_taken = {

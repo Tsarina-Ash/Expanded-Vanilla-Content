@@ -12,14 +12,14 @@ cultivation_law_overlord = {
 
 modifier_low_birth_rate = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-    state_birth_rate_mult = -0.2
+    state_birth_rate_mult = -0.05
 }
 
 modifier_radical_population = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
     country_radicals_from_conquest_mult = 0.5
 	state_radicals_from_sol_change_mult = 0.5
-    political_movement_radicalism_add = 1
+    political_movement_radicalism_add = 0.1
 }
 
 modifier_highly_radical_population = {
@@ -104,7 +104,7 @@ modifier_outdated_bureaucracy = {
 
 modifier_massive_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.25
+	state_accepted_birth_rate_mult = 0.25
 }
 
 modifier_industrial_boom = {
@@ -117,7 +117,7 @@ modifier_industrial_boom = {
 
 modifier_chinese_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.05
+	state_accepted_birth_rate_mult = 0.05
 }
 
 modifier_board_of_revenue = {
@@ -275,5 +275,6 @@ failure_in_mexico_modifier = {
 
 german_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_birth_rate_mult = 0.2
+	state_accepted_birth_rate_mult = 0.2
 }
+
