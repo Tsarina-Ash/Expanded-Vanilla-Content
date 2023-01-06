@@ -31,7 +31,7 @@ EVC_usa.1 = {
 		}
 
 		s:STATE_HAWAIIAN_ISLANDS.region_state:USA = {
-			set_state_type = incorporated
+			add_homeland = yankee
 		}
 	}
 }
