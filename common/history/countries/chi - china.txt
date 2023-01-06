@@ -32,6 +32,10 @@
 		}
 
 		add_modifier = {
+			name = stagnated_confucianism
+		}
+
+		add_modifier = {
 			name = modifier_resitance_to_westernization
 			years = 30
 			is_decaying = yes

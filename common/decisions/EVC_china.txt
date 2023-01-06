@@ -58,11 +58,15 @@ china_invite_western_advisors = {
 
 chinese_board_of_revenue_decision = {
 	is_shown = {
+		has_variable = chi_has_begun_liberalizing
 		has_modifier = modifier_board_of_revenue
 	}
 
-	possible = {	
-		has_technology_researched = tech_bureaucracy
+	possible = {
+		OR = {
+			has_technology_researched = central_archives
+			has_technology_researched = central_banking
+		}
 	}	
 	
 	when_taken = {
@@ -79,6 +83,7 @@ chinese_board_of_revenue_decision = {
 			#			add_law = law_type:law_basic_tax_law
 			#		}
 			#}
+			set_variable = qing_reform_admin_2
 	}
 
 	ai_chance = {
@@ -88,17 +93,144 @@ chinese_board_of_revenue_decision = {
 
 abolish_the_imperial_examination_decision = {
 	is_shown = {
+		has_variable = chi_has_begun_liberalizing
 		has_modifier = modifier_imperial_examinations
 	}
 	
+	possible = {
+		has_technology_researched = empiricism
+	}
+
 	when_taken = {
 		remove_modifier = modifier_imperial_examinations
-			add_radicals = {
-				value = 0.1
-			}		
+
+		add_radicals = {
+			value = 0.1
+		}	
+			set_variable = qing_reform_admin_1	
 	}
 
 	ai_chance = {
 		base = 200
+	}
+}
+
+great_leap_foward_decision = {
+	is_shown = {
+        NOT = { 
+            has_variable = chi_has_done_great_leap_foward 
+        }	
+		has_technology_researched = socialism
+		ig:ig_trade_unions = {
+			is_marginal = no
+		}
+	}
+	
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			is_split_state = no
+			any_scope_building = {
+				is_building_type = building_urban_center
+				level >= 15
+			}
+		}
+		ig:ig_trade_unions = {
+			is_marginal = no
+		}		
+	}
+
+	when_taken = {
+		add_modifier = great_leap_foward_modifier
+		add_radicals = {
+			value = 0.05
+		}		
+		any_scope_state = {
+			limit = {
+				is_incorporated = yes
+				is_split_state = no
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 15
+				}
+			}
+			add_modifier = {
+				name = great_leap_foward_state_modifier
+			} 
+		}
+
+		set_variable = chi_has_done_great_leap_foward		
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+#modernization of china
+
+first_self_strengthening_movement_decision = {
+	is_shown = {
+        has_modifier = stagnated_confucianism
+	}
+	
+	possible = {
+		has_technology_researched = empiricism
+	}
+
+	when_taken = {
+		remove_modifier = stagnated_confucianism
+		add_modifier = confucianalism_slow_revival
+
+		set_variable = chi_has_begun_liberalizing
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+second_self_strengthening_movement_decision = {
+	is_shown = {
+        has_modifier = confucianalism_slow_revival
+		has_variable = qing_reform_admin_2
+		has_variable = qing_reform_admin_1
+	}
+	
+	possible = {
+		has_technology_researched = psychiatry
+	}
+
+	when_taken = {
+		remove_modifier = confucianalism_slow_revival
+		add_modifier = confucianalism_slow_recovery
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+third_self_strengthening_movement_decision = {
+	is_shown = {
+        has_modifier = confucianalism_slow_recovery
+	}
+	
+	possible = {
+		has_technology_researched = philosophical_pragmatism
+	}
+
+	when_taken = {
+		remove_modifier = confucianalism_slow_recovery
+		add_modifier = confucionalism_revived
+		add_modifier = {
+			name = anti_monarchist_talk_begins
+			years = 100
+			is_decaying = yes
+		}	
+	}
+
+	ai_chance = {
+		base = 20
 	}
 }

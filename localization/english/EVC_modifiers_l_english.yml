@@ -44,3 +44,5 @@
   massive_famine:0 "Major Famine"
   medium_famine_modifier:0 "Major Famine"
   small_famine_modifier:0 "Nationwide Famine"
+  great_leap_foward_modifier:0 "Great Leap Foward Agricultural Restructuring"
+  great_leap_foward_state_modifier:0 "Great Leap Foward Industrial Boom"

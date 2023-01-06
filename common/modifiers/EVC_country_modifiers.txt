@@ -141,6 +141,8 @@ modifier_resitance_to_westernization = {
 
 	country_tech_spread_mult = -0.15
 
+	state_radicals_from_sol_change_mult = -0.5
+
 	country_military_tech_cost_mult = 0.2
 	country_production_tech_cost_mult = 0.1
 }
@@ -199,7 +201,7 @@ confucionalism_revived = {
 	country_prestige_mult = 0.05
 }
 
-anti_monarchist_talk_begins= {
+anti_monarchist_talk_begins = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 
 	interest_group_ig_landowners_pop_attraction_mult = -0.4
@@ -283,3 +285,8 @@ german_population_boom = {
 	state_accepted_birth_rate_mult = 0.2
 }
 
+great_leap_foward_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_subsistence_farms_throughput_mult = -0.80
+	building_group_bg_agriculture_throughput_mult = 0.2
+}

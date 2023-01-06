@@ -65,3 +65,10 @@ small_famine_modifier = {
 	state_migration_pull_mult = -0.25
 	building_subsistence_farms_throughput_mult = -0.25
 }
+
+
+great_leap_foward_state_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.05
+	state_migration_pull_mult = 0.1
+}
