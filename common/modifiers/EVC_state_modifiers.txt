@@ -9,11 +9,6 @@ rhur_boom = {
 	state_birth_rate_mult = 0.2
 }
 
-massive_famine = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_birth_rate_mult = -0.3
-}
-
 syrian_westernization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_birth_rate_mult = 0.05
@@ -45,4 +40,35 @@ parisian_revival = {
 
     building_throughput_mult = 0.05
 	building_construction_sector_throughput_mult = 0.1
+}
+
+massive_famine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_birth_rate_mult = -0.3
+	state_mortality_mult = 0.15
+	state_migration_pull_mult = -0.3
+	building_subsistence_farms_throughput_mult = -0.6
+}
+
+medium_famine_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_birth_rate_mult = -0.2
+	state_mortality_mult = 0.1
+	state_migration_pull_mult = -0.3
+	building_subsistence_farms_throughput_mult = -0.4
+}
+
+small_famine_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_birth_rate_mult = -0.05
+	state_mortality_mult = 0.05
+	state_migration_pull_mult = -0.25
+	building_subsistence_farms_throughput_mult = -0.25
+}
+
+
+great_leap_foward_state_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.05
+	state_migration_pull_mult = 0.1
 }

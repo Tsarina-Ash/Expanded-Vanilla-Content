@@ -32,14 +32,12 @@
 		}
 
 		add_modifier = {
-			name = modifier_resitance_to_westernization
-			years = 30
-			is_decaying = yes
+			name = stagnated_confucianism
 		}
 
 		add_modifier = {
-			name = modifier_temporary_china_population_nerf
-			years = 20
+			name = modifier_resitance_to_westernization
+			years = 30
 			is_decaying = yes
 		}
 
