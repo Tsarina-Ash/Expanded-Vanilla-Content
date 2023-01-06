@@ -206,6 +206,11 @@ anti_monarchist_talk_begins= {
 	interest_group_ig_landowners_pol_str_mult = -0.25
 }
 
+modifier_massive_famine_relief = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 48000
+}
+
 russian_serfs_freed = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	state_minimum_wealth_add = 2

@@ -37,12 +37,6 @@
 			is_decaying = yes
 		}
 
-		add_modifier = {
-			name = modifier_temporary_china_population_nerf
-			years = 20
-			is_decaying = yes
-		}
-
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials
 			remove_ideology = ideology_paternalistic

@@ -40,3 +40,7 @@
   confucianalism_slow_recovery:0 "Slow Recovery Of Confucianism"
   confucionalism_revived:0 "Confucianism Revived"
   anti_monarchist_talk_begins:0 "Anti-Monarchism Grows Popular"
+  modifier_massive_famine_relief:0 "Famine Relief"
+  massive_famine:0 "Major Famine"
+  medium_famine_modifier:0 "Major Famine"
+  small_famine_modifier:0 "Nationwide Famine"

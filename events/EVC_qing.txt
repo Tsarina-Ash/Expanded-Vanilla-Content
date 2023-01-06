@@ -108,3 +108,94 @@ EVC_qing.3 = {
 
 	}
 }
+
+EVC_qing.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_qing.4.t
+	desc = EVC_qing.4.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_farmers_market.bd2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/farmers_market"
+
+	duration = 3
+
+	trigger = {
+		game_date > 1867.5.14
+		exist = c:CHI
+		this = c:CHI
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = EVC_qing.4.a
+		default_option = yes
+		s:STATE_SHANXI.region_state:CHI = { 
+			add_modifier = {
+				name = medium_famine_modifier
+				years = 3
+			} 
+		}
+		add_modifier = {
+			name = modifier_massive_famine_relief
+			years = 3
+		} 
+	}
+
+	option = {
+		name = EVC_qing.4.b
+		default_option = yes
+		s:STATE_SHANXI.region_state:CHI = { 
+			add_modifier = {
+				name = massive_famine
+				years = 6
+			} 
+		}
+	}
+}
+
+EVC_qing.5 = {
+	type = country_event
+	placement = ROOT
+
+	title = EVC_qing.5.t
+	desc = EVC_qing.5.d
+
+	event_image = {
+		video = "gfx/event_pictures/asia_farmers_market.bd2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/farmers_market"
+
+	duration = 3
+
+	trigger = {
+		game_date > 1850.5.14
+		exist = c:CHI
+		this = c:CHI
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = EVC_qing.5.a
+		default_option = yes
+		every_scope_state = { 
+			limit = { owned_by = this:CHI }
+			add_modifier = {
+				name = small_famine_modifier
+				years = 20
+				is_decaying = yes
+			} 
+		}
+	}
+}
