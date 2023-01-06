@@ -145,7 +145,7 @@ great_leap_foward_decision = {
 		add_radicals = {
 			value = 0.05
 		}		
-		any_scope_state = {
+		every_scope_state = {
 			limit = {
 				is_incorporated = yes
 				is_split_state = no
