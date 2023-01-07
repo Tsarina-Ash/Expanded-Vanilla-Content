@@ -56,6 +56,41 @@ china_invite_western_advisors = {
 	}	
 }
 
+china_send_students_to_the_west = {
+	is_shown = {
+		exists = c:CHI
+		this = c:CHI
+        NOT = { 
+            has_variable = qing_has_done_western_students
+			country_rank != rank_value:unrecognized_power
+			country_rank != rank_value:unrecognized_major_power
+			country_rank != rank_value:unrecognized_regional_power
+        }
+	}
+	possible = {
+		this = c:CHI
+		not = {
+			is_subject = yes
+			has_law = law_type:law_isolationism
+		}
+	}
+	when_taken = {
+		c:CHI = {
+			add_modifier = western_students_bonus
+			years = 15
+		}
+		c:CHI = {
+			add_modifier = western_students_payments
+			years = 15
+		}
+        set_variable = qing_has_done_western_students	
+	}
+
+	ai_chance = {
+		base = 80
+	}	
+}
+
 chinese_board_of_revenue_decision = {
 	is_shown = {
 		has_variable = chi_has_begun_liberalizing
