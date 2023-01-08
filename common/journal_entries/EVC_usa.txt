@@ -16,6 +16,51 @@
 		} 
 	}
 
-    should_be_pinned_by_default = yes
+    # should_be_pinned_by_default = yes #idk why this was pinned before
 	weight = 10
+}
+EVC_north_south_division = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		custom_tooltip = {
+			text = north_south_division
+		}
+	}
+
+	fail = {
+		OR = {
+			has_law = law_type:law_slavery_banned
+			NOT = {
+				has_modifier = slave_debate
+			}
+			AND = {
+
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {}
+	}
+
+	current_value = {
+		value = var:north_south_tension
+	}
+
+	goal_add_value = {
+		add = 10
+	}
+
+	progressbar = yes
+
+	on_weekly_pulse = { #checks conditions
+
+	}
+
+	should_be_pinned_by_default = yes
+	weight = 110
 }

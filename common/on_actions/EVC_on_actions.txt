@@ -1,0 +1,13 @@
+# Root = state
+on_state_incorporation = {
+	effect = {
+		owner = {
+			if = {
+				limit = {
+					this = c:USA
+					has_modifier = slave_debate
+				}
+			}
+		}
+	}
+}

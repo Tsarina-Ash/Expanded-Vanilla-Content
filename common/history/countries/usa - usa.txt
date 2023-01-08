@@ -57,11 +57,16 @@
 
 		add_journal_entry = { type = je_texas_usa }
 		add_journal_entry = { type = je_acw_countdown }
+		add_journal_entry = { type = EVC_north_south_division }
+
+		# add_modifier = {
+		# 	name = missouri_compromise
+		# 	years = 50
+		# 	is_decaying = yes
+		# }
 
 		add_modifier = {
-			name = missouri_compromise
-			years = 50
-			is_decaying = yes
+			name = slave_debate
 		}
 	}
 }

@@ -26,8 +26,6 @@
   modifier_temporary_china_population_nerf:0 "Century Of Turmoil"
   east_india_company_profits:0 "Profits From The East-India Company"
   laissez_faire_to_the_max:0 "Total Laissez Faire"
-  yellowstone_founded_modifier:0 "Yellowstone National Park"
-  modifier_permament_usa_pop_growth:0 "The Land Of The Free"
   small_baby_boom_modifier:0 "Small Baby Boom"
   western_expedition_bonus:0 "Western Expedition"
   prussian_general_staff:0 "Prussian General Staff"
@@ -46,3 +44,8 @@
   small_famine_modifier:0 "Nationwide Famine"
   great_leap_foward_modifier:0 "Great Leap Foward Agricultural Restructuring"
   great_leap_foward_state_modifier:0 "Great Leap Foward Industrial Boom"
+
+  #USA
+  slave_debate:0 "Slave Debate"
+  yellowstone_founded_modifier:0 "Yellowstone National Park"
+  modifier_permament_usa_pop_growth:0 "The Land Of The Free"
