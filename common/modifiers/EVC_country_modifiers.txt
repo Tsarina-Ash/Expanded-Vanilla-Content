@@ -304,10 +304,3 @@ great_leap_foward_modifier = {
 	building_subsistence_farms_throughput_mult = -0.80
 	building_group_bg_agriculture_throughput_mult = 0.2
 }
-
-slave_debate = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	state_radicals_from_sol_change_mult = 0.2
-	country_radicals_from_conquest_mult = 0.2
-	interest_group_ig_landowners_pol_str_mult = 0.25
-}
