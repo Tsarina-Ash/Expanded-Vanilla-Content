@@ -1,2 +1,12 @@
 ﻿l_english:
   state_trait_new_world_migration:0 "New World"
+
+  state_trait_bordeaux_wine_valley:0 "Bordeaux Wine Region"
+  state_trait_loire_wine_valley:0 "Loire Wine Region"
+  state_trait_champagne_wine_valley:0 "Champagne Wine Region"
+  state_trait_rhone_wine_valley:0 "Rhone Wine Region"
+  state_trait_roussillon_wine_valley:0 "Roussillon Wine Region"
+  state_trait_north_italian_wine_valley:0 "North Italian Wine Region"
+  state_trait_tuscan_wine_valley:0 "Tuscan Wine Region"
+  state_trait_la_mancha_wine_valley:0 "La Mancha Wine Valley"
+  state_trait_barcelona_wine_valley:0 "Barcelona Wine Valley"

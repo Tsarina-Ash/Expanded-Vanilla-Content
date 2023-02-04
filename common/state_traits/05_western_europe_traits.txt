@@ -145,3 +145,75 @@ state_trait_po_river = {
 		state_infrastructure_add = 15
 	}
 }
+
+state_trait_bordeaux_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_loire_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_champagne_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_rhone_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_roussillon_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_north_italian_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 1
+	}
+}
+
+state_trait_tuscan_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 1
+	}
+}
+
+state_trait_la_mancha_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
+
+state_trait_barcelona_wine_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_output_wine_mult = 0.5
+	}
+}
