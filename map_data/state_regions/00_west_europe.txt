@@ -13,7 +13,7 @@
     capped_resources = {
         bg_iron_mining = 36
         bg_lead_mining = 18
-        bg_logging = 23
+        bg_logging = 46
         bg_fishing = 11
     }
     naval_exit_id = 3000
@@ -33,7 +33,7 @@ STATE_GOTALAND = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 15
-        bg_logging = 17
+        bg_logging = 34
         bg_fishing = 15
     }
     naval_exit_id = 3019
@@ -53,7 +53,7 @@ STATE_SCANIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 8
-        bg_logging = 5
+        bg_logging = 10
         bg_fishing = 10
     }
     naval_exit_id = 3019
@@ -73,7 +73,7 @@ STATE_NORRLAND = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 60
-        bg_logging = 20
+        bg_logging = 40
         bg_fishing = 12
     }
     naval_exit_id = 3000
@@ -90,7 +90,7 @@ STATE_GOTLAND = {
     arable_land = 6
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 2
+        bg_logging = 4
         bg_fishing = 3
     }
     naval_exit_id = 3000
@@ -109,7 +109,7 @@ STATE_JUTLAND = {
     arable_land = 46
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 10
     }
     naval_exit_id = 3019
@@ -129,7 +129,7 @@ STATE_ZEALAND = {
     arable_land = 40
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 8
         bg_fishing = 12
     }
     naval_exit_id = 3019
@@ -149,7 +149,7 @@ STATE_WESTERN_NORWAY = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 20
-        bg_logging = 14
+        bg_logging = 28
         bg_fishing = 15
     }
     naval_exit_id = 3027
@@ -171,7 +171,7 @@ STATE_NORTHERN_NORWAY = {
     capped_resources = {
         bg_iron_mining = 18
         bg_sulfur_mining = 20
-        bg_logging = 6
+        bg_logging = 12
         bg_whaling = 5
         bg_fishing = 10
     }
@@ -192,7 +192,7 @@ STATE_EASTERN_NORWAY = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 18
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 5
     }
     naval_exit_id = 3019
@@ -253,7 +253,7 @@ STATE_SOUTHERN_FINLAND = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 12
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 8
     }
     naval_exit_id = 3000
@@ -273,7 +273,7 @@ STATE_WEST_KARELIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 18
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 2
     }
     naval_exit_id = 3000
@@ -289,7 +289,7 @@ STATE_ALAND = {
     arable_land = 4
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 2
+        bg_logging = 4
         bg_fishing = 2
     }
     naval_exit_id = 3000
@@ -310,7 +310,7 @@ STATE_OSTROBOTHNIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 45
-        bg_logging = 17
+        bg_logging = 34
         bg_fishing = 10
     }
     naval_exit_id = 3000
@@ -330,7 +330,7 @@ STATE_HOME_COUNTIES = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 40
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 10
         bg_monuments = 1
     }
@@ -353,7 +353,7 @@ STATE_LANCASHIRE = {
         bg_coal_mining = 100
         bg_iron_mining = 60
         bg_lead_mining = 45
-        bg_logging = 9
+        bg_logging = 18
         bg_fishing = 15
     }
     naval_exit_id = 3030
@@ -373,7 +373,7 @@ STATE_WALES = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 80
-        bg_logging = 14
+        bg_logging = 28
         bg_fishing = 4
     }
     naval_exit_id = 3030
@@ -395,7 +395,7 @@ STATE_YORKSHIRE = {
         bg_coal_mining = 100
         bg_iron_mining = 75
         bg_lead_mining = 27
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 7
     }
     naval_exit_id = 3027
@@ -414,7 +414,7 @@ STATE_HIGHLANDS = {
     arable_land = 42
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 14
+        bg_logging = 28
         bg_whaling = 6
         bg_fishing = 14
     }
@@ -436,7 +436,7 @@ STATE_MIDLANDS = {
         bg_coal_mining = 80
         bg_iron_mining = 60
         bg_sulfur_mining = 40
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 2
     }
     naval_exit_id = 3027
@@ -457,7 +457,7 @@ STATE_EAST_ANGLIA = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 30
-        bg_logging = 4
+        bg_logging = 8
         bg_fishing = 12
     }
     naval_exit_id = 3028
@@ -477,7 +477,7 @@ STATE_WEST_COUNTRY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 60
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 9
     }
     naval_exit_id = 3028
@@ -498,7 +498,7 @@ STATE_LOWLANDS = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 15
-        bg_logging = 14
+        bg_logging = 28
         bg_fishing = 12
     }
     naval_exit_id = 3027
@@ -516,7 +516,7 @@ STATE_ULSTER = {
     arable_land = 130
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 11
     }
     naval_exit_id = 3030
@@ -536,7 +536,7 @@ STATE_MUNSTER = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_lead_mining = 24
-        bg_logging = 4
+        bg_logging = 8
         bg_fishing = 12
     }
     naval_exit_id = 3030
@@ -556,7 +556,7 @@ STATE_LEINSTER = {
     capped_resources = {
         bg_iron_mining = 33
         bg_lead_mining = 27
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 6
     }
     naval_exit_id = 3030
@@ -575,7 +575,7 @@ STATE_CONNAUGHT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 48
-        bg_logging = 7
+        bg_logging = 14
         bg_fishing = 4
     }
     naval_exit_id = 3030
@@ -593,7 +593,7 @@ STATE_ILE_DE_FRANCE = {
     arable_land = 66
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 8
         bg_monuments = 1
     }
 }
@@ -611,7 +611,7 @@ STATE_PROVENCE = {
     arable_land = 100
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_logging = 7
+        bg_logging = 14
         bg_fishing = 12
     }
     naval_exit_id = 3032
@@ -631,7 +631,7 @@ STATE_NORMANDY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_logging = 8
+        bg_logging = 16
         bg_whaling = 5
         bg_fishing = 13
     }
@@ -651,7 +651,7 @@ STATE_LANGUEDOC = {
     arable_land = 100
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 8
     }
     naval_exit_id = 3032
@@ -672,7 +672,7 @@ STATE_RHONE = {
         bg_coal_mining = 100
         bg_iron_mining = 36
         bg_lead_mining = 36
-        bg_logging = 14
+        bg_logging = 28
     }
 }
 
@@ -690,7 +690,7 @@ STATE_LOIRE = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 2
     }
     naval_exit_id = 3029
@@ -710,7 +710,7 @@ STATE_PICARDY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 100
-        bg_logging = 7
+        bg_logging = 14
         bg_fishing = 7
     }
     naval_exit_id = 3028
@@ -730,7 +730,7 @@ STATE_ALSACE_LORRAINE = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 60
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -747,7 +747,7 @@ STATE_POITOU = {
     arable_land = 92
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 5
+        bg_logging = 10
         bg_fishing = 4
     }
     naval_exit_id = 3029
@@ -764,7 +764,7 @@ STATE_ARMAGNAC = {
     arable_land = 140
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -781,7 +781,7 @@ STATE_LIMOUSIN = {
     capped_resources = {
         bg_coal_mining = 56
         bg_iron_mining = 15
-        bg_logging = 8
+        bg_logging = 16
     }
 }
 
@@ -798,7 +798,7 @@ STATE_BRITTANY = {
     arable_land = 158
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 15
     }
     naval_exit_id = 3029
@@ -817,7 +817,7 @@ STATE_BURGUNDY = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 33
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -834,7 +834,7 @@ STATE_CHAMPAGNE = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 21
-        bg_logging = 11
+        bg_logging = 22
     }
 }
 
@@ -850,7 +850,7 @@ STATE_FRANCHE_COMTE = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 60
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -867,7 +867,7 @@ STATE_AUVERGNE = {
     capped_resources = {
         bg_lead_mining = 45
         bg_sulfur_mining = 40
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -885,7 +885,7 @@ STATE_AQUITAINE = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 60
-        bg_logging = 14
+        bg_logging = 28
         bg_fishing = 11
     }
     naval_exit_id = 3029
@@ -903,7 +903,7 @@ STATE_ORLEANS = {
     arable_land = 112
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 7
+        bg_logging = 14
     }
 }
 
@@ -920,7 +920,7 @@ STATE_HOLLAND = {
     arable_land = 58
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 8
         bg_fishing = 12
     }
     naval_exit_id = 3028
@@ -938,7 +938,7 @@ STATE_FRIESLAND = {
     arable_land = 48
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 2
+        bg_logging = 4
         bg_whaling = 5
         bg_fishing = 15
     }
@@ -962,7 +962,7 @@ STATE_GELRE = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 40
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -981,7 +981,7 @@ STATE_WALLONIA = {
         bg_coal_mining = 80
         bg_iron_mining = 60
         bg_lead_mining = 30
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -997,7 +997,7 @@ STATE_FLANDERS = {
     arable_land = 120
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 23
+        bg_logging = 46
         bg_fishing = 5
     }
     naval_exit_id = 3028
@@ -1016,7 +1016,7 @@ STATE_AUSTRIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 44
-        bg_logging = 7
+        bg_logging = 14
     }
 }
 
@@ -1034,7 +1034,7 @@ STATE_BOHEMIA = {
     capped_resources = {
         bg_coal_mining = 48
         bg_iron_mining = 45
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -1050,7 +1050,7 @@ STATE_MORAVIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 56
-        bg_logging = 14
+        bg_logging = 28
     }
 }
 
@@ -1069,7 +1069,7 @@ STATE_STYRIA = {
         bg_coal_mining = 40
         bg_iron_mining = 24
         bg_lead_mining = 24
-        bg_logging = 8
+        bg_logging = 16
     }
 }
 
@@ -1087,7 +1087,7 @@ STATE_TYROL = {
     capped_resources = {
         bg_gold_mining = 2
         bg_iron_mining = 36
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -1103,7 +1103,7 @@ STATE_SOUTH_TYROL = {
     arable_land = 32
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 6
+        bg_logging = 12
     }
 }
 
@@ -1120,7 +1120,7 @@ STATE_POMERANIA = {
     arable_land = 86
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 22
         bg_fishing = 10
     }
     naval_exit_id = 3019
@@ -1140,7 +1140,7 @@ STATE_ELBE = {
     arable_land = 52
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 18
         bg_fishing = 5
     }
     resource = {
@@ -1164,7 +1164,7 @@ STATE_EAST_SWITZERLAND = {
     capped_resources = {
         bg_iron_mining = 30
         bg_lead_mining = 30
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -1183,7 +1183,7 @@ STATE_WEST_SWITZERLAND = {
         bg_coal_mining = 48
         bg_iron_mining = 24
         bg_lead_mining = 24
-        bg_logging = 6
+        bg_logging = 12
     }
 }
 
@@ -1203,7 +1203,7 @@ STATE_WESTPHALIA = {
         bg_coal_mining = 80
         bg_iron_mining = 36
         bg_sulfur_mining = 32
-        bg_logging = 24
+        bg_logging = 48
     }
 }
 
@@ -1220,7 +1220,7 @@ STATE_ANHALT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 44
-        bg_logging = 20
+        bg_logging = 40
     }
 }
 
@@ -1238,7 +1238,7 @@ STATE_RHINELAND = {
     capped_resources = {
         bg_coal_mining = 60
         bg_lead_mining = 30
-        bg_logging = 11
+        bg_logging = 22
     }
 }
 
@@ -1256,7 +1256,7 @@ STATE_NORTH_RHINE = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 30
-        bg_logging = 11
+        bg_logging = 22
     }
 }
 
@@ -1273,7 +1273,7 @@ STATE_BRANDENBURG = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 44
-        bg_logging = 6
+        bg_logging = 12
     }
 }
 
@@ -1289,7 +1289,7 @@ STATE_SCHLESWIG_HOLSTEIN = {
     arable_land = 52
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 6
+        bg_logging = 12
         bg_fishing = 6
     }
     naval_exit_id = 3019
@@ -1308,7 +1308,7 @@ STATE_WURTTEMBERG = {
     arable_land = 128
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 18
     }
 }
 
@@ -1326,7 +1326,7 @@ STATE_BADEN = {
     capped_resources = {
         bg_coal_mining = 20
         bg_iron_mining = 15
-        bg_logging = 11
+        bg_logging = 22
     }
 }
 
@@ -1343,7 +1343,7 @@ STATE_HANNOVER = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 24
-        bg_logging = 9
+        bg_logging = 18
         bg_fishing = 4
     }
     resource = {
@@ -1367,7 +1367,7 @@ STATE_BRUNSWICK = {
         bg_coal_mining = 40
         bg_iron_mining = 45
         bg_lead_mining = 45
-        bg_logging = 6
+        bg_logging = 12
     }
 }
 
@@ -1386,7 +1386,7 @@ STATE_BAVARIA = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_lead_mining = 30
-        bg_logging = 23
+        bg_logging = 46
     }
 }
 
@@ -1402,7 +1402,7 @@ STATE_FRANCONIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_logging = 17
+        bg_logging = 34
     }
 }
 
@@ -1422,7 +1422,7 @@ STATE_SAXONY = {
         bg_coal_mining = 80
         bg_iron_mining = 30
         bg_sulfur_mining = 80
-        bg_logging = 6
+        bg_logging = 12
     }
 }
 
@@ -1441,7 +1441,7 @@ STATE_HESSE = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_sulfur_mining = 40
-        bg_logging = 8
+        bg_logging = 16
     }
 }
 
@@ -1458,7 +1458,7 @@ STATE_MECKLENBURG = {
     arable_land = 38
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 16
         bg_fishing = 10
     }
     naval_exit_id = 3019
