@@ -196,6 +196,8 @@ great_leap_foward_decision = {
 		ig:ig_trade_unions = {
 			is_marginal = no
 		}
+		exists = c:CHI
+		this = c:CHI
 	}
 	
 	possible = {
