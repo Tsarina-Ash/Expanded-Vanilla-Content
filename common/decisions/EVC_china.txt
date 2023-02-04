@@ -126,6 +126,43 @@ chinese_board_of_revenue_decision = {
 	}
 }
 
+chinese_puppets_board_of_revenue_decision = {
+	is_shown = {
+		NOT = {
+			this = c:CHI
+		}
+		has_modifier = modifier_board_of_revenue
+	}
+
+	possible = {
+		OR = {
+			has_technology_researched = central_archives
+			has_technology_researched = central_banking
+		}
+	}	
+	
+	when_taken = {
+		remove_modifier = modifier_board_of_revenue
+			add_radicals = {
+				value = 0.05
+			}
+
+			#not = { #if you have a good taxation law skip this part / if you dont have one add that law
+			#	has_law = law_type:law_good_taxation_law
+			#	has_law = law_type:law_better_taxation_law
+			#	has_law = law_type:law_best_taxation_law
+			#		else = {
+			#			add_law = law_type:law_basic_tax_law
+			#		}
+			#}
+			set_variable = qing_reform_admin_2
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
+
 abolish_the_imperial_examination_decision = {
 	is_shown = {
 		has_variable = chi_has_begun_liberalizing

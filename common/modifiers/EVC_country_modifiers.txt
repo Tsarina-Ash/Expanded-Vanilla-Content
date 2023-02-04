@@ -117,7 +117,7 @@ modifier_industrial_boom = {
 
 modifier_chinese_population_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_accepted_birth_rate_mult = 0.2
 }
 
 modifier_board_of_revenue = {
